@@ -1,0 +1,31 @@
+name: Rebuild register
+
+on:
+  schedule:
+    - cron: "40 18 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rebuild-register
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Generate the table from the public API
+        run: python3 scripts/build_register.py
+      - name: Commit if the register changed
+        run: |
+          git config user.name "register bot"
+          git config user.email "register-bot@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet || git commit -m "register: rebuild from the public API"
+          git push
