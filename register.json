@@ -1,0 +1,132 @@
+{
+  "source": "https://gate.horizonshield.dev/register",
+  "generated_at": "2026-08-16T15:52:41Z",
+  "what_this_is": "A machine generated record of measured MCP server conduct. Not a curated list, not a ranking, not an endorsement.",
+  "rows_are_selected_by": "nobody, the script copies whatever the API returns",
+  "count": 7,
+  "gate_commit": "c42b31f5d0b9",
+  "note": "The public register. Rows are scheduled measurements, not endorsements. An endpoint that is absent has simply never been measured here; absence is NOT a negative verdict. Webhooks are never published. Every stored verdict carries a record_sha256 you can recompute yourself. The operator_label field is a display name assigned by the operator, not a measurement.",
+  "rows": [
+    {
+      "endpoint": "https://mcp.horizonshield.dev/mcp",
+      "tier": "self",
+      "cadence": "daily",
+      "measurements": 9,
+      "first_at": "2026-08-09T01:18:56.366Z",
+      "latest": {
+        "at": "2026-08-15T18:00:02.697Z",
+        "status": "pending",
+        "record_sha256": "4bba19302841f85d4bcec748cbb7fd80b4a49c885dd57b101603ecd10911cb79"
+      },
+      "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fmcp.horizonshield.dev%2Fmcp",
+      "operator_label": {
+        "ja": "KIRA適正診断",
+        "en": "KIRA fair price audit (the flagship MCP server)",
+        "url": "https://shield.the-horizons-innovation.com"
+      }
+    },
+    {
+      "endpoint": "https://hearing.horizonshield.dev/mcp",
+      "tier": "self",
+      "cadence": "daily",
+      "measurements": 9,
+      "first_at": "2026-08-09T01:18:57.545Z",
+      "latest": {
+        "at": "2026-08-15T18:00:03.207Z",
+        "status": "pending",
+        "record_sha256": "fe1b82a7d175635fd6bcdf19b0ee6c918e3822a268f249aec1b20c84810c4ef5"
+      },
+      "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fhearing.horizonshield.dev%2Fmcp",
+      "operator_label": {
+        "ja": "YAKUMO加盟店ディレクトリ",
+        "en": "YAKUMO verified contractor directory",
+        "url": "https://shield.the-horizons-innovation.com/yakumo/"
+      }
+    },
+    {
+      "endpoint": "https://web.horizonshield.dev/mcp",
+      "tier": "self",
+      "cadence": "daily",
+      "measurements": 9,
+      "first_at": "2026-08-09T01:18:58.735Z",
+      "latest": {
+        "at": "2026-08-15T18:00:03.682Z",
+        "status": "pending",
+        "record_sha256": "cde8a4383297df78fe18bb0890cbbf6b13a215251468216dd2a233a9f72dd16c"
+      },
+      "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fweb.horizonshield.dev%2Fmcp",
+      "operator_label": {
+        "ja": "KIRA相談窓口",
+        "en": "KIRA intake desk for renovation questions",
+        "url": "https://shield.the-horizons-innovation.com"
+      }
+    },
+    {
+      "endpoint": "https://jidec.horizonshield.dev/mcp",
+      "tier": "self",
+      "cadence": "daily",
+      "measurements": 0,
+      "first_at": null,
+      "latest": null,
+      "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fjidec.horizonshield.dev%2Fmcp",
+      "operator_label": {
+        "ja": "JIDEC 公開検証台帳",
+        "en": "JIDEC, the Bitcoin anchored public ledger",
+        "url": "https://ledger.horizonshield.dev/llms.txt"
+      }
+    },
+    {
+      "endpoint": "https://p001.horizonshield.dev/mcp",
+      "tier": "self",
+      "cadence": "daily",
+      "measurements": 9,
+      "first_at": "2026-08-09T01:18:59.874Z",
+      "latest": {
+        "at": "2026-08-15T18:00:04.124Z",
+        "status": "pending",
+        "record_sha256": "bed9dbf15fd784c7cfba3665b5873b9a1050f23b68908ed7eaeece3ae4823bf4"
+      },
+      "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fp001.horizonshield.dev%2Fmcp",
+      "operator_label": {
+        "ja": "リフォーム職人株式会社（加盟No.001）",
+        "en": "Reform Shokunin Co., Ltd. (member No.001, Aichi)",
+        "url": "https://shield.the-horizons-innovation.com/yakumo/no001/"
+      }
+    },
+    {
+      "endpoint": "https://p002.horizonshield.dev/mcp",
+      "tier": "self",
+      "cadence": "daily",
+      "measurements": 9,
+      "first_at": "2026-08-09T01:19:01.083Z",
+      "latest": {
+        "at": "2026-08-15T18:00:04.657Z",
+        "status": "pending",
+        "record_sha256": "290668d3a22e12b53b6d4ee60345b5ce9b3fd41dc83e2a31ad7c8ebde4237f14"
+      },
+      "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fp002.horizonshield.dev%2Fmcp",
+      "operator_label": {
+        "ja": "ミネオトーヨー住器株式会社（加盟No.002）",
+        "en": "Mineo Toyo Juki Co., Ltd. (member No.002)"
+      }
+    },
+    {
+      "endpoint": "https://gate.horizonshield.dev/mcp",
+      "tier": "self",
+      "cadence": "daily",
+      "measurements": 9,
+      "first_at": "2026-08-09T01:19:02.309Z",
+      "latest": {
+        "at": "2026-08-15T18:00:05.206Z",
+        "status": "held",
+        "record_sha256": "93135f3847854b1b304441b7563ba1f5f5cc2590d00c22ec7fbe2ac28e38fd58"
+      },
+      "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fgate.horizonshield.dev%2Fmcp",
+      "operator_label": {
+        "ja": "検証ゲート（この検査機自身）",
+        "en": "The verification gate, measuring itself",
+        "url": "https://shield.the-horizons-innovation.com/verify-directory/"
+      }
+    }
+  ]
+}
