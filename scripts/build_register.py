@@ -84,8 +84,21 @@ def main():
         src,
         flags=re.S,
     )
+    # Machine readable snapshot, so an agent can read the register without parsing Markdown.
+    snapshot = {
+        "source": REGISTER_URL,
+        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "what_this_is": "A machine generated record of measured MCP server conduct. Not a curated list, not a ranking, not an endorsement.",
+        "rows_are_selected_by": "nobody, the script copies whatever the API returns",
+        "count": len(data.get("rows") or []),
+        "gate_commit": data.get("gate_commit"),
+        "note": data.get("note"),
+        "rows": data.get("rows") or [],
+    }
+    open("register.json", "w", encoding="utf-8").write(json.dumps(snapshot, ensure_ascii=False, indent=2) + "\n")
+    print("register.json written with %d rows" % snapshot["count"])
     if new == src:
-        print("no change")
+        print("README unchanged")
         return 0
     open(README, "w", encoding="utf-8").write(new)
     print("README updated with %d rows" % len(data.get("rows") or []))

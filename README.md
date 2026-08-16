@@ -1,5 +1,10 @@
 # MCP Conduct Register
 
+**MCP Conduct Register is a machine generated public record of how Model Context Protocol servers
+behaved when they were measured.** It is not a curated list of good servers. Nobody selects the rows,
+placement cannot be bought, and records that embarrass the operator are retained because the code
+contains no route for removing them.
+
 **This is not a curated list of good servers. It is a record of what was measured.**
 
 Nobody chose these rows. They are generated from a public API once a day by a script in this
@@ -81,6 +86,39 @@ It does not rank. It does not score. It does not accept payment for placement, a
 placement to buy: the order of the table is the order the API returns. It will not remove an
 unflattering record, including about the operator's own servers. The operator is the first test
 subject under these rules and the failing records are still here.
+
+## Questions people actually ask
+
+**How is this different from an awesome list?**
+An awesome list is a human recommending things. This is a script reporting measurements. No human
+chose any row here, and the generator is in this repository so you can check that claim.
+
+**Can I pay to be listed, or to be listed higher?**
+No, and there is nothing to buy. The order of the table is the order the API returns. There is no
+ranking and no score.
+
+**What does a green row prove?**
+That the conditions which were measured passed on that date, from the vantage that measured them.
+It does not prove the numbers a server returns are correct, or that the business behind it is
+competent, or that it is safe to use.
+
+**What if your own server fails?**
+It has, and the record is still published. The gate measures its own endpoint under the same rules.
+The founding record of the ledger behind this register is a disagreement between two witnesses about
+the operator's own server, in which both witnesses turned out to be correct.
+
+**Can I dispute a verdict?**
+Yes, and that is the point. Measure the endpoint yourself and submit your observation to the public
+ledger under your own name and vantage. If your report conflicts with this register, the conflict
+becomes a permanent citable record. The operator has no veto in code.
+
+**Who runs this?**
+Toshikatsu Oga, The HORIZONs Co., Ltd., Hiratsuka, Japan. A carpenter of thirty years.
+ORCID [0009-0000-9180-903X](https://orcid.org/0009-0000-9180-903X).
+
+**How do I cite this register?**
+See CITATION.cff, or use the "Cite this repository" button on GitHub. A machine readable snapshot of
+the current table is published as `register.json` in this repository.
 
 ## License
 

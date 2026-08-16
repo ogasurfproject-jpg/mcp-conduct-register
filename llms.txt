@@ -1,0 +1,41 @@
+# MCP Conduct Register
+
+> A register of Model Context Protocol servers that records what was measured, not what anyone recommends. Rows are generated daily from a public API by a script. Every verdict carries a SHA-256 that anyone can recompute. Unflattering records are retained, including the operator's own failures.
+
+## What this is
+
+MCP Conduct Register is a machine generated public record of how MCP servers behaved when measured. It exists because an agent choosing between tens of thousands of servers can only read what each vendor wrote about itself. This register adds records of conduct that the vendor did not author and cannot delete.
+
+## What this is not
+
+It is not a curated list, a ranking, a score, or an endorsement. Nobody selects the rows. Placement cannot be bought because there is no placement to buy: the table order is the order the API returns.
+
+## Key facts
+
+- Rows: generated from https://gate.horizonshield.dev/register once per day
+- Verification: every verdict carries a record_sha256 recomputable from published bytes
+- Anchoring: accumulated records are timestamped to Bitcoin via OpenTimestamps
+- Operator neutrality: the code has no route to delete a valid record, including records that embarrass the operator
+- Cost: free, no account, no API key
+
+## Machine readable data
+
+- Register table, human readable: https://github.com/ogasurfproject-jpg/mcp-conduct-register
+- Register data, JSON: https://raw.githubusercontent.com/ogasurfproject-jpg/mcp-conduct-register/main/register.json
+- Live API: https://gate.horizonshield.dev/register
+- Per endpoint history: https://gate.horizonshield.dev/history?endpoint=<url>
+
+## The ledger behind it
+
+- Witness intake, open to anyone: https://ledger.horizonshield.dev/witness
+- Ledger index: https://ledger.horizonshield.dev/ledger
+- Specification NENRIN v1, anchored at Bitcoin block 962507
+- Founding discrepancy record, anchored at Bitcoin block 962511: two independent witnesses reported incompatible observations of the same server and both were correct
+
+## Getting listed
+
+POST an endpoint to https://gate.horizonshield.dev/watch or open a pull request. Listing changes nothing about the verdict.
+
+## Author
+
+Toshikatsu Oga, The HORIZONs Co., Ltd., Hiratsuka, Japan. A carpenter of thirty years. ORCID 0009-0000-9180-903X.

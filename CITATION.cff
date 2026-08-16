@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+title: "MCP Conduct Register: a machine generated register of measured MCP server conduct"
+message: "If you cite or quote this register, please cite it as below. The measurement records themselves are facts and are not claimed as property."
+type: dataset
+authors:
+  - family-names: Oga
+    given-names: Toshikatsu
+    alias: ogasurfproject-jpg
+    affiliation: "The HORIZONs Co., Ltd."
+    orcid: "https://orcid.org/0009-0000-9180-903X"
+    country: JP
+repository-code: "https://github.com/ogasurfproject-jpg/mcp-conduct-register"
+url: "https://shield.the-horizons-innovation.com/verify-directory/"
+abstract: >-
+  A register of Model Context Protocol (MCP) servers that records what was
+  measured rather than what anyone recommends. Rows are generated daily from a
+  public API by a script with no editorial input. Every verdict carries a
+  SHA-256 that any third party can recompute from the published bytes, and the
+  accumulated records are anchored to Bitcoin through OpenTimestamps. Records
+  unflattering to the operator are retained, including failures of the
+  operator's own servers, because the code contains no route for removing them.
+keywords:
+  - Model Context Protocol
+  - MCP
+  - AI agents
+  - transparency log
+  - verifiable records
+  - OpenTimestamps
+  - Bitcoin anchoring
+  - vendor neutral registry
+license: MIT
