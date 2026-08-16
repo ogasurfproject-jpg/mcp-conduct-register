@@ -1,8 +1,58 @@
 {
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://github.com/ogasurfproject-jpg/mcp-conduct-register#dataset",
+  "name": "MCP Conduct Register: measured conduct of Model Context Protocol servers",
+  "description": "A machine generated record of how Model Context Protocol servers behaved when measured. Not a curated list, not a ranking, not an endorsement. Rows are produced by a scheduled measurement and copied here by a script with no editorial input. Every verdict carries a SHA-256 recomputable from the published bytes, and records unflattering to the operator are retained because the code contains no route for removing them.",
+  "url": "https://github.com/ogasurfproject-jpg/mcp-conduct-register",
+  "license": "https://opensource.org/licenses/MIT",
+  "isAccessibleForFree": true,
+  "creator": {
+    "@type": "Organization",
+    "name": "The HORIZONs Co., Ltd.",
+    "url": "https://shield.the-horizons-innovation.com/",
+    "founder": {
+      "@type": "Person",
+      "name": "Toshikatsu Oga",
+      "identifier": "https://orcid.org/0009-0000-9180-903X"
+    }
+  },
+  "measurementTechnique": "Scheduled HTTP measurement of the MCP initialize handshake, agent card retrieval, payer disclosure and determinism. Every verdict discloses the route that measured it and the commit that produced it.",
+  "variableMeasured": [
+    "reachability",
+    "agent card",
+    "payer disclosure",
+    "determinism",
+    "record_sha256"
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://gate.horizonshield.dev/register"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://raw.githubusercontent.com/ogasurfproject-jpg/mcp-conduct-register/main/register.json"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/markdown",
+      "contentUrl": "https://raw.githubusercontent.com/ogasurfproject-jpg/mcp-conduct-register/main/README.md"
+    }
+  ],
+  "dateModified": "2026-08-16T22:48:29Z",
   "source": "https://gate.horizonshield.dev/register",
-  "generated_at": "2026-08-16T18:58:32Z",
+  "generated_at": "2026-08-16T22:48:29Z",
   "what_this_is": "A machine generated record of measured MCP server conduct. Not a curated list, not a ranking, not an endorsement.",
+  "what_this_is_not": "It is not proof that a listed server returns correct numbers, that the business behind it is competent, or that it is safe to use.",
   "rows_are_selected_by": "nobody, the script copies whatever the API returns",
+  "disputes": {
+    "how": "Measure any listed endpoint yourself and submit the observation to the public ledger under your own name and vantage.",
+    "intake": "https://ledger.horizonshield.dev/witness",
+    "operator_veto": "none, the code has no route to refuse a schema valid submission"
+  },
   "count": 7,
   "gate_commit": "c42b31f5d0b9",
   "note": "The public register. Rows are scheduled measurements, not endorsements. An endpoint that is absent has simply never been measured here; absence is NOT a negative verdict. Webhooks are never published. Every stored verdict carries a record_sha256 you can recompute yourself. The operator_label field is a display name assigned by the operator, not a measurement.",
