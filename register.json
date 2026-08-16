@@ -42,9 +42,9 @@
       "contentUrl": "https://raw.githubusercontent.com/ogasurfproject-jpg/mcp-conduct-register/main/README.md"
     }
   ],
-  "dateModified": "2026-08-16T22:48:29Z",
+  "dateModified": "2026-08-16T22:57:15Z",
   "source": "https://gate.horizonshield.dev/register",
-  "generated_at": "2026-08-16T22:48:29Z",
+  "generated_at": "2026-08-16T22:57:15Z",
   "what_this_is": "A machine generated record of measured MCP server conduct. Not a curated list, not a ranking, not an endorsement.",
   "what_this_is_not": "It is not proof that a listed server returns correct numbers, that the business behind it is competent, or that it is safe to use.",
   "rows_are_selected_by": "nobody, the script copies whatever the API returns",
@@ -54,7 +54,7 @@
     "operator_veto": "none, the code has no route to refuse a schema valid submission"
   },
   "count": 7,
-  "gate_commit": "c42b31f5d0b9",
+  "gate_commit": "b49cc86a59b5",
   "note": "The public register. Rows are scheduled measurements, not endorsements. An endpoint that is absent has simply never been measured here; absence is NOT a negative verdict. Webhooks are never published. Every stored verdict carries a record_sha256 you can recompute yourself. The operator_label field is a display name assigned by the operator, not a measurement.",
   "rows": [
     {
