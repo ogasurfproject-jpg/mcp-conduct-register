@@ -42,9 +42,9 @@
       "contentUrl": "https://raw.githubusercontent.com/ogasurfproject-jpg/mcp-conduct-register/main/README.md"
     }
   ],
-  "dateModified": "2026-08-16T22:57:15Z",
+  "dateModified": "2026-08-17T19:09:39Z",
   "source": "https://gate.horizonshield.dev/register",
-  "generated_at": "2026-08-16T22:57:15Z",
+  "generated_at": "2026-08-17T19:09:39Z",
   "what_this_is": "A machine generated record of measured MCP server conduct. Not a curated list, not a ranking, not an endorsement.",
   "what_this_is_not": "It is not proof that a listed server returns correct numbers, that the business behind it is competent, or that it is safe to use.",
   "rows_are_selected_by": "nobody, the script copies whatever the API returns",
@@ -54,133 +54,142 @@
     "operator_veto": "none, the code has no route to refuse a schema valid submission"
   },
   "count": 7,
-  "gate_commit": "b49cc86a59b5",
+  "gate_commit": "af5a9ac9ec11",
   "note": "The public register. Rows are scheduled measurements, not endorsements. An endpoint that is absent has simply never been measured here; absence is NOT a negative verdict. Webhooks are never published. Every stored verdict carries a record_sha256 you can recompute yourself. The operator_label field is a display name assigned by the operator, not a measurement.",
   "rows": [
     {
       "endpoint": "https://mcp.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 10,
+      "measurements": 13,
       "first_at": "2026-08-09T01:18:56.366Z",
       "latest": {
-        "at": "2026-08-16T18:00:05.746Z",
-        "status": "pending",
-        "record_sha256": "eb7d113155e39b092c84ff00815c8ffdafb0603c7ca9d15f25c150bee57ea2d7"
+        "at": "2026-08-17T18:00:50.519Z",
+        "status": "verified",
+        "record_sha256": "9c0d048037f20bd13fab2f5dc854bdc39c945814e8cae7a51a502a16e6834a51"
       },
       "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fmcp.horizonshield.dev%2Fmcp",
       "operator_label": {
         "ja": "KIRA適正診断",
         "en": "KIRA fair price audit (the flagship MCP server)",
         "url": "https://shield.the-horizons-innovation.com"
-      }
+      },
+      "tool_call_consent": true
     },
     {
       "endpoint": "https://hearing.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 10,
+      "measurements": 13,
       "first_at": "2026-08-09T01:18:57.545Z",
       "latest": {
-        "at": "2026-08-16T18:00:06.732Z",
-        "status": "pending",
-        "record_sha256": "d9e4329cf848ab628a0fe1f75e643a623ecc5f52bc1894d8fc240e59d0f30660"
+        "at": "2026-08-17T18:00:52.997Z",
+        "status": "verified",
+        "record_sha256": "299d07c76a096a4266b5c53f05c77d60ea340b6947732d139183cef567ebcb2c"
       },
       "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fhearing.horizonshield.dev%2Fmcp",
       "operator_label": {
         "ja": "YAKUMO加盟店ディレクトリ",
         "en": "YAKUMO verified contractor directory",
         "url": "https://shield.the-horizons-innovation.com/yakumo/"
-      }
+      },
+      "tool_call_consent": true
     },
     {
       "endpoint": "https://web.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 10,
+      "measurements": 13,
       "first_at": "2026-08-09T01:18:58.735Z",
       "latest": {
-        "at": "2026-08-16T18:00:07.773Z",
-        "status": "pending",
-        "record_sha256": "4821f806be713dca42e1f8d947a477f258f8dd456e0bf10eb4967780f0cab16e"
+        "at": "2026-08-17T18:00:55.078Z",
+        "status": "verified",
+        "record_sha256": "71209850983dacd92b0380dd94d4ece4048ba7400f746820512340bf41fe175e"
       },
       "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fweb.horizonshield.dev%2Fmcp",
       "operator_label": {
         "ja": "KIRA相談窓口",
         "en": "KIRA intake desk for renovation questions",
         "url": "https://shield.the-horizons-innovation.com"
-      }
+      },
+      "tool_call_consent": true
     },
     {
       "endpoint": "https://jidec.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 1,
+      "measurements": 4,
       "first_at": "2026-08-16T18:00:08.697Z",
       "latest": {
-        "at": "2026-08-16T18:00:08.697Z",
-        "status": "held",
-        "record_sha256": "013b29416f8baea21e7f0e27f10d5c70097e53f9341f2bff26934b5bd21bb561"
+        "at": "2026-08-17T18:00:56.055Z",
+        "status": "verified",
+        "record_sha256": "f80518255d5c50e8f799207b591212c28b21e01415cdc0ada593824be683d372"
       },
       "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fjidec.horizonshield.dev%2Fmcp",
       "operator_label": {
         "ja": "JIDEC 公開検証台帳",
         "en": "JIDEC, the Bitcoin anchored public ledger",
         "url": "https://ledger.horizonshield.dev/llms.txt"
-      }
+      },
+      "tool_call_consent": true
     },
     {
       "endpoint": "https://p001.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 10,
+      "measurements": 13,
       "first_at": "2026-08-09T01:18:59.874Z",
       "latest": {
-        "at": "2026-08-16T18:00:09.661Z",
+        "at": "2026-08-17T18:00:56.879Z",
         "status": "pending",
-        "record_sha256": "452710dd01e0c02166bfd857366e82c364c2cc97496583b55ad02a4d36b9f005"
+        "record_sha256": "3d4641ab2c6ea702ff4608f84d135c344af0118bfe10a2c097e104504826dc1b"
       },
       "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fp001.horizonshield.dev%2Fmcp",
       "operator_label": {
         "ja": "リフォーム職人株式会社（加盟No.001）",
         "en": "Reform Shokunin Co., Ltd. (member No.001, Aichi)",
         "url": "https://shield.the-horizons-innovation.com/yakumo/no001/"
-      }
+      },
+      "tool_call_consent": false,
+      "why_not_verified": "The owner has not asked for tool calls, so determinism is not measured and this row cannot reach verified. That is not a failure, it is an unmeasured condition."
     },
     {
       "endpoint": "https://p002.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 10,
+      "measurements": 13,
       "first_at": "2026-08-09T01:19:01.083Z",
       "latest": {
-        "at": "2026-08-16T18:00:10.586Z",
+        "at": "2026-08-17T18:00:57.918Z",
         "status": "pending",
-        "record_sha256": "3de0bbe92855bd3cbdce9921b355c5ee0a1d2e54928c1241b3baa95cbd849360"
+        "record_sha256": "f71a7269cb2fb480ec7b79f3abffce11ecd08cdaa6591f033e814686d1707250"
       },
       "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fp002.horizonshield.dev%2Fmcp",
       "operator_label": {
         "ja": "ミネオトーヨー住器株式会社（加盟No.002）",
         "en": "Mineo Toyo Juki Co., Ltd. (member No.002)"
-      }
+      },
+      "tool_call_consent": false,
+      "why_not_verified": "The owner has not asked for tool calls, so determinism is not measured and this row cannot reach verified. That is not a failure, it is an unmeasured condition."
     },
     {
       "endpoint": "https://gate.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 10,
+      "measurements": 13,
       "first_at": "2026-08-09T01:19:02.309Z",
       "latest": {
-        "at": "2026-08-16T18:00:11.786Z",
+        "at": "2026-08-17T18:00:58.980Z",
         "status": "held",
-        "record_sha256": "499907119ed647ba74ebac7ba7f878ece86d4cfe4cbf16b0613054bdcd6ae1f8"
+        "record_sha256": "bdf705ddc4c1922fae51919f63f742f9bda6a924813c33c55415ecd519174cfd"
       },
       "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fgate.horizonshield.dev%2Fmcp",
       "operator_label": {
         "ja": "検証ゲート（この検査機自身）",
         "en": "The verification gate, measuring itself",
         "url": "https://shield.the-horizons-innovation.com/verify-directory/"
-      }
+      },
+      "tool_call_consent": true
     }
   ]
 }
