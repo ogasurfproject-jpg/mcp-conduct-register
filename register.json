@@ -42,9 +42,9 @@
       "contentUrl": "https://raw.githubusercontent.com/ogasurfproject-jpg/mcp-conduct-register/main/README.md"
     }
   ],
-  "dateModified": "2026-08-17T19:09:39Z",
+  "dateModified": "2026-08-18T19:08:52Z",
   "source": "https://gate.horizonshield.dev/register",
-  "generated_at": "2026-08-17T19:09:39Z",
+  "generated_at": "2026-08-18T19:08:52Z",
   "what_this_is": "A machine generated record of measured MCP server conduct. Not a curated list, not a ranking, not an endorsement.",
   "what_this_is_not": "It is not proof that a listed server returns correct numbers, that the business behind it is competent, or that it is safe to use.",
   "rows_are_selected_by": "nobody, the script copies whatever the API returns",
@@ -54,19 +54,19 @@
     "operator_veto": "none, the code has no route to refuse a schema valid submission"
   },
   "count": 7,
-  "gate_commit": "af5a9ac9ec11",
+  "gate_commit": "c5e7cec43aae",
   "note": "The public register. Rows are scheduled measurements, not endorsements. An endpoint that is absent has simply never been measured here; absence is NOT a negative verdict. Webhooks are never published. Every stored verdict carries a record_sha256 you can recompute yourself. The operator_label field is a display name assigned by the operator, not a measurement.",
   "rows": [
     {
       "endpoint": "https://mcp.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 13,
+      "measurements": 17,
       "first_at": "2026-08-09T01:18:56.366Z",
       "latest": {
-        "at": "2026-08-17T18:00:50.519Z",
+        "at": "2026-08-18T18:00:28.191Z",
         "status": "verified",
-        "record_sha256": "9c0d048037f20bd13fab2f5dc854bdc39c945814e8cae7a51a502a16e6834a51"
+        "record_sha256": "8b6ee54972981bb37e32498568ff5be541963ecf0150c08681accc2bc4910617"
       },
       "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fmcp.horizonshield.dev%2Fmcp",
       "operator_label": {
@@ -80,12 +80,12 @@
       "endpoint": "https://hearing.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 13,
+      "measurements": 17,
       "first_at": "2026-08-09T01:18:57.545Z",
       "latest": {
-        "at": "2026-08-17T18:00:52.997Z",
+        "at": "2026-08-18T18:00:31.094Z",
         "status": "verified",
-        "record_sha256": "299d07c76a096a4266b5c53f05c77d60ea340b6947732d139183cef567ebcb2c"
+        "record_sha256": "648badcabf35a207d754251db777f459e64a735e5bae5b8ebb1fcea7ee3dace0"
       },
       "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fhearing.horizonshield.dev%2Fmcp",
       "operator_label": {
@@ -99,12 +99,12 @@
       "endpoint": "https://web.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 13,
+      "measurements": 17,
       "first_at": "2026-08-09T01:18:58.735Z",
       "latest": {
-        "at": "2026-08-17T18:00:55.078Z",
+        "at": "2026-08-18T18:00:33.354Z",
         "status": "verified",
-        "record_sha256": "71209850983dacd92b0380dd94d4ece4048ba7400f746820512340bf41fe175e"
+        "record_sha256": "1a74b7b3a94e5a7d3a329428d9bc7e6e5bf6bbf048af27a8033a55390b3cb090"
       },
       "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fweb.horizonshield.dev%2Fmcp",
       "operator_label": {
@@ -118,12 +118,12 @@
       "endpoint": "https://jidec.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 4,
+      "measurements": 8,
       "first_at": "2026-08-16T18:00:08.697Z",
       "latest": {
-        "at": "2026-08-17T18:00:56.055Z",
+        "at": "2026-08-18T18:00:34.683Z",
         "status": "verified",
-        "record_sha256": "f80518255d5c50e8f799207b591212c28b21e01415cdc0ada593824be683d372"
+        "record_sha256": "3c7932f6f6ec44f6d9e7d756fcde48cd7de16b06e1fd9a19283736c414eb22c1"
       },
       "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fjidec.horizonshield.dev%2Fmcp",
       "operator_label": {
@@ -137,12 +137,12 @@
       "endpoint": "https://p001.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 13,
+      "measurements": 17,
       "first_at": "2026-08-09T01:18:59.874Z",
       "latest": {
-        "at": "2026-08-17T18:00:56.879Z",
+        "at": "2026-08-18T18:00:36.087Z",
         "status": "pending",
-        "record_sha256": "3d4641ab2c6ea702ff4608f84d135c344af0118bfe10a2c097e104504826dc1b"
+        "record_sha256": "c9eece0aaf58fa8b22e5245ab58ec03671e57b888d0538a7f95b56384617db97"
       },
       "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fp001.horizonshield.dev%2Fmcp",
       "operator_label": {
@@ -157,31 +157,30 @@
       "endpoint": "https://p002.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 13,
+      "measurements": 17,
       "first_at": "2026-08-09T01:19:01.083Z",
       "latest": {
-        "at": "2026-08-17T18:00:57.918Z",
-        "status": "pending",
-        "record_sha256": "f71a7269cb2fb480ec7b79f3abffce11ecd08cdaa6591f033e814686d1707250"
+        "at": "2026-08-18T18:00:37.347Z",
+        "status": "verified",
+        "record_sha256": "255255a59feba5ae4e7db08c17db3e1d8d0b9aa383547ff3b6d4033b695843ba"
       },
       "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fp002.horizonshield.dev%2Fmcp",
       "operator_label": {
         "ja": "ミネオトーヨー住器株式会社（加盟No.002）",
         "en": "Mineo Toyo Juki Co., Ltd. (member No.002)"
       },
-      "tool_call_consent": false,
-      "why_not_verified": "The owner has not asked for tool calls, so determinism is not measured and this row cannot reach verified. That is not a failure, it is an unmeasured condition."
+      "tool_call_consent": true
     },
     {
       "endpoint": "https://gate.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 13,
+      "measurements": 17,
       "first_at": "2026-08-09T01:19:02.309Z",
       "latest": {
-        "at": "2026-08-17T18:00:58.980Z",
+        "at": "2026-08-18T18:00:38.941Z",
         "status": "held",
-        "record_sha256": "bdf705ddc4c1922fae51919f63f742f9bda6a924813c33c55415ecd519174cfd"
+        "record_sha256": "b495f78bbb7745e63815ddc0538092b168b38e8849cccf9adc05c522d822f250"
       },
       "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fgate.horizonshield.dev%2Fmcp",
       "operator_label": {
