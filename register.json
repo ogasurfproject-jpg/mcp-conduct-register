@@ -42,9 +42,9 @@
       "contentUrl": "https://raw.githubusercontent.com/ogasurfproject-jpg/mcp-conduct-register/main/README.md"
     }
   ],
-  "dateModified": "2026-08-21T19:08:13Z",
+  "dateModified": "2026-08-22T19:00:46Z",
   "source": "https://gate.horizonshield.dev/register",
-  "generated_at": "2026-08-21T19:08:13Z",
+  "generated_at": "2026-08-22T19:00:46Z",
   "what_this_is": "A machine generated record of measured MCP server conduct. Not a curated list, not a ranking, not an endorsement.",
   "what_this_is_not": "It is not proof that a listed server returns correct numbers, that the business behind it is competent, or that it is safe to use.",
   "rows_are_selected_by": "nobody, the script copies whatever the API returns",
@@ -61,12 +61,12 @@
       "endpoint": "https://mcp.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 21,
+      "measurements": 22,
       "first_at": "2026-08-09T01:18:56.366Z",
       "latest": {
-        "at": "2026-08-21T18:00:41.813Z",
+        "at": "2026-08-22T18:00:18.103Z",
         "status": "verified",
-        "record_sha256": "1725b2814d31c7d43dc6455cdafc70ed53a858829e42b07c41dc46a33259c796"
+        "record_sha256": "dfdf1e2582cea0d0a2ccfc4781a9cd0984de380cb3cf118e25f62d76206b09e6"
       },
       "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fmcp.horizonshield.dev%2Fmcp",
       "operator_label": {
@@ -80,12 +80,12 @@
       "endpoint": "https://hearing.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 21,
+      "measurements": 22,
       "first_at": "2026-08-09T01:18:57.545Z",
       "latest": {
-        "at": "2026-08-21T18:00:43.339Z",
+        "at": "2026-08-22T18:00:20.033Z",
         "status": "verified",
-        "record_sha256": "b589d27caa859b08cd48ba06784f4b752b62361b33505aee70f6c66c301942be"
+        "record_sha256": "4de67c94a6724323bc4fdd49737b39c49743e42640fd348b2632d8e40d75c41b"
       },
       "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fhearing.horizonshield.dev%2Fmcp",
       "operator_label": {
@@ -99,12 +99,12 @@
       "endpoint": "https://web.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 21,
+      "measurements": 22,
       "first_at": "2026-08-09T01:18:58.735Z",
       "latest": {
-        "at": "2026-08-21T18:00:44.878Z",
+        "at": "2026-08-22T18:00:22.062Z",
         "status": "verified",
-        "record_sha256": "acffa9fecef26102bbb7273f84de68fab6503eebb49e960fbaa24f698d675132"
+        "record_sha256": "f23969676c65b3ffcd2434b2b9067d3e668bf264e01ee7fd78715b0c5b91a545"
       },
       "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fweb.horizonshield.dev%2Fmcp",
       "operator_label": {
@@ -118,12 +118,12 @@
       "endpoint": "https://jidec.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 12,
+      "measurements": 13,
       "first_at": "2026-08-16T18:00:08.697Z",
       "latest": {
-        "at": "2026-08-21T18:00:45.673Z",
+        "at": "2026-08-22T18:00:23.010Z",
         "status": "verified",
-        "record_sha256": "41a5a35f2f35c0b856a7e523cec3bc65187d6047b8f44cd65be7ada1c15b7dbf"
+        "record_sha256": "ec83160c700d1dfe0c3a754984c3832a5caaba4436340ca2d1ac9f2fd50a50e5"
       },
       "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fjidec.horizonshield.dev%2Fmcp",
       "operator_label": {
@@ -137,12 +137,12 @@
       "endpoint": "https://p001.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 21,
+      "measurements": 22,
       "first_at": "2026-08-09T01:18:59.874Z",
       "latest": {
-        "at": "2026-08-21T18:00:46.549Z",
+        "at": "2026-08-22T18:00:24.190Z",
         "status": "pending",
-        "record_sha256": "18ba4e23ebad3e6d7587f47a035f4cee481810a60d95d98940322b109a1010f4"
+        "record_sha256": "9f806bbcff29ae7c6a8bc7851c2e11674bba88f8c1a1547af180d9d8827bd3cf"
       },
       "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fp001.horizonshield.dev%2Fmcp",
       "operator_label": {
@@ -157,12 +157,12 @@
       "endpoint": "https://p002.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 21,
+      "measurements": 22,
       "first_at": "2026-08-09T01:19:01.083Z",
       "latest": {
-        "at": "2026-08-21T18:00:47.409Z",
+        "at": "2026-08-22T18:00:25.164Z",
         "status": "verified",
-        "record_sha256": "9b4df65b32690d4a01714e0c074f35cf8777d7b79bdb93622da2405915dfecca"
+        "record_sha256": "cc82a730d54bb29b6c0d1bfc6f07da280cf0d14cbb3ad27ca06c91333fd3a5ed"
       },
       "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fp002.horizonshield.dev%2Fmcp",
       "operator_label": {
@@ -175,12 +175,12 @@
       "endpoint": "https://gate.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 21,
+      "measurements": 22,
       "first_at": "2026-08-09T01:19:02.309Z",
       "latest": {
-        "at": "2026-08-21T18:00:48.250Z",
+        "at": "2026-08-22T18:00:26.190Z",
         "status": "held",
-        "record_sha256": "8d184e3a930481720e46fabd5a45fb12928d697bf7356dbe16de874541bfa15d"
+        "record_sha256": "eaf789cc9c13f6cdc77e2dc98d3a3230779956b4262093effe8fba9ed149cf9f"
       },
       "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fgate.horizonshield.dev%2Fmcp",
       "operator_label": {
