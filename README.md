@@ -1,5 +1,7 @@
 # MCP Conduct Register
 
+> Part of **[Awesome HORIZON SHIELD](https://github.com/ogasurfproject-jpg/awesome-horizon-shield)** — the checkable index of every dataset, MCP server and ledger we run.
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21970931.svg)](https://doi.org/10.5281/zenodo.21970931)
 [![Rebuilt daily from a public API](https://img.shields.io/badge/rebuilt-daily%20from%20a%20public%20API-2f6feb)](https://gate.horizonshield.dev/register)
 [![Rows chosen by](https://img.shields.io/badge/rows%20chosen%20by-nobody-6e7681)](https://github.com/ogasurfproject-jpg/mcp-conduct-register/blob/main/scripts/build_register.py)
