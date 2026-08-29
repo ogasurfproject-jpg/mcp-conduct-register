@@ -42,9 +42,9 @@
       "contentUrl": "https://raw.githubusercontent.com/ogasurfproject-jpg/mcp-conduct-register/main/README.md"
     }
   ],
-  "dateModified": "2026-08-28T02:17:58Z",
+  "dateModified": "2026-08-29T01:53:18Z",
   "source": "https://gate.horizonshield.dev/register",
-  "generated_at": "2026-08-28T02:17:58Z",
+  "generated_at": "2026-08-29T01:53:18Z",
   "what_this_is": "A machine generated record of measured MCP server conduct. Not a curated list, not a ranking, not an endorsement.",
   "what_this_is_not": "It is not proof that a listed server returns correct numbers, that the business behind it is competent, or that it is safe to use.",
   "rows_are_selected_by": "nobody, the script copies whatever the API returns",
@@ -61,12 +61,12 @@
       "endpoint": "https://mcp.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 29,
+      "measurements": 30,
       "first_at": "2026-08-09T01:18:56.366Z",
       "latest": {
-        "at": "2026-08-28T01:15:41.425Z",
+        "at": "2026-08-28T18:00:54.086Z",
         "status": "verified",
-        "record_sha256": "6dc3a46abc10487f660dc31c2483a1b23bba3ddec3abb5a47a5e98c92fba1194",
+        "record_sha256": "dd55e4c14f703a2921cd2ed668ac51d6e833ae5a82b369c27d005492049f9265",
         "surface": {
           "complete": true,
           "pages_followed": 1,
@@ -114,12 +114,12 @@
       "endpoint": "https://hearing.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 29,
+      "measurements": 30,
       "first_at": "2026-08-09T01:18:57.545Z",
       "latest": {
-        "at": "2026-08-28T01:15:45.245Z",
+        "at": "2026-08-28T18:00:55.796Z",
         "status": "verified",
-        "record_sha256": "7f06db2972e98d4931cf48fc5dd5838b6a1f13fd20668de2f8ef66005775dc3f",
+        "record_sha256": "e67f16a8b678e59fafdc2bf6acb8a935db7d9a6a94e9b2a315c41c489178495d",
         "surface": {
           "complete": true,
           "pages_followed": 1,
@@ -159,12 +159,12 @@
       "endpoint": "https://web.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 29,
+      "measurements": 30,
       "first_at": "2026-08-09T01:18:58.735Z",
       "latest": {
-        "at": "2026-08-28T01:15:48.299Z",
+        "at": "2026-08-28T18:00:57.532Z",
         "status": "verified",
-        "record_sha256": "741ea62c411dc328ee6bdca4ca90faeb56dd63a491db434b0b28c0bfc75c2107",
+        "record_sha256": "0bf2d176a45658926575936369d840828f09d7cc5fef20604f53b05df0ebba86",
         "surface": {
           "complete": true,
           "pages_followed": 1,
@@ -194,12 +194,12 @@
       "endpoint": "https://jidec.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 20,
+      "measurements": 21,
       "first_at": "2026-08-16T18:00:08.697Z",
       "latest": {
-        "at": "2026-08-28T01:15:50.560Z",
+        "at": "2026-08-28T18:00:58.278Z",
         "status": "verified",
-        "record_sha256": "83096b6de88d25e0e4d90f19da1261f7ea59d8e4dfdcdbba380c0b258c0a0fef",
+        "record_sha256": "ddeb7ea047be52ad3eaf6cb055e87d20d5ba637b4752f4bf4d7d615f4849a6f3",
         "surface": {
           "complete": true,
           "pages_followed": 1,
@@ -228,12 +228,12 @@
       "endpoint": "https://p001.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 29,
+      "measurements": 30,
       "first_at": "2026-08-09T01:18:59.874Z",
       "latest": {
-        "at": "2026-08-28T01:15:52.780Z",
+        "at": "2026-08-28T18:00:59.087Z",
         "status": "pending",
-        "record_sha256": "37175c4eca492e0dee8790acaddcdf52e20c671a0e85ddda24d782fcd9240fae",
+        "record_sha256": "eacfe0777339fc85274330ebecac4eacffa0746cdb0fd68774d5a71913b43487",
         "surface": {
           "complete": true,
           "pages_followed": 1,
@@ -260,12 +260,12 @@
       "endpoint": "https://p002.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 29,
+      "measurements": 30,
       "first_at": "2026-08-09T01:19:01.083Z",
       "latest": {
-        "at": "2026-08-28T01:15:54.469Z",
+        "at": "2026-08-28T18:00:59.931Z",
         "status": "verified",
-        "record_sha256": "18c2b3c0310c4318ad53123ed9c3cd79b4b0fdc56eec6c2d7d81e839bbdf59c3",
+        "record_sha256": "5d286c0a7143e66ab6c2c525c331191795f497e1688cc754a43d854c165ff26b",
         "surface": {
           "complete": true,
           "pages_followed": 1,
@@ -290,12 +290,12 @@
       "endpoint": "https://gate.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 29,
+      "measurements": 30,
       "first_at": "2026-08-09T01:19:02.309Z",
       "latest": {
-        "at": "2026-08-28T01:15:56.693Z",
+        "at": "2026-08-28T18:01:00.756Z",
         "status": "verified",
-        "record_sha256": "623788f0fc1dd7daaa816734e5d62bdbbbcc5852c7b7491778f81b35dcdc4d49",
+        "record_sha256": "083eba63195ee303aa518ffe7e963ceaa1ce246ead33d0dfb672f15fd6e0af6a",
         "surface": {
           "complete": true,
           "pages_followed": 1,
@@ -325,19 +325,20 @@
       "endpoint": "https://femtech.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 1,
+      "measurements": 2,
       "first_at": "2026-08-28T01:15:59.063Z",
       "latest": {
-        "at": "2026-08-28T01:15:59.063Z",
+        "at": "2026-08-28T18:01:02.663Z",
         "status": "verified",
-        "record_sha256": "f0fcb56a8a271372b7fed6335d65cd9c0222ee0c5f5c6a8cad1fc28432634ad2",
+        "record_sha256": "13a6a1c69d223434c6c25517b11988399c5d3582b2d3a97b64a0e0f010bf62a7",
         "surface": {
           "complete": true,
           "pages_followed": 1,
-          "names_hash": "03110f63417bbca2",
-          "manifest_hash": "c1b5dcccba6a231e",
-          "server_info_hash": "c354f78e08398f5f",
+          "names_hash": "7c364e3c7e77956f",
+          "manifest_hash": "b8e701c911a49492",
+          "server_info_hash": "7046562df33fe338",
           "tool_hashes": {
+            "check_source": "175c6d433ef0d6a6",
             "explain_product_category": "3761cd830badbb07",
             "get_agent_card": "5d03cb35f5f14f9e",
             "get_femtech_topic": "8b66c0c4cb4bddb7",
@@ -357,7 +358,16 @@
         "en": "Femtech source registry (verify sources, never diagnose)",
         "url": "https://femtech.horizonshield.dev/"
       },
-      "tool_call_consent": true
+      "tool_call_consent": true,
+      "last_surface_change": {
+        "at": "2026-08-28T18:01:02.663Z",
+        "added": [
+          "check_source"
+        ],
+        "removed": [],
+        "definition_changed": [],
+        "note": "The tool surface changed between measurements. This is a dated fact, not a defect: the MCP specification treats tool-list changes as normal operation (notifications/tools/list_changed). Recorded for anyone; judged by no one."
+      }
     }
   ]
 }
