@@ -42,9 +42,9 @@
       "contentUrl": "https://raw.githubusercontent.com/ogasurfproject-jpg/mcp-conduct-register/main/README.md"
     }
   ],
-  "dateModified": "2026-08-29T21:08:40Z",
+  "dateModified": "2026-08-30T21:28:32Z",
   "source": "https://gate.horizonshield.dev/register",
-  "generated_at": "2026-08-29T21:08:40Z",
+  "generated_at": "2026-08-30T21:28:32Z",
   "what_this_is": "A machine generated record of measured MCP server conduct. Not a curated list, not a ranking, not an endorsement.",
   "what_this_is_not": "It is not proof that a listed server returns correct numbers, that the business behind it is competent, or that it is safe to use.",
   "rows_are_selected_by": "nobody, the script copies whatever the API returns",
@@ -54,7 +54,7 @@
     "operator_veto": "none, the code has no route to refuse a schema valid submission"
   },
   "count": 8,
-  "gate_commit": "unpinned: this deployment did not inject a commit (deploy_gate.sh not used)",
+  "gate_commit": "3451f8936777",
   "note": "The public register. Rows are scheduled measurements, not endorsements. An endpoint that is absent has simply never been measured here; absence is NOT a negative verdict. Webhooks are never published. Every stored verdict carries a record_sha256 you can recompute yourself. The operator_label field is a display name assigned by the operator, not a measurement.",
   "rows": [
     {
@@ -62,11 +62,11 @@
       "tier": "self",
       "cadence": "daily",
       "measurements": 30,
-      "first_at": "2026-08-09T01:48:32.136Z",
+      "first_at": "2026-08-09T18:00:41.342Z",
       "latest": {
-        "at": "2026-08-29T18:00:53.872Z",
+        "at": "2026-08-30T18:00:06.515Z",
         "status": "verified",
-        "record_sha256": "3c5b1aa1e957c0a63980f43d6f13c6ca90d7daf02316c5a63c24346a30fb4cd5",
+        "record_sha256": "06ea8d22dcf656f6d67535b430f58a19173dca0e2be8cb045c3fd84b9f335b0e",
         "surface": {
           "complete": true,
           "pages_followed": 1,
@@ -115,11 +115,11 @@
       "tier": "self",
       "cadence": "daily",
       "measurements": 30,
-      "first_at": "2026-08-09T01:48:33.351Z",
+      "first_at": "2026-08-09T18:00:41.837Z",
       "latest": {
-        "at": "2026-08-29T18:00:55.265Z",
+        "at": "2026-08-30T18:00:07.984Z",
         "status": "verified",
-        "record_sha256": "e4243f1b4931f9cbac953bd87b151c388e76912096b1d793e578d34b86a92435",
+        "record_sha256": "3a97d17aceb071e020ce3b2a035a52d419f3a42a40ee66af7bdc82da3bd4a39d",
         "surface": {
           "complete": true,
           "pages_followed": 1,
@@ -160,11 +160,11 @@
       "tier": "self",
       "cadence": "daily",
       "measurements": 30,
-      "first_at": "2026-08-09T01:48:34.549Z",
+      "first_at": "2026-08-09T18:00:42.301Z",
       "latest": {
-        "at": "2026-08-29T18:00:56.749Z",
+        "at": "2026-08-30T18:00:09.599Z",
         "status": "verified",
-        "record_sha256": "9ebef165df2c887ead73c72d91c08b465d93be860e8541c964ba730c1c6a4b15",
+        "record_sha256": "b6b613aec296e485fce3918e2d03ac1a6dcac6152eccb8c1e9384c9e96cf100f",
         "surface": {
           "complete": true,
           "pages_followed": 1,
@@ -194,12 +194,12 @@
       "endpoint": "https://jidec.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 22,
+      "measurements": 23,
       "first_at": "2026-08-16T18:00:08.697Z",
       "latest": {
-        "at": "2026-08-29T18:00:57.440Z",
+        "at": "2026-08-30T18:00:10.318Z",
         "status": "verified",
-        "record_sha256": "a219ac5e9dfcf9b7d9ad75fc379571a77ae92595842f91a0b5cd02b14bc32ab8",
+        "record_sha256": "6a522eee86559ee500196e16349d52d44751374f40108950e6b4622fa4f0c816",
         "surface": {
           "complete": true,
           "pages_followed": 1,
@@ -229,11 +229,11 @@
       "tier": "self",
       "cadence": "daily",
       "measurements": 30,
-      "first_at": "2026-08-09T01:48:35.988Z",
+      "first_at": "2026-08-09T18:00:42.767Z",
       "latest": {
-        "at": "2026-08-29T18:00:58.201Z",
+        "at": "2026-08-30T18:00:15.068Z",
         "status": "pending",
-        "record_sha256": "ddb44db0e219dfc5a47491fec3af247063b4addf72f84d45e9f50124989586f8",
+        "record_sha256": "035f9181aa70876d1d313f8a5f08032c76d4bb9b8949e64a4567a222ea1591e8",
         "surface": {
           "complete": true,
           "pages_followed": 1,
@@ -261,11 +261,11 @@
       "tier": "self",
       "cadence": "daily",
       "measurements": 30,
-      "first_at": "2026-08-09T01:48:37.170Z",
+      "first_at": "2026-08-09T18:00:43.344Z",
       "latest": {
-        "at": "2026-08-29T18:00:59.060Z",
+        "at": "2026-08-30T18:00:15.844Z",
         "status": "verified",
-        "record_sha256": "0082224dc5a0f0d981ef5998aaf45917ae27c5c11ccb9ef2be06c7c84402685f",
+        "record_sha256": "eb4e8b17b9b9efcb4f58ca27f2875f6e159b793eb51a4d3e1dea39abdacba50e",
         "surface": {
           "complete": true,
           "pages_followed": 1,
@@ -291,17 +291,17 @@
       "tier": "self",
       "cadence": "daily",
       "measurements": 30,
-      "first_at": "2026-08-09T01:48:38.429Z",
+      "first_at": "2026-08-09T18:00:43.870Z",
       "latest": {
-        "at": "2026-08-29T18:00:59.891Z",
+        "at": "2026-08-30T18:00:16.633Z",
         "status": "verified",
-        "record_sha256": "e9a5ec91bad42f2b2151081a6f76742f66ae91a618aef527a6f476877cb00c20",
+        "record_sha256": "0bd58e3b795daa02bea005d566efd5d2470489fd17c2f5837f1aeaa353a1df9e",
         "surface": {
           "complete": true,
           "pages_followed": 1,
           "names_hash": "d64176a7f5c5ac43",
           "manifest_hash": "591dbbf12456b7fa",
-          "server_info_hash": "49ba1d01f7899445",
+          "server_info_hash": "aeeaca9227973f48",
           "tool_hashes": {
             "check_conformance": "6c9242efbeb8a568",
             "get_conditions": "2cfe77b5fd14eb53",
@@ -325,12 +325,12 @@
       "endpoint": "https://femtech.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 3,
+      "measurements": 4,
       "first_at": "2026-08-28T01:15:59.063Z",
       "latest": {
-        "at": "2026-08-29T18:01:01.271Z",
+        "at": "2026-08-30T18:00:18.236Z",
         "status": "verified",
-        "record_sha256": "3cf474294a479037b5d10c49598f52ec7ea4525f149a2d8e2ad86cf188de89de",
+        "record_sha256": "a57a94f26461284cfa9976b4645f79962352790b6966264f841b0b3d3065c61f",
         "surface": {
           "complete": true,
           "pages_followed": 1,
