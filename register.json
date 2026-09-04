@@ -42,9 +42,9 @@
       "contentUrl": "https://raw.githubusercontent.com/ogasurfproject-jpg/mcp-conduct-register/main/README.md"
     }
   ],
-  "dateModified": "2026-09-03T21:17:14Z",
+  "dateModified": "2026-09-04T20:59:54Z",
   "source": "https://gate.horizonshield.dev/register",
-  "generated_at": "2026-09-03T21:17:14Z",
+  "generated_at": "2026-09-04T20:59:54Z",
   "what_this_is": "A machine generated record of measured MCP server conduct. Not a curated list, not a ranking, not an endorsement.",
   "what_this_is_not": "It is not proof that a listed server returns correct numbers, that the business behind it is competent, or that it is safe to use.",
   "rows_are_selected_by": "nobody, the script copies whatever the API returns",
@@ -54,7 +54,7 @@
     "operator_veto": "none, the code has no route to refuse a schema valid submission"
   },
   "count": 8,
-  "gate_commit": "3451f8936777",
+  "gate_commit": "b237ce0675ec",
   "note": "The public register. Rows are scheduled measurements, not endorsements. An endpoint that is absent has simply never been measured here; absence is NOT a negative verdict. Webhooks are never published. Every stored verdict carries a record_sha256 you can recompute yourself. The operator_label field is a display name assigned by the operator, not a measurement.",
   "rows": [
     {
@@ -62,11 +62,12 @@
       "tier": "self",
       "cadence": "daily",
       "measurements": 30,
-      "first_at": "2026-08-13T18:00:38.235Z",
+      "first_at": "2026-08-14T18:00:38.287Z",
       "latest": {
-        "at": "2026-09-03T18:01:22.817Z",
+        "at": "2026-09-04T18:00:35.404Z",
         "status": "verified",
-        "record_sha256": "ec232121f15bd898c3ed8d26f1a009d543c930403e321b50caed9ad7e383b472",
+        "record_sha256": "59d57b19e1c5ad5c6351cfcece9898f637f0e92975320d372ad065e897265fe9",
+        "consent_source": "operator_list",
         "surface": {
           "complete": true,
           "pages_followed": 1,
@@ -115,17 +116,18 @@
       "tier": "self",
       "cadence": "daily",
       "measurements": 30,
-      "first_at": "2026-08-13T18:00:39.161Z",
+      "first_at": "2026-08-14T18:00:39.400Z",
       "latest": {
-        "at": "2026-09-03T18:01:24.265Z",
+        "at": "2026-09-04T18:00:40.814Z",
         "status": "verified",
-        "record_sha256": "14d1ad786054acd1abf24cd474bcb64b23c619fffbb23c8b27b152521ae52dd4",
+        "record_sha256": "e410dc8ad0fd811f1e0afd784735b86af6c7c23dcc6f8ba91b29f51414ecf992",
+        "consent_source": "operator_list",
         "surface": {
           "complete": true,
           "pages_followed": 1,
           "names_hash": "91f8a223fae08805",
           "manifest_hash": "4a47d5dff4c20071",
-          "server_info_hash": "5aeca12a4a888e20",
+          "server_info_hash": "b521eac4d75dacf4",
           "tool_hashes": {
             "check_named_contractor": "25246da8616c13bd",
             "find_contractor": "068a011c09503669",
@@ -160,21 +162,22 @@
       "tier": "self",
       "cadence": "daily",
       "measurements": 30,
-      "first_at": "2026-08-13T18:00:40.111Z",
+      "first_at": "2026-08-14T18:00:40.443Z",
       "latest": {
-        "at": "2026-09-03T18:01:26.138Z",
+        "at": "2026-09-04T18:00:46.509Z",
         "status": "verified",
-        "record_sha256": "5e760f237599643b2cb7a07aa8db1dc00321820c53e0fae77e2c5078a51cdcef",
+        "record_sha256": "32b2c174453c7ed4bd582dfaaade9d1c8bd8f06fd97ce6f04072f2cff9bd5bc8",
+        "consent_source": "operator_list",
         "surface": {
           "complete": true,
           "pages_followed": 1,
           "names_hash": "ecc8aebb531bb105",
-          "manifest_hash": "dff209e2ce75bd8d",
-          "server_info_hash": "05483a1ba072c6e0",
+          "manifest_hash": "9da1c5030f37a21c",
+          "server_info_hash": "340b06fec8b6b6df",
           "tool_hashes": {
             "draft_broadcast": "0f1af6bd52a0fc6d",
             "intake_estimate": "13c611d77f8d7487",
-            "route_request": "e4aae497194a38f7",
+            "route_request": "b6b7c6cb64e15614",
             "run_full_audit": "13a3fb74d1c6a682",
             "scan_tactics": "affbf67594678269"
           },
@@ -188,24 +191,34 @@
         "en": "KIRA intake desk for renovation questions",
         "url": "https://shield.the-horizons-innovation.com"
       },
-      "tool_call_consent": true
+      "tool_call_consent": true,
+      "last_surface_change": {
+        "at": "2026-09-04T18:00:46.509Z",
+        "added": [],
+        "removed": [],
+        "definition_changed": [
+          "route_request"
+        ],
+        "note": "The tool surface changed between measurements. This is a dated fact, not a defect: the MCP specification treats tool-list changes as normal operation (notifications/tools/list_changed). Recorded for anyone; judged by no one."
+      }
     },
     {
       "endpoint": "https://jidec.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 27,
+      "measurements": 28,
       "first_at": "2026-08-16T18:00:08.697Z",
       "latest": {
-        "at": "2026-09-03T18:01:26.896Z",
-        "status": "verified",
-        "record_sha256": "69c7b2fe3a12eba39a8e68ae1e8b493f47d500adf66c5ce6836f76cdef5d502f",
+        "at": "2026-09-04T18:00:49.938Z",
+        "status": "pending",
+        "record_sha256": "daeab17a05854b3c62392cdfc05b5184f83b3e6eefa6ee1e52e7b0d837844cab",
+        "consent_source": "operator_list",
         "surface": {
           "complete": true,
           "pages_followed": 1,
           "names_hash": "0ba2335bcc4a9bd3",
           "manifest_hash": "50c80d994fdb32dc",
-          "server_info_hash": "699052c9114bda83",
+          "server_info_hash": "671b3d4f62dcd034",
           "tool_hashes": {
             "jidec_cite": "2b3d6878d4dc3199",
             "jidec_how_to_verify": "1e46fd10669699bc",
@@ -229,11 +242,12 @@
       "tier": "self",
       "cadence": "daily",
       "measurements": 30,
-      "first_at": "2026-08-13T18:00:40.942Z",
+      "first_at": "2026-08-14T18:00:41.607Z",
       "latest": {
-        "at": "2026-09-03T18:01:31.587Z",
+        "at": "2026-09-04T18:01:02.909Z",
         "status": "pending",
-        "record_sha256": "35fa6e1a71f40c2b960d3f340ddd755a1a616e53b881395238b62ab9df6dc155",
+        "record_sha256": "0cf8f973651afefcc5d21bf9c99adae044d8478664d9d54470142270f8fda1b0",
+        "consent_source": "none",
         "surface": {
           "complete": true,
           "pages_followed": 1,
@@ -254,18 +268,19 @@
         "url": "https://shield.the-horizons-innovation.com/yakumo/no001/"
       },
       "tool_call_consent": false,
-      "why_not_verified": "The owner has not asked for tool calls, so determinism is not measured and this row cannot reach verified. That is not a failure, it is an unmeasured condition."
+      "why_not_verified": "No owner consent for tool calls is on record, so determinism is not measured and this row cannot reach verified. That is not a failure, it is an unmeasured condition. To consent, publish /.well-known/mcp-conduct.json on the origin with {\"allow_tool_call\": true}; the next scheduled measurement reads it and records where it read it (0.2.4)."
     },
     {
       "endpoint": "https://p002.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
       "measurements": 30,
-      "first_at": "2026-08-13T18:00:41.858Z",
+      "first_at": "2026-08-14T18:00:42.514Z",
       "latest": {
-        "at": "2026-09-03T18:01:32.428Z",
+        "at": "2026-09-04T18:01:05.641Z",
         "status": "verified",
-        "record_sha256": "035474cc1ba995cb35db69620a94b77afe832003658cffe7702591380f8d480f",
+        "record_sha256": "12abd82697e933c0efb1401a8f34968dcb02973a3c8f3e8fa95c842c338deb31",
+        "consent_source": "operator_list",
         "surface": {
           "complete": true,
           "pages_followed": 1,
@@ -291,17 +306,18 @@
       "tier": "self",
       "cadence": "daily",
       "measurements": 30,
-      "first_at": "2026-08-13T18:00:42.802Z",
+      "first_at": "2026-08-14T18:00:43.527Z",
       "latest": {
-        "at": "2026-09-03T18:01:33.510Z",
+        "at": "2026-09-04T18:01:07.877Z",
         "status": "verified",
-        "record_sha256": "57acf582a14c99f2ff8f74d4310a3c4f9fa30b24483954e15ddf820d67830187",
+        "record_sha256": "fb83deaf49a0adc9d46e72098af267095de63a040ed4e61904f15634b2cd6622",
+        "consent_source": "operator_list",
         "surface": {
           "complete": true,
           "pages_followed": 1,
           "names_hash": "d64176a7f5c5ac43",
           "manifest_hash": "591dbbf12456b7fa",
-          "server_info_hash": "aeeaca9227973f48",
+          "server_info_hash": "b9ebc38a706b8de6",
           "tool_hashes": {
             "check_conformance": "6c9242efbeb8a568",
             "get_conditions": "2cfe77b5fd14eb53",
@@ -325,12 +341,13 @@
       "endpoint": "https://femtech.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 8,
+      "measurements": 9,
       "first_at": "2026-08-28T01:15:59.063Z",
       "latest": {
-        "at": "2026-09-03T18:01:36.125Z",
+        "at": "2026-09-04T18:01:11.574Z",
         "status": "verified",
-        "record_sha256": "d0f0a8fecdace7f235a862d8f5039f86923c3b380eb57d0667c0b98cfc90b027",
+        "record_sha256": "46571f98c3dce77ac6ad2c15a3603612c1563f9e386f01d0bf106d275940629a",
+        "consent_source": "operator_list",
         "surface": {
           "complete": true,
           "pages_followed": 1,
