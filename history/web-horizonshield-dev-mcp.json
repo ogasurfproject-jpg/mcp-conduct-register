@@ -1543,6 +1543,62 @@
         ],
         "note": "The tool surface changed between measurements. This is a dated fact, not a defect: the MCP specification treats tool-list changes as normal operation (notifications/tools/list_changed). Recorded for anyone; judged by no one."
       }
+    },
+    {
+      "at": "2026-09-05T18:00:59.807Z",
+      "status": "verified",
+      "reachable": true,
+      "record_sha256": "2121f4f4b34ee78115a6687cba813c260c15af68da436a2c7b01396027d2c8ae",
+      "consent_source": "operator_list",
+      "conditions": {
+        "mcp_endpoint": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "MCP endpoint responds to initialize and tools/list"
+        },
+        "agent_card": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "agent-card published and well-formed"
+        },
+        "compensation_disclosure": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "compensation structure declared"
+        },
+        "determinism": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "identical input returned identical output across 2 runs"
+        }
+      },
+      "surface": {
+        "complete": true,
+        "pages_followed": 1,
+        "names_hash": "ecc8aebb531bb105",
+        "manifest_hash": "9da1c5030f37a21c",
+        "server_info_hash": "340b06fec8b6b6df",
+        "tool_hashes": {
+          "draft_broadcast": "0f1af6bd52a0fc6d",
+          "intake_estimate": "13c611d77f8d7487",
+          "route_request": "b6b7c6cb64e15614",
+          "run_full_audit": "13a3fb74d1c6a682",
+          "scan_tactics": "affbf67594678269"
+        },
+        "canonicalization": "rfc8785-jcs",
+        "unsafe_integer_scan": "clean"
+      },
+      "absence_vs_failure": {
+        "measured": true,
+        "tools_measured": 5,
+        "discriminating": 5,
+        "cannot_distinguish_pct": 0
+      },
+      "fingerprint": "verified|agent_card=1,compensation_disclosure=1,determinism=1,mcp_endpoint=1"
     }
   ],
   "archive": {
@@ -1550,7 +1606,7 @@
     "source": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fweb.horizonshield.dev%2Fmcp",
     "rule": "append-only union of every export seen, keyed by record_sha256; nothing is removed",
     "gate_retention_at_last_fetch": 400,
-    "last_fetch_at": "2026-09-05T05:45:19Z",
-    "count": 30
+    "last_fetch_at": "2026-09-05T20:40:40Z",
+    "count": 31
   }
 }

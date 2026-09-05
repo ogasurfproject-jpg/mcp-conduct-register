@@ -1426,6 +1426,62 @@
         "cannot_distinguish_pct": 20
       },
       "fingerprint": "verified|agent_card=1,compensation_disclosure=1,determinism=1,mcp_endpoint=1"
+    },
+    {
+      "at": "2026-09-05T18:01:04.520Z",
+      "status": "verified",
+      "reachable": true,
+      "record_sha256": "a1a0ed9e647073f5d00c210dfe3ac88ef57614437a5eaa53bf57196a448e4fe9",
+      "consent_source": "operator_list",
+      "conditions": {
+        "mcp_endpoint": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "MCP endpoint responds to initialize and tools/list"
+        },
+        "agent_card": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "agent-card published and well-formed"
+        },
+        "compensation_disclosure": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "compensation structure declared"
+        },
+        "determinism": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "identical input returned identical output across 2 runs"
+        }
+      },
+      "surface": {
+        "complete": true,
+        "pages_followed": 1,
+        "names_hash": "d64176a7f5c5ac43",
+        "manifest_hash": "591dbbf12456b7fa",
+        "server_info_hash": "254db8b0f5cb001a",
+        "tool_hashes": {
+          "check_conformance": "6c9242efbeb8a568",
+          "get_conditions": "2cfe77b5fd14eb53",
+          "is_verified": "d08b2eaeddb69207",
+          "lookup_server": "bfb59d75392759f4",
+          "verify_verdict": "c022a23b3d8ce7b3"
+        },
+        "canonicalization": "rfc8785-jcs",
+        "unsafe_integer_scan": "clean"
+      },
+      "absence_vs_failure": {
+        "measured": true,
+        "tools_measured": 5,
+        "discriminating": 4,
+        "cannot_distinguish_pct": 20
+      },
+      "fingerprint": "verified|agent_card=1,compensation_disclosure=1,determinism=1,mcp_endpoint=1"
     }
   ],
   "archive": {
@@ -1433,7 +1489,7 @@
     "source": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fgate.horizonshield.dev%2Fmcp",
     "rule": "append-only union of every export seen, keyed by record_sha256; nothing is removed",
     "gate_retention_at_last_fetch": 400,
-    "last_fetch_at": "2026-09-05T05:45:20Z",
-    "count": 30
+    "last_fetch_at": "2026-09-05T20:40:41Z",
+    "count": 31
   }
 }

@@ -1563,6 +1563,63 @@
         "cannot_distinguish_pct": 0
       },
       "fingerprint": "verified|agent_card=1,compensation_disclosure=1,determinism=1,mcp_endpoint=1"
+    },
+    {
+      "at": "2026-09-05T18:00:57.508Z",
+      "status": "verified",
+      "reachable": true,
+      "record_sha256": "61bb613a0c0e6682e4846851e5c2731b9871715088cedb00f4f0891acf947fc4",
+      "consent_source": "operator_list",
+      "conditions": {
+        "mcp_endpoint": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "MCP endpoint responds to initialize and tools/list"
+        },
+        "agent_card": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "agent-card published and well-formed"
+        },
+        "compensation_disclosure": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "compensation structure declared"
+        },
+        "determinism": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "identical input returned identical output across 2 runs"
+        }
+      },
+      "surface": {
+        "complete": true,
+        "pages_followed": 1,
+        "names_hash": "91f8a223fae08805",
+        "manifest_hash": "4a47d5dff4c20071",
+        "server_info_hash": "b521eac4d75dacf4",
+        "tool_hashes": {
+          "check_named_contractor": "25246da8616c13bd",
+          "find_contractor": "068a011c09503669",
+          "get_contractor_profile": "062a6a0896ca0b92",
+          "how_verification_works": "ca10b5ae959f41f9",
+          "list_verified_stores": "73672ebc6f24b136",
+          "mall_overview": "2d466ede70c03787"
+        },
+        "canonicalization": "rfc8785-jcs",
+        "unsafe_integer_scan": "clean"
+      },
+      "absence_vs_failure": {
+        "measured": true,
+        "tools_measured": 6,
+        "discriminating": 6,
+        "cannot_distinguish_pct": 0
+      },
+      "fingerprint": "verified|agent_card=1,compensation_disclosure=1,determinism=1,mcp_endpoint=1"
     }
   ],
   "archive": {
@@ -1570,7 +1627,7 @@
     "source": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fhearing.horizonshield.dev%2Fmcp",
     "rule": "append-only union of every export seen, keyed by record_sha256; nothing is removed",
     "gate_retention_at_last_fetch": 400,
-    "last_fetch_at": "2026-09-05T05:45:19Z",
-    "count": 30
+    "last_fetch_at": "2026-09-05T20:40:40Z",
+    "count": 31
   }
 }

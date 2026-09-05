@@ -1812,6 +1812,71 @@
         "cannot_distinguish_pct": 0
       },
       "fingerprint": "verified|agent_card=1,compensation_disclosure=1,determinism=1,mcp_endpoint=1"
+    },
+    {
+      "at": "2026-09-05T18:00:55.397Z",
+      "status": "verified",
+      "reachable": true,
+      "record_sha256": "9b98137c0f21fae6a5c5d641d85a498d284ff278eabcc652ccef431cdd45d910",
+      "consent_source": "operator_list",
+      "conditions": {
+        "mcp_endpoint": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "MCP endpoint responds to initialize and tools/list"
+        },
+        "agent_card": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "agent-card published and well-formed"
+        },
+        "compensation_disclosure": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "compensation structure declared"
+        },
+        "determinism": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "identical input returned identical output across 2 runs"
+        }
+      },
+      "surface": {
+        "complete": true,
+        "pages_followed": 1,
+        "names_hash": "948ea269001311d8",
+        "manifest_hash": "2b3edd31ec46ca38",
+        "server_info_hash": "fcf4b56f3e1e03c7",
+        "tool_hashes": {
+          "audit_estimate": "5d39fd670d3f74dc",
+          "check_red_flags": "3d16722682b78bbc",
+          "create_ap2_fairness_attestation": "90af58e00153a0ca",
+          "get_agent_card": "0acb3ef47f5b2be9",
+          "get_estimate_reading_guide": "8d5fbfa482552a3a",
+          "get_fair_price_sources": "68fd6dcadfa27f0e",
+          "get_jccdb_dataset_info": "797146b849b7a8ef",
+          "get_price_range": "c696d468a3111a13",
+          "list_cost_categories": "3c7b1f8fc27bc24c",
+          "preview_reverse_estimate": "2fd121c21003af13",
+          "search_cost_category": "f416ec60bd06020c",
+          "suggest_ehn": "984e3f48fb293801",
+          "verify_fair_price": "36cba70c911fdd86",
+          "verify_integrity_claim": "f6108bb73564cc44"
+        },
+        "canonicalization": "rfc8785-jcs",
+        "unsafe_integer_scan": "clean"
+      },
+      "absence_vs_failure": {
+        "measured": true,
+        "tools_measured": 14,
+        "discriminating": 14,
+        "cannot_distinguish_pct": 0
+      },
+      "fingerprint": "verified|agent_card=1,compensation_disclosure=1,determinism=1,mcp_endpoint=1"
     }
   ],
   "archive": {
@@ -1819,7 +1884,7 @@
     "source": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fmcp.horizonshield.dev%2Fmcp",
     "rule": "append-only union of every export seen, keyed by record_sha256; nothing is removed",
     "gate_retention_at_last_fetch": 400,
-    "last_fetch_at": "2026-09-05T05:45:19Z",
-    "count": 30
+    "last_fetch_at": "2026-09-05T20:40:40Z",
+    "count": 31
   }
 }

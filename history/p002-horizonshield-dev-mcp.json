@@ -1419,6 +1419,58 @@
         "cannot_distinguish_pct": 0
       },
       "fingerprint": "verified|agent_card=1,compensation_disclosure=1,determinism=1,mcp_endpoint=1"
+    },
+    {
+      "at": "2026-09-05T18:01:03.708Z",
+      "status": "verified",
+      "reachable": true,
+      "record_sha256": "4e55797a2b7a85d03c9f0a628e6d18d539abcb524ee32bc3e954b0b1922c3963",
+      "consent_source": "operator_list",
+      "conditions": {
+        "mcp_endpoint": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "MCP endpoint responds to initialize and tools/list"
+        },
+        "agent_card": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "agent-card published and well-formed"
+        },
+        "compensation_disclosure": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "compensation structure declared"
+        },
+        "determinism": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "identical input returned identical output across 2 runs"
+        }
+      },
+      "surface": {
+        "complete": true,
+        "pages_followed": 1,
+        "names_hash": "5adf698aad3181b3",
+        "manifest_hash": "3b53c18f53860eb3",
+        "server_info_hash": "e9499d5f13bb8beb",
+        "tool_hashes": {
+          "get_partner_profile": "4f9ed104e9cf3f34"
+        },
+        "canonicalization": "rfc8785-jcs",
+        "unsafe_integer_scan": "clean"
+      },
+      "absence_vs_failure": {
+        "measured": true,
+        "tools_measured": 1,
+        "discriminating": 1,
+        "cannot_distinguish_pct": 0
+      },
+      "fingerprint": "verified|agent_card=1,compensation_disclosure=1,determinism=1,mcp_endpoint=1"
     }
   ],
   "archive": {
@@ -1426,7 +1478,7 @@
     "source": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fp002.horizonshield.dev%2Fmcp",
     "rule": "append-only union of every export seen, keyed by record_sha256; nothing is removed",
     "gate_retention_at_last_fetch": 400,
-    "last_fetch_at": "2026-09-05T05:45:20Z",
-    "count": 30
+    "last_fetch_at": "2026-09-05T20:40:41Z",
+    "count": 31
   }
 }

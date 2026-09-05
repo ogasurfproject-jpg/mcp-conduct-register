@@ -1419,6 +1419,58 @@
         "cannot_distinguish_pct": 0
       },
       "fingerprint": "pending|agent_card=1,compensation_disclosure=1,determinism=0,mcp_endpoint=1"
+    },
+    {
+      "at": "2026-09-05T18:01:02.955Z",
+      "status": "pending",
+      "reachable": true,
+      "record_sha256": "fd91dcb7ed35bff92a1ed4a35e818f73ea9006b1328668aa5d6bd8df89449e5f",
+      "consent_source": "none",
+      "conditions": {
+        "mcp_endpoint": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "MCP endpoint responds to initialize and tools/list"
+        },
+        "agent_card": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "agent-card published and well-formed"
+        },
+        "compensation_disclosure": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "compensation structure declared"
+        },
+        "determinism": {
+          "pass": false,
+          "measured": false,
+          "transport": false,
+          "reason": "not measured: measuring determinism requires calling one of your tools, and this gate does not call tools on a server without the owner's consent. The first tool listed may be destructive. To have this condition measured, re-run with allow_tool_call set to true from a request you control."
+        }
+      },
+      "surface": {
+        "complete": true,
+        "pages_followed": 1,
+        "names_hash": "5adf698aad3181b3",
+        "manifest_hash": "de01a4414810d273",
+        "server_info_hash": "390bdb3ca822185c",
+        "tool_hashes": {
+          "get_partner_profile": "8f87b2be38dbf636"
+        },
+        "canonicalization": "rfc8785-jcs",
+        "unsafe_integer_scan": "clean"
+      },
+      "absence_vs_failure": {
+        "measured": true,
+        "tools_measured": 1,
+        "discriminating": 1,
+        "cannot_distinguish_pct": 0
+      },
+      "fingerprint": "pending|agent_card=1,compensation_disclosure=1,determinism=0,mcp_endpoint=1"
     }
   ],
   "archive": {
@@ -1426,7 +1478,7 @@
     "source": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fp001.horizonshield.dev%2Fmcp",
     "rule": "append-only union of every export seen, keyed by record_sha256; nothing is removed",
     "gate_retention_at_last_fetch": 400,
-    "last_fetch_at": "2026-09-05T05:45:20Z",
-    "count": 30
+    "last_fetch_at": "2026-09-05T20:40:41Z",
+    "count": 31
   }
 }

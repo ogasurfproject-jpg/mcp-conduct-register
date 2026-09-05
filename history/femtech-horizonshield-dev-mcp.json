@@ -539,6 +539,66 @@
         "cannot_distinguish_pct": 100
       },
       "fingerprint": "verified|agent_card=1,compensation_disclosure=1,determinism=1,mcp_endpoint=1"
+    },
+    {
+      "at": "2026-09-05T18:01:07.418Z",
+      "status": "verified",
+      "reachable": true,
+      "record_sha256": "bc331b7cf576c39ad2d9acc0357630e4950c7ab37bc5736fee4e558b9345d1f8",
+      "consent_source": "operator_list",
+      "conditions": {
+        "mcp_endpoint": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "MCP endpoint responds to initialize and tools/list"
+        },
+        "agent_card": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "agent-card published and well-formed"
+        },
+        "compensation_disclosure": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "compensation structure declared"
+        },
+        "determinism": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "identical input returned identical output across 2 runs"
+        }
+      },
+      "surface": {
+        "complete": true,
+        "pages_followed": 1,
+        "names_hash": "7c364e3c7e77956f",
+        "manifest_hash": "b8e701c911a49492",
+        "server_info_hash": "7046562df33fe338",
+        "tool_hashes": {
+          "check_source": "175c6d433ef0d6a6",
+          "explain_product_category": "3761cd830badbb07",
+          "get_agent_card": "5d03cb35f5f14f9e",
+          "get_femtech_topic": "8b66c0c4cb4bddb7",
+          "get_registry_entry": "72ca4c1eda694e47",
+          "how_to_verify": "06cb66ccd7406d4d",
+          "list_registry": "9a337714a7a1fd1f",
+          "register_source": "e12f2dbd2e1d56cc",
+          "verify_source": "6a268c7071c96fc7"
+        },
+        "canonicalization": "rfc8785-jcs",
+        "unsafe_integer_scan": "clean"
+      },
+      "absence_vs_failure": {
+        "measured": true,
+        "tools_measured": 9,
+        "discriminating": 0,
+        "cannot_distinguish_pct": 100
+      },
+      "fingerprint": "verified|agent_card=1,compensation_disclosure=1,determinism=1,mcp_endpoint=1"
     }
   ],
   "archive": {
@@ -546,7 +606,7 @@
     "source": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Ffemtech.horizonshield.dev%2Fmcp",
     "rule": "append-only union of every export seen, keyed by record_sha256; nothing is removed",
     "gate_retention_at_last_fetch": 400,
-    "last_fetch_at": "2026-09-05T05:45:20Z",
-    "count": 9
+    "last_fetch_at": "2026-09-05T20:40:41Z",
+    "count": 10
   }
 }
