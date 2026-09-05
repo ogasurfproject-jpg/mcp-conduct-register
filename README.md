@@ -79,6 +79,21 @@ curl -s -X POST https://gate.horizonshield.dev/watch \
 server. See CONTRIBUTING.md. A maintainer adds the endpoint to the measurement schedule. Nothing
 else about the listing is negotiable, including the verdict.
 
+## Point your agent card at your row (A2A Conduct Extension v1)
+
+An A2A agent can carry its own conduct pointers in its card, under `capabilities.extensions[]`,
+with the URI `https://gate.horizonshield.dev/ext/conduct/v1`. The `params` state who pays the
+agent (the same `compensation` shape condition 3 has always read, now in the place A2A 1.0
+reserves for extension data), which endpoint is measured, where its record on this register
+lives, and where a connecting client can file its own walk as a witness
+(`POST https://ledger.horizonshield.dev/witness`). The gate reads the declaration from either
+place from version 0.3.2; when a card carries both, they must agree.
+
+Declaring the extension changes no verdict. It makes the row findable from the card, and it
+makes every client that reads the card a potential second witness in the endpoint's monthly
+ring. The specification is served at the URI; a reference walk client is
+`workers/hs-ledger/nenrin/a2a-conduct-walk/a2a_conduct_walk.py` in the horizon-shield repository.
+
 ## The ledger behind this
 
 Measurements accumulate into monthly rings anchored to Bitcoin through OpenTimestamps. Anyone can
