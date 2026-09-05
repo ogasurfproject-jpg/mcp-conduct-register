@@ -42,9 +42,9 @@
       "contentUrl": "https://raw.githubusercontent.com/ogasurfproject-jpg/mcp-conduct-register/main/README.md"
     }
   ],
-  "dateModified": "2026-09-04T20:59:54Z",
+  "dateModified": "2026-09-05T05:37:36Z",
   "source": "https://gate.horizonshield.dev/register",
-  "generated_at": "2026-09-04T20:59:54Z",
+  "generated_at": "2026-09-05T05:37:36Z",
   "what_this_is": "A machine generated record of measured MCP server conduct. Not a curated list, not a ranking, not an endorsement.",
   "what_this_is_not": "It is not proof that a listed server returns correct numbers, that the business behind it is competent, or that it is safe to use.",
   "rows_are_selected_by": "nobody, the script copies whatever the API returns",
@@ -53,8 +53,8 @@
     "intake": "https://ledger.horizonshield.dev/witness",
     "operator_veto": "none, the code has no route to refuse a schema valid submission"
   },
-  "count": 8,
-  "gate_commit": "b237ce0675ec",
+  "count": 9,
+  "gate_commit": "bde5f7e442ff",
   "note": "The public register. Rows are scheduled measurements, not endorsements. An endpoint that is absent has simply never been measured here; absence is NOT a negative verdict. Webhooks are never published. Every stored verdict carries a record_sha256 you can recompute yourself. The operator_label field is a display name assigned by the operator, not a measurement.",
   "rows": [
     {
@@ -100,6 +100,7 @@
         "en": "KIRA fair price audit (the flagship MCP server)",
         "url": "https://shield.the-horizons-innovation.com"
       },
+      "requested_by": "operator",
       "tool_call_consent": true,
       "last_surface_change": {
         "at": "2026-08-28T01:15:41.425Z",
@@ -146,6 +147,7 @@
         "en": "YAKUMO verified contractor directory",
         "url": "https://shield.the-horizons-innovation.com/yakumo/"
       },
+      "requested_by": "operator",
       "tool_call_consent": true,
       "last_surface_change": {
         "at": "2026-08-19T04:04:39.229Z",
@@ -191,6 +193,7 @@
         "en": "KIRA intake desk for renovation questions",
         "url": "https://shield.the-horizons-innovation.com"
       },
+      "requested_by": "operator",
       "tool_call_consent": true,
       "last_surface_change": {
         "at": "2026-09-04T18:00:46.509Z",
@@ -235,6 +238,7 @@
         "en": "JIDEC, the Bitcoin anchored public ledger",
         "url": "https://ledger.horizonshield.dev/llms.txt"
       },
+      "requested_by": "operator",
       "tool_call_consent": true
     },
     {
@@ -267,6 +271,7 @@
         "en": "Reform Shokunin Co., Ltd. (member No.001, Aichi)",
         "url": "https://shield.the-horizons-innovation.com/yakumo/no001/"
       },
+      "requested_by": "operator",
       "tool_call_consent": false,
       "why_not_verified": "No owner consent for tool calls is on record, so determinism is not measured and this row cannot reach verified. That is not a failure, it is an unmeasured condition. To consent, publish /.well-known/mcp-conduct.json on the origin with {\"allow_tool_call\": true}; the next scheduled measurement reads it and records where it read it (0.2.4)."
     },
@@ -299,6 +304,7 @@
         "ja": "ミネオトーヨー住器株式会社（加盟No.002）",
         "en": "Mineo Toyo Juki Co., Ltd. (member No.002)"
       },
+      "requested_by": "operator",
       "tool_call_consent": true
     },
     {
@@ -335,6 +341,7 @@
         "en": "The verification gate, measuring itself",
         "url": "https://shield.the-horizons-innovation.com/verify-directory/"
       },
+      "requested_by": "operator",
       "tool_call_consent": true
     },
     {
@@ -375,6 +382,7 @@
         "en": "Femtech source registry (verify sources, never diagnose)",
         "url": "https://femtech.horizonshield.dev/"
       },
+      "requested_by": "operator",
       "tool_call_consent": true,
       "last_surface_change": {
         "at": "2026-08-28T18:01:02.663Z",
@@ -385,6 +393,18 @@
         "definition_changed": [],
         "note": "The tool surface changed between measurements. This is a dated fact, not a defect: the MCP specification treats tool-list changes as normal operation (notifications/tools/list_changed). Recorded for anyone; judged by no one."
       }
+    },
+    {
+      "endpoint": "https://intel.twzrd.xyz/mcp",
+      "tier": "free",
+      "cadence": "weekly",
+      "measurements": 0,
+      "first_at": null,
+      "latest": null,
+      "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fintel.twzrd.xyz%2Fmcp",
+      "requested_by": "unrecorded (row added before 0.3.1)",
+      "tool_call_consent": false,
+      "why_not_verified": "No owner consent for tool calls is on record, so determinism is not measured and this row cannot reach verified. That is not a failure, it is an unmeasured condition. To consent, publish /.well-known/mcp-conduct.json on the origin with {\"allow_tool_call\": true}; the next scheduled measurement reads it and records where it read it (0.2.4)."
     }
   ]
 }
