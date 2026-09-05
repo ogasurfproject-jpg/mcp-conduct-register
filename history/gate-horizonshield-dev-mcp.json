@@ -1428,11 +1428,12 @@
       "fingerprint": "verified|agent_card=1,compensation_disclosure=1,determinism=1,mcp_endpoint=1"
     }
   ],
-  "correction": {
-    "at": "2026-08-20",
-    "what": "Entries written before this date stored reachable as (v !== false), so a run where nothing could be measured was recorded as reachable: true.",
-    "fix": "gate58 made reachable three-valued: true, false, or null when it was not measured. Entries written from this date carry null on such runs.",
-    "affected_in_this_response": 1,
-    "entries_are_not_edited": "Past entries keep the bytes they were written with. They carry reachable_note instead, so the record shows both what was written and why it was wrong."
+  "archive": {
+    "schema": "mcp-conduct-history-archive-v1",
+    "source": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fgate.horizonshield.dev%2Fmcp",
+    "rule": "append-only union of every export seen, keyed by record_sha256; nothing is removed",
+    "gate_retention_at_last_fetch": 400,
+    "last_fetch_at": "2026-09-05T05:45:20Z",
+    "count": 30
   }
 }

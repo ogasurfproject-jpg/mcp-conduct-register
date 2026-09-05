@@ -33,7 +33,7 @@ Every verdict carries a `record_sha256` that anyone can recompute from the publi
 The measurement code, the gate that runs it, and this generator are all public.
 
 <!-- REGISTER:START -->
-Generated from <https://gate.horizonshield.dev/register> at 2026-09-05 05:37 UTC.
+Generated from <https://gate.horizonshield.dev/register> at 2026-09-05 05:45 UTC.
 
 **9 rows.** Nobody chose them. This table is written by a script, not a person.
 

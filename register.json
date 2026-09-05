@@ -42,9 +42,9 @@
       "contentUrl": "https://raw.githubusercontent.com/ogasurfproject-jpg/mcp-conduct-register/main/README.md"
     }
   ],
-  "dateModified": "2026-09-05T05:37:36Z",
+  "dateModified": "2026-09-05T05:45:19Z",
   "source": "https://gate.horizonshield.dev/register",
-  "generated_at": "2026-09-05T05:37:36Z",
+  "generated_at": "2026-09-05T05:45:19Z",
   "what_this_is": "A machine generated record of measured MCP server conduct. Not a curated list, not a ranking, not an endorsement.",
   "what_this_is_not": "It is not proof that a listed server returns correct numbers, that the business behind it is competent, or that it is safe to use.",
   "rows_are_selected_by": "nobody, the script copies whatever the API returns",

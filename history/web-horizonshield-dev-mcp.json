@@ -1544,5 +1544,13 @@
         "note": "The tool surface changed between measurements. This is a dated fact, not a defect: the MCP specification treats tool-list changes as normal operation (notifications/tools/list_changed). Recorded for anyone; judged by no one."
       }
     }
-  ]
+  ],
+  "archive": {
+    "schema": "mcp-conduct-history-archive-v1",
+    "source": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fweb.horizonshield.dev%2Fmcp",
+    "rule": "append-only union of every export seen, keyed by record_sha256; nothing is removed",
+    "gate_retention_at_last_fetch": 400,
+    "last_fetch_at": "2026-09-05T05:45:19Z",
+    "count": 30
+  }
 }
