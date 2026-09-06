@@ -42,9 +42,9 @@
       "contentUrl": "https://raw.githubusercontent.com/ogasurfproject-jpg/mcp-conduct-register/main/README.md"
     }
   ],
-  "dateModified": "2026-09-05T20:40:40Z",
+  "dateModified": "2026-09-06T20:45:54Z",
   "source": "https://gate.horizonshield.dev/register",
-  "generated_at": "2026-09-05T20:40:40Z",
+  "generated_at": "2026-09-06T20:45:54Z",
   "what_this_is": "A machine generated record of measured MCP server conduct. Not a curated list, not a ranking, not an endorsement.",
   "what_this_is_not": "It is not proof that a listed server returns correct numbers, that the business behind it is competent, or that it is safe to use.",
   "rows_are_selected_by": "nobody, the script copies whatever the API returns",
@@ -54,19 +54,19 @@
     "operator_veto": "none, the code has no route to refuse a schema valid submission"
   },
   "count": 9,
-  "gate_commit": "5b320eb27777",
+  "gate_commit": "082d68342fd9",
   "note": "The public register. Rows are scheduled measurements, not endorsements. An endpoint that is absent has simply never been measured here; absence is NOT a negative verdict. Webhooks are never published. Every stored verdict carries a record_sha256 you can recompute yourself. The operator_label field is a display name assigned by the operator, not a measurement.",
   "rows": [
     {
       "endpoint": "https://mcp.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 31,
+      "measurements": 32,
       "first_at": "2026-08-14T18:00:38.287Z",
       "latest": {
-        "at": "2026-09-05T18:00:55.397Z",
+        "at": "2026-09-06T18:01:02.005Z",
         "status": "verified",
-        "record_sha256": "9b98137c0f21fae6a5c5d641d85a498d284ff278eabcc652ccef431cdd45d910",
+        "record_sha256": "ce4186bba535015faefc07ed9a66a5677eb49c7a29db69405d36c38a404dc59b",
         "consent_source": "operator_list",
         "surface": {
           "complete": true,
@@ -116,12 +116,12 @@
       "endpoint": "https://hearing.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 31,
+      "measurements": 32,
       "first_at": "2026-08-14T18:00:39.400Z",
       "latest": {
-        "at": "2026-09-05T18:00:57.508Z",
+        "at": "2026-09-06T18:01:04.452Z",
         "status": "verified",
-        "record_sha256": "61bb613a0c0e6682e4846851e5c2731b9871715088cedb00f4f0891acf947fc4",
+        "record_sha256": "b55a5a108fcaa43951f2b42455ffc3fbe1c3290d8bd28122d5ffe8d82bd77051",
         "consent_source": "operator_list",
         "surface": {
           "complete": true,
@@ -163,12 +163,12 @@
       "endpoint": "https://web.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 31,
+      "measurements": 32,
       "first_at": "2026-08-14T18:00:40.443Z",
       "latest": {
-        "at": "2026-09-05T18:00:59.807Z",
+        "at": "2026-09-06T18:01:07.505Z",
         "status": "verified",
-        "record_sha256": "2121f4f4b34ee78115a6687cba813c260c15af68da436a2c7b01396027d2c8ae",
+        "record_sha256": "a3fdb48d47bb83f091644060f508765c4068e901127f8e883d570097764339f5",
         "consent_source": "operator_list",
         "surface": {
           "complete": true,
@@ -209,12 +209,12 @@
       "endpoint": "https://jidec.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 29,
+      "measurements": 30,
       "first_at": "2026-08-16T18:00:08.697Z",
       "latest": {
-        "at": "2026-09-05T18:01:00.591Z",
+        "at": "2026-09-06T18:01:08.522Z",
         "status": "verified",
-        "record_sha256": "c9af4b5b82c5c4c9557e62ef2e0f934fd5df19c06455693b474945b87806b162",
+        "record_sha256": "968575a5ffb04fe3fe9a8b3150214ace0484e607fbacec293f980aefb4759544",
         "consent_source": "operator_list",
         "surface": {
           "complete": true,
@@ -245,12 +245,12 @@
       "endpoint": "https://p001.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 31,
+      "measurements": 32,
       "first_at": "2026-08-14T18:00:41.607Z",
       "latest": {
-        "at": "2026-09-05T18:01:02.955Z",
+        "at": "2026-09-06T18:01:10.386Z",
         "status": "pending",
-        "record_sha256": "fd91dcb7ed35bff92a1ed4a35e818f73ea9006b1328668aa5d6bd8df89449e5f",
+        "record_sha256": "4d0f70370f27976ccded04efd36535c0d76a0381cc4943107054d824fd61889c",
         "consent_source": "none",
         "surface": {
           "complete": true,
@@ -279,12 +279,12 @@
       "endpoint": "https://p002.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 31,
+      "measurements": 32,
       "first_at": "2026-08-14T18:00:42.514Z",
       "latest": {
-        "at": "2026-09-05T18:01:03.708Z",
+        "at": "2026-09-06T18:01:11.270Z",
         "status": "verified",
-        "record_sha256": "4e55797a2b7a85d03c9f0a628e6d18d539abcb524ee32bc3e954b0b1922c3963",
+        "record_sha256": "0840bdf8b0edfa1cf8371846ec3f53f2e3745e001f681e1c17325ca98d117201",
         "consent_source": "operator_list",
         "surface": {
           "complete": true,
@@ -311,19 +311,19 @@
       "endpoint": "https://gate.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 31,
+      "measurements": 32,
       "first_at": "2026-08-14T18:00:43.527Z",
       "latest": {
-        "at": "2026-09-05T18:01:04.520Z",
+        "at": "2026-09-06T18:01:12.388Z",
         "status": "verified",
-        "record_sha256": "a1a0ed9e647073f5d00c210dfe3ac88ef57614437a5eaa53bf57196a448e4fe9",
+        "record_sha256": "4c471418251c481f7b06ea887708c43d2bd0ab633a9c326d58f0d87843e77ce7",
         "consent_source": "operator_list",
         "surface": {
           "complete": true,
           "pages_followed": 1,
           "names_hash": "d64176a7f5c5ac43",
           "manifest_hash": "591dbbf12456b7fa",
-          "server_info_hash": "254db8b0f5cb001a",
+          "server_info_hash": "7c38a9fc88bb5584",
           "tool_hashes": {
             "check_conformance": "6c9242efbeb8a568",
             "get_conditions": "2cfe77b5fd14eb53",
