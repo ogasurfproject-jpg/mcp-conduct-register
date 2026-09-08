@@ -2065,6 +2065,100 @@
         "quality, competence or fitness of the operator or the service",
         "behaviour at instants not measured or from vantages this gate did not use"
       ]
+    },
+    {
+      "at": "2026-09-08T18:00:24.688Z",
+      "status": "verified",
+      "reachable": true,
+      "record_sha256": "9f2fa2e14a587a57f90b32bcc510a29b480a6abc8dc2f6e6bff656bc831ed242",
+      "consent_source": "operator_list",
+      "conditions": {
+        "mcp_endpoint": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "MCP endpoint responds to initialize and tools/list"
+        },
+        "agent_card": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "agent-card published and well-formed; signature verifies"
+        },
+        "compensation_disclosure": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "compensation structure declared"
+        },
+        "determinism": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "identical input returned identical output across 2 runs"
+        }
+      },
+      "surface": {
+        "complete": true,
+        "pages_followed": 1,
+        "names_hash": "948ea269001311d8",
+        "manifest_hash": "2b3edd31ec46ca38",
+        "server_info_hash": "fcf4b56f3e1e03c7",
+        "tool_hashes": {
+          "audit_estimate": "5d39fd670d3f74dc",
+          "check_red_flags": "3d16722682b78bbc",
+          "create_ap2_fairness_attestation": "90af58e00153a0ca",
+          "get_agent_card": "0acb3ef47f5b2be9",
+          "get_estimate_reading_guide": "8d5fbfa482552a3a",
+          "get_fair_price_sources": "68fd6dcadfa27f0e",
+          "get_jccdb_dataset_info": "797146b849b7a8ef",
+          "get_price_range": "c696d468a3111a13",
+          "list_cost_categories": "3c7b1f8fc27bc24c",
+          "preview_reverse_estimate": "2fd121c21003af13",
+          "search_cost_category": "f416ec60bd06020c",
+          "suggest_ehn": "984e3f48fb293801",
+          "verify_fair_price": "36cba70c911fdd86",
+          "verify_integrity_claim": "f6108bb73564cc44"
+        },
+        "canonicalization": "rfc8785-jcs",
+        "unsafe_integer_scan": "clean"
+      },
+      "absence_vs_failure": {
+        "measured": true,
+        "tools_measured": 14,
+        "discriminating": 14,
+        "cannot_distinguish_pct": 0
+      },
+      "fingerprint": "verified|agent_card=1,compensation_disclosure=1,determinism=1,mcp_endpoint=1",
+      "coordinate_derivation": {
+        "derived": true,
+        "window_id": "w2957",
+        "salt_commitment": "ff57ab419114d900da6d74f6a7cdc475e04c78435521303497dd862a1bf4b733",
+        "salt_created_at": "2026-09-05T18:00:12.389Z",
+        "beacon": {
+          "height": 965808,
+          "block_hash": "0000000000000000000217ec231db790d8ffea4328d608f7e4c7a56736d08eb1",
+          "block_time": "2026-09-06T17:06:00.000Z"
+        },
+        "day_in_window": 4,
+        "tool_set_sha256": "43ebcc8831d721c92c2a74d7a12e6c7259f2d0476aa18bf5cecd9cf259bc6f62",
+        "tool_count": 14,
+        "fallback": null,
+        "reason_code": null,
+        "why": null
+      },
+      "establishes": [
+        "at 2026-09-08T18:00:24.688Z this gate (commit 63010ebf09ae, version 0.4.0) measured https://mcp.horizonshield.dev/mcp and recorded status verified",
+        "conditions passed: agent_card, compensation_disclosure, determinism, mcp_endpoint; conditions failed: none",
+        "every hash in this record recomputes from the bytes it names, and record_sha256 recomputes from this record with record_sha256 and recompute_note removed",
+        "the measurement instant and the tool measured were derived from a committed salt and a Bitcoin block the subject did not choose (coordinate_derivation)"
+      ],
+      "does_not_establish": [
+        "correctness of any price, figure or answer the server returns",
+        "truth of the compensation declaration; only its presence and shape are measured",
+        "quality, competence or fitness of the operator or the service",
+        "behaviour at instants not measured or from vantages this gate did not use"
+      ]
     }
   ],
   "archive": {
@@ -2072,7 +2166,7 @@
     "source": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fmcp.horizonshield.dev%2Fmcp",
     "rule": "append-only union of every export seen, keyed by record_sha256; nothing is removed",
     "gate_retention_at_last_fetch": 400,
-    "last_fetch_at": "2026-09-07T21:44:42Z",
-    "count": 33
+    "last_fetch_at": "2026-09-08T21:22:18Z",
+    "count": 34
   }
 }
