@@ -1878,6 +1878,180 @@
         "quality, competence or fitness of the operator or the service",
         "behaviour at instants not measured or from vantages this gate did not use"
       ]
+    },
+    {
+      "at": "2026-09-08T23:42:13.700Z",
+      "status": "verified",
+      "reachable": true,
+      "record_sha256": "df7dc3f4dc6de76a20580ab92fdaeca094e9e340fe7f8031c2653f22ee63cf76",
+      "consent_source": "operator_list",
+      "conditions": {
+        "mcp_endpoint": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "MCP endpoint responds to initialize and tools/list"
+        },
+        "agent_card": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "agent-card published and well-formed"
+        },
+        "compensation_disclosure": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "compensation structure declared"
+        },
+        "determinism": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "identical input returned identical output across 2 runs"
+        }
+      },
+      "surface": {
+        "complete": true,
+        "pages_followed": 1,
+        "names_hash": "91f8a223fae08805",
+        "manifest_hash": "4a47d5dff4c20071",
+        "server_info_hash": "b521eac4d75dacf4",
+        "tool_hashes": {
+          "check_named_contractor": "25246da8616c13bd",
+          "find_contractor": "068a011c09503669",
+          "get_contractor_profile": "062a6a0896ca0b92",
+          "how_verification_works": "ca10b5ae959f41f9",
+          "list_verified_stores": "73672ebc6f24b136",
+          "mall_overview": "2d466ede70c03787"
+        },
+        "canonicalization": "rfc8785-jcs",
+        "unsafe_integer_scan": "clean"
+      },
+      "absence_vs_failure": {
+        "measured": true,
+        "tools_measured": 6,
+        "discriminating": 6,
+        "cannot_distinguish_pct": 0
+      },
+      "fingerprint": "verified|agent_card=1,compensation_disclosure=1,determinism=1,mcp_endpoint=1",
+      "coordinate_derivation": {
+        "derived": true,
+        "window_id": "w2957",
+        "salt_commitment": "ff57ab419114d900da6d74f6a7cdc475e04c78435521303497dd862a1bf4b733",
+        "salt_created_at": "2026-09-05T18:00:12.389Z",
+        "beacon": {
+          "height": 965808,
+          "block_hash": "0000000000000000000217ec231db790d8ffea4328d608f7e4c7a56736d08eb1",
+          "block_time": "2026-09-06T17:06:00.000Z"
+        },
+        "day_in_window": 3,
+        "tool_set_sha256": "6634d263f322fbce771950aed3c9a556d813e7041f58af2ab9487e3007b4ea3f",
+        "tool_count": 6,
+        "fallback": null,
+        "reason_code": null,
+        "why": null
+      },
+      "establishes": [
+        "at 2026-09-08T23:42:13.700Z this gate (commit a2c5fdf7d26c, version 0.4.1) measured https://hearing.horizonshield.dev/mcp and recorded status verified",
+        "conditions passed: agent_card, compensation_disclosure, determinism, mcp_endpoint; conditions failed: none",
+        "every hash in this record recomputes from the bytes it names, and record_sha256 recomputes from this record with record_sha256 and recompute_note removed",
+        "the measurement instant and the tool measured were derived from a committed salt and a Bitcoin block the subject did not choose (coordinate_derivation)"
+      ],
+      "does_not_establish": [
+        "correctness of any price, figure or answer the server returns",
+        "truth of the compensation declaration; only its presence and shape are measured",
+        "quality, competence or fitness of the operator or the service",
+        "behaviour at instants not measured or from vantages this gate did not use"
+      ],
+      "record_url": "https://gate.horizonshield.dev/record/df7dc3f4dc6de76a20580ab92fdaeca094e9e340fe7f8031c2653f22ee63cf76"
+    },
+    {
+      "at": "2026-09-09T18:00:42.634Z",
+      "status": "verified",
+      "reachable": true,
+      "record_sha256": "bdea93ab5d746d2d1d8c4b45c7a1f1429c6760bf55673d7874676ee6b3095c5b",
+      "consent_source": "operator_list",
+      "conditions": {
+        "mcp_endpoint": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "MCP endpoint responds to initialize and tools/list"
+        },
+        "agent_card": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "agent-card published and well-formed"
+        },
+        "compensation_disclosure": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "compensation structure declared"
+        },
+        "determinism": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "identical input returned identical output across 2 runs"
+        }
+      },
+      "surface": {
+        "complete": true,
+        "pages_followed": 1,
+        "names_hash": "91f8a223fae08805",
+        "manifest_hash": "4a47d5dff4c20071",
+        "server_info_hash": "b521eac4d75dacf4",
+        "tool_hashes": {
+          "check_named_contractor": "25246da8616c13bd",
+          "find_contractor": "068a011c09503669",
+          "get_contractor_profile": "062a6a0896ca0b92",
+          "how_verification_works": "ca10b5ae959f41f9",
+          "list_verified_stores": "73672ebc6f24b136",
+          "mall_overview": "2d466ede70c03787"
+        },
+        "canonicalization": "rfc8785-jcs",
+        "unsafe_integer_scan": "clean"
+      },
+      "absence_vs_failure": {
+        "measured": true,
+        "tools_measured": 6,
+        "discriminating": 6,
+        "cannot_distinguish_pct": 0
+      },
+      "fingerprint": "verified|agent_card=1,compensation_disclosure=1,determinism=1,mcp_endpoint=1",
+      "coordinate_derivation": {
+        "derived": true,
+        "window_id": "w2957",
+        "salt_commitment": "ff57ab419114d900da6d74f6a7cdc475e04c78435521303497dd862a1bf4b733",
+        "salt_created_at": "2026-09-05T18:00:12.389Z",
+        "beacon": {
+          "height": 965808,
+          "block_hash": "0000000000000000000217ec231db790d8ffea4328d608f7e4c7a56736d08eb1",
+          "block_time": "2026-09-06T17:06:00.000Z"
+        },
+        "day_in_window": 3,
+        "tool_set_sha256": "6634d263f322fbce771950aed3c9a556d813e7041f58af2ab9487e3007b4ea3f",
+        "tool_count": 6,
+        "fallback": null,
+        "reason_code": null,
+        "why": null
+      },
+      "establishes": [
+        "at 2026-09-09T18:00:42.634Z this gate (commit e45da70d1a56, version 0.4.3) measured https://hearing.horizonshield.dev/mcp and recorded status verified",
+        "conditions passed: agent_card, compensation_disclosure, determinism, mcp_endpoint; conditions failed: none",
+        "every hash in this record recomputes from the bytes it names, and record_sha256 recomputes from this record with record_sha256 and recompute_note removed",
+        "the measurement instant and the tool measured were derived from a committed salt and a Bitcoin block the subject did not choose (coordinate_derivation)"
+      ],
+      "does_not_establish": [
+        "correctness of any price, figure or answer the server returns",
+        "truth of the compensation declaration; only its presence and shape are measured",
+        "quality, competence or fitness of the operator or the service",
+        "behaviour at instants not measured or from vantages this gate did not use"
+      ],
+      "record_url": "https://gate.horizonshield.dev/record/bdea93ab5d746d2d1d8c4b45c7a1f1429c6760bf55673d7874676ee6b3095c5b"
     }
   ],
   "archive": {
@@ -1885,7 +2059,7 @@
     "source": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fhearing.horizonshield.dev%2Fmcp",
     "rule": "append-only union of every export seen, keyed by record_sha256; nothing is removed",
     "gate_retention_at_last_fetch": 400,
-    "last_fetch_at": "2026-09-08T21:22:18Z",
-    "count": 34
+    "last_fetch_at": "2026-09-09T21:08:03Z",
+    "count": 36
   }
 }

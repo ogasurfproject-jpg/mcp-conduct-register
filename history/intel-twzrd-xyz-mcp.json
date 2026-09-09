@@ -1,12 +1,85 @@
 {
   "endpoint": "https://intel.twzrd.xyz/mcp",
-  "entries": [],
+  "entries": [
+    {
+      "at": "2026-09-08T23:42:04.225Z",
+      "status": "pending",
+      "reachable": true,
+      "record_sha256": "b7c59584403d42548572cb1c586d68d439a7f1fa28f4c9bcd039f1150b63550e",
+      "consent_source": "none",
+      "conditions": {
+        "mcp_endpoint": {
+          "pass": false,
+          "measured": true,
+          "transport": false,
+          "reason": "initialize returned a JSON-RPC error: Invalid request parameters"
+        },
+        "agent_card": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "agent-card published and well-formed"
+        },
+        "compensation_disclosure": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "compensation structure declared"
+        },
+        "determinism": {
+          "pass": false,
+          "measured": false,
+          "transport": false,
+          "reason": "not measured: measuring determinism requires calling one of your tools, and this gate does not call tools on a server without the owner's consent. The first tool listed may be destructive. To have this condition measured, re-run with allow_tool_call set to true from a request you control."
+        }
+      },
+      "surface": null,
+      "absence_vs_failure": {
+        "measured": false,
+        "tools_measured": null,
+        "discriminating": null,
+        "cannot_distinguish_pct": null
+      },
+      "fingerprint": "pending|agent_card=1,compensation_disclosure=1,determinism=0,mcp_endpoint=0",
+      "coordinate_derivation": {
+        "derived": true,
+        "window_id": "w2957",
+        "salt_commitment": "ff57ab419114d900da6d74f6a7cdc475e04c78435521303497dd862a1bf4b733",
+        "salt_created_at": "2026-09-05T18:00:12.389Z",
+        "beacon": {
+          "height": 965808,
+          "block_hash": "0000000000000000000217ec231db790d8ffea4328d608f7e4c7a56736d08eb1",
+          "block_time": "2026-09-06T17:06:00.000Z"
+        },
+        "day_in_window": 2,
+        "tool_set_sha256": null,
+        "tool_count": 0,
+        "fallback": null,
+        "reason_code": null,
+        "why": null
+      },
+      "establishes": [
+        "at 2026-09-08T23:42:04.225Z this gate (commit a2c5fdf7d26c, version 0.4.1) measured https://intel.twzrd.xyz/mcp and recorded status pending",
+        "conditions passed: agent_card, compensation_disclosure; conditions failed: mcp_endpoint",
+        "every hash in this record recomputes from the bytes it names, and record_sha256 recomputes from this record with record_sha256 and recompute_note removed",
+        "the measurement instant and the tool measured were derived from a committed salt and a Bitcoin block the subject did not choose (coordinate_derivation)"
+      ],
+      "does_not_establish": [
+        "correctness of any price, figure or answer the server returns",
+        "truth of the compensation declaration; only its presence and shape are measured",
+        "quality, competence or fitness of the operator or the service",
+        "behaviour at instants not measured or from vantages this gate did not use",
+        "conditions not measured on this instant: determinism (unmeasured is not failed)"
+      ],
+      "record_url": "https://gate.horizonshield.dev/record/b7c59584403d42548572cb1c586d68d439a7f1fa28f4c9bcd039f1150b63550e"
+    }
+  ],
   "archive": {
     "schema": "mcp-conduct-history-archive-v1",
     "source": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fintel.twzrd.xyz%2Fmcp",
     "rule": "append-only union of every export seen, keyed by record_sha256; nothing is removed",
     "gate_retention_at_last_fetch": 400,
-    "last_fetch_at": "2026-09-05T05:37:37Z",
-    "count": 0
+    "last_fetch_at": "2026-09-09T21:08:05Z",
+    "count": 1
   }
 }
