@@ -1412,6 +1412,97 @@
         "that the operator published this card: a signature whose key is served on the agent's own host (kid hs-2026-09) does not verify (signature does not verify: the card was changed after signing, or was signed over a different canonical form), so these bytes remain attributable to this gate's observation alone"
       ],
       "record_url": "https://gate.horizonshield.dev/record/2eb3e1bb24e3f5100ca959db356c76be360350f215ad5b7b3df0200da57c8613"
+    },
+    {
+      "at": "2026-09-15T18:01:27.498Z",
+      "status": "verified",
+      "reachable": true,
+      "record_sha256": "b4846be5af4cc5665303239c9938f50697ef72c74d6c84c682593b4f017d4b1e",
+      "consent_source": "operator_list",
+      "conditions": {
+        "mcp_endpoint": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "MCP endpoint responds to initialize and tools/list"
+        },
+        "agent_card": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "agent-card published and well-formed; a signature is present but does not verify"
+        },
+        "compensation_disclosure": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "compensation structure declared"
+        },
+        "determinism": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "identical input returned identical output across 2 runs"
+        }
+      },
+      "surface": {
+        "complete": true,
+        "pages_followed": 1,
+        "names_hash": "7c364e3c7e77956f",
+        "manifest_hash": "b8e701c911a49492",
+        "server_info_hash": "986ce2a2b268bce2",
+        "tool_hashes": {
+          "check_source": "175c6d433ef0d6a6",
+          "explain_product_category": "3761cd830badbb07",
+          "get_agent_card": "5d03cb35f5f14f9e",
+          "get_femtech_topic": "8b66c0c4cb4bddb7",
+          "get_registry_entry": "72ca4c1eda694e47",
+          "how_to_verify": "06cb66ccd7406d4d",
+          "list_registry": "9a337714a7a1fd1f",
+          "register_source": "e12f2dbd2e1d56cc",
+          "verify_source": "6a268c7071c96fc7"
+        },
+        "canonicalization": "rfc8785-jcs",
+        "unsafe_integer_scan": "clean"
+      },
+      "absence_vs_failure": {
+        "measured": true,
+        "tools_measured": 9,
+        "discriminating": 0,
+        "cannot_distinguish_pct": 100
+      },
+      "fingerprint": "verified|agent_card=1,compensation_disclosure=1,determinism=1,mcp_endpoint=1",
+      "coordinate_derivation": {
+        "derived": true,
+        "window_id": "w2958",
+        "salt_commitment": "9f2d4322df312216e896440c75dceb69f2893f7b4df7437d2232e303060f5323",
+        "salt_created_at": "2026-09-06T18:00:45.296Z",
+        "beacon": {
+          "height": 966383,
+          "block_hash": "0000000000000000000174657b2639569b487df299ead571c5ce34b8f7f2f95a",
+          "block_time": "2026-09-10T16:59:35.000Z"
+        },
+        "day_in_window": 6,
+        "tool_set_sha256": "402f2e9a1b17ffd6d5939eae0dffab5d96e890512df60e983eb6574964e114d6",
+        "tool_count": 9,
+        "fallback": null,
+        "reason_code": null,
+        "why": null
+      },
+      "establishes": [
+        "at 2026-09-15T18:01:27.498Z this gate (commit 4f3f6917181e, version 0.4.7) measured https://femtech.horizonshield.dev/mcp and recorded status verified",
+        "conditions passed: agent_card, compensation_disclosure, determinism, mcp_endpoint; conditions failed: none",
+        "every hash in this record recomputes from the bytes it names, and record_sha256 recomputes from this record with record_sha256 and recompute_note removed",
+        "the measurement instant and the tool measured were derived from a committed salt and a Bitcoin block the subject did not choose (coordinate_derivation)"
+      ],
+      "does_not_establish": [
+        "correctness of any price, figure or answer the server returns",
+        "truth of the compensation declaration; only its presence and shape are measured",
+        "quality, competence or fitness of the operator or the service",
+        "behaviour at instants not measured or from vantages this gate did not use",
+        "that the operator published this card: a signature whose key is served on the agent's own host (kid hs-2026-09) does not verify (signature does not verify: the card was changed after signing, or was signed over a different canonical form), so these bytes remain attributable to this gate's observation alone"
+      ],
+      "record_url": "https://gate.horizonshield.dev/record/b4846be5af4cc5665303239c9938f50697ef72c74d6c84c682593b4f017d4b1e"
     }
   ],
   "archive": {
@@ -1419,7 +1510,7 @@
     "source": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Ffemtech.horizonshield.dev%2Fmcp",
     "rule": "append-only union of every export seen, keyed by record_sha256; nothing is removed",
     "gate_retention_at_last_fetch": 400,
-    "last_fetch_at": "2026-09-14T21:59:45Z",
-    "count": 19
+    "last_fetch_at": "2026-09-15T21:42:39Z",
+    "count": 20
   }
 }
