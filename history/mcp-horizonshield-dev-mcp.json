@@ -3618,6 +3618,103 @@
         "behaviour at instants not measured or from vantages this gate did not use"
       ],
       "record_url": "https://gate.horizonshield.dev/record/399b456dfbba84ae30890de659d28449c27e642abee2c50aadf0dfafdf937e70"
+    },
+    {
+      "at": "2026-09-23T18:00:32.099Z",
+      "status": "verified",
+      "reachable": true,
+      "record_sha256": "4cec450384597b6b33697b454c0e7bc16c0d307bae05c33742925913b6ebbd67",
+      "consent_source": "operator_list",
+      "conditions": {
+        "mcp_endpoint": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "MCP endpoint responds to initialize and tools/list"
+        },
+        "agent_card": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "agent-card published and well-formed; signature verifies"
+        },
+        "compensation_disclosure": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "compensation structure declared"
+        },
+        "determinism": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "identical input returned identical output across 2 runs"
+        }
+      },
+      "surface": {
+        "complete": true,
+        "pages_followed": 1,
+        "names_hash": "d57b9f11b82694f2",
+        "manifest_hash": "c7c4dfe8b58a5106",
+        "server_info_hash": "8007393da10d1b28",
+        "tool_hashes": {
+          "audit_estimate": "770b06e26e76b820",
+          "check_red_flags": "3d16722682b78bbc",
+          "create_ap2_fairness_attestation": "90af58e00153a0ca",
+          "find_verified_contractor": "acf844d1c117c8a8",
+          "get_agent_card": "0acb3ef47f5b2be9",
+          "get_estimate_reading_guide": "8d5fbfa482552a3a",
+          "get_fair_price_sources": "68fd6dcadfa27f0e",
+          "get_jccdb_dataset_info": "797146b849b7a8ef",
+          "get_price_range": "6a275c227d6fdd62",
+          "list_cost_categories": "3c7b1f8fc27bc24c",
+          "preview_reverse_estimate": "2fd121c21003af13",
+          "search_cost_category": "f416ec60bd06020c",
+          "suggest_ehn": "984e3f48fb293801",
+          "verify_fair_price": "36cba70c911fdd86",
+          "verify_integrity_claim": "f6108bb73564cc44"
+        },
+        "canonicalization": "rfc8785-jcs",
+        "unsafe_integer_scan": "clean"
+      },
+      "absence_vs_failure": {
+        "measured": true,
+        "tools_measured": 15,
+        "discriminating": 15,
+        "cannot_distinguish_pct": 0
+      },
+      "fingerprint": "verified|agent_card=1,compensation_disclosure=1,determinism=1,mcp_endpoint=1",
+      "coordinate_derivation": {
+        "derived": true,
+        "window_id": "w2959",
+        "salt_commitment": "bc450f9e8d3fdc6b7cc2eb587dd33af6bb6f59ca133fa268e7db9539f23afe2b",
+        "salt_created_at": "2026-09-10T18:00:31.627Z",
+        "beacon": {
+          "height": 967443,
+          "block_hash": "0000000000000000000229e636cb9bb92708e76b1360a8096dec35b81ddd20ef",
+          "block_time": "2026-09-17T17:15:49.000Z"
+        },
+        "day_in_window": 6,
+        "tool_set_sha256": "2e1ffd411265177e65334a6d133d9a826cf3928ede8c0431952b2a60b52ec45f",
+        "tool_count": 15,
+        "fallback": null,
+        "reason_code": null,
+        "why": null
+      },
+      "establishes": [
+        "at 2026-09-23T18:00:32.099Z this gate (commit unpinned: this deployment did not inject a commit (deploy_gate.sh not used), version 0.4.14) measured https://mcp.horizonshield.dev/mcp and recorded status verified",
+        "conditions passed: agent_card, compensation_disclosure, determinism, mcp_endpoint; conditions failed: none",
+        "every hash in this record recomputes from the bytes it names, and record_sha256 recomputes from this record with record_sha256 and recompute_note removed",
+        "the measurement instant and the tool measured were derived from a committed salt and a Bitcoin block the subject did not choose (coordinate_derivation)",
+        "the agent card was signed with the key at https://mcp.horizonshield.dev/.well-known/jwks.json (kid hs-2026-09), which is served on the agent's own host, and the signature verifies over the canonical card, so what the card declares is attributable to the operator and not only to this gate's observation"
+      ],
+      "does_not_establish": [
+        "correctness of any price, figure or answer the server returns",
+        "truth of the compensation declaration; only its presence and shape are measured",
+        "quality, competence or fitness of the operator or the service",
+        "behaviour at instants not measured or from vantages this gate did not use"
+      ],
+      "record_url": "https://gate.horizonshield.dev/record/4cec450384597b6b33697b454c0e7bc16c0d307bae05c33742925913b6ebbd67"
     }
   ],
   "archive": {
@@ -3625,7 +3722,7 @@
     "source": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fmcp.horizonshield.dev%2Fmcp",
     "rule": "append-only union of every export seen, keyed by record_sha256; nothing is removed",
     "gate_retention_at_last_fetch": 400,
-    "last_fetch_at": "2026-09-22T21:37:32Z",
-    "count": 49
+    "last_fetch_at": "2026-09-23T21:43:32Z",
+    "count": 50
   }
 }
