@@ -218,6 +218,79 @@
         "that the operator published this card: it carried no signature, so these bytes are attributable to this gate's observation alone and the operator can repudiate them (an unsigned card is permitted and is not a failure)"
       ],
       "record_url": "https://gate.horizonshield.dev/record/fd0a94ea32a31edb6decd13c2b22e1b7a42ec4a78d5f7beb1b4384f7364ece56"
+    },
+    {
+      "at": "2026-09-24T18:00:37.226Z",
+      "status": "pending",
+      "reachable": true,
+      "record_sha256": "2afd8188c2b3dd72a44880d064f5bc2675f67e7622585629435267fc448a13b0",
+      "consent_source": "none",
+      "conditions": {
+        "mcp_endpoint": {
+          "pass": false,
+          "measured": true,
+          "transport": false,
+          "reason": "initialize returned a JSON-RPC error: Invalid request parameters"
+        },
+        "agent_card": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "agent-card published and well-formed"
+        },
+        "compensation_disclosure": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "compensation structure declared"
+        },
+        "determinism": {
+          "pass": false,
+          "measured": false,
+          "transport": false,
+          "reason": "not measured: measuring determinism requires calling one of your tools, and this gate does not call tools on a server without the owner's consent. The first tool listed may be destructive. To have this condition measured, re-run with allow_tool_call set to true from a request you control."
+        }
+      },
+      "surface": null,
+      "absence_vs_failure": {
+        "measured": false,
+        "tools_measured": null,
+        "discriminating": null,
+        "cannot_distinguish_pct": null
+      },
+      "fingerprint": "pending|agent_card=1,compensation_disclosure=1,determinism=0,mcp_endpoint=0",
+      "coordinate_derivation": {
+        "derived": true,
+        "window_id": "w2960",
+        "salt_commitment": "1d2a3a28a20f4cf4691301f356c7a7cb178e9cd5498f9033e8e8e63f054757fc",
+        "salt_created_at": "2026-09-17T18:01:16.405Z",
+        "beacon": {
+          "height": 968427,
+          "block_hash": "000000000000000000016cebda67db9b191958f6bc6e40aad09cf0affa43251d",
+          "block_time": "2026-09-24T16:52:08.000Z"
+        },
+        "day_in_window": 0,
+        "tool_set_sha256": null,
+        "tool_count": 0,
+        "fallback": null,
+        "reason_code": null,
+        "why": null
+      },
+      "establishes": [
+        "at 2026-09-24T18:00:37.226Z this gate (commit unpinned: this deployment did not inject a commit (deploy_gate.sh not used), version 0.4.14) measured https://intel.twzrd.xyz/mcp and recorded status pending",
+        "conditions passed: agent_card, compensation_disclosure; conditions failed: mcp_endpoint",
+        "every hash in this record recomputes from the bytes it names, and record_sha256 recomputes from this record with record_sha256 and recompute_note removed",
+        "the measurement instant and the tool measured were derived from a committed salt and a Bitcoin block the subject did not choose (coordinate_derivation)"
+      ],
+      "does_not_establish": [
+        "correctness of any price, figure or answer the server returns",
+        "truth of the compensation declaration; only its presence and shape are measured",
+        "quality, competence or fitness of the operator or the service",
+        "behaviour at instants not measured or from vantages this gate did not use",
+        "conditions not measured on this instant: determinism (unmeasured is not failed)",
+        "that the operator published this card: it carried no signature, so these bytes are attributable to this gate's observation alone and the operator can repudiate them (an unsigned card is permitted and is not a failure)"
+      ],
+      "record_url": "https://gate.horizonshield.dev/record/2afd8188c2b3dd72a44880d064f5bc2675f67e7622585629435267fc448a13b0"
     }
   ],
   "archive": {
@@ -225,7 +298,7 @@
     "source": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fintel.twzrd.xyz%2Fmcp",
     "rule": "append-only union of every export seen, keyed by record_sha256; nothing is removed",
     "gate_retention_at_last_fetch": 400,
-    "last_fetch_at": "2026-09-17T21:41:23Z",
-    "count": 3
+    "last_fetch_at": "2026-09-24T21:44:45Z",
+    "count": 4
   }
 }
