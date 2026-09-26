@@ -42,9 +42,9 @@
       "contentUrl": "https://raw.githubusercontent.com/ogasurfproject-jpg/mcp-conduct-register/main/README.md"
     }
   ],
-  "dateModified": "2026-09-25T21:47:10Z",
+  "dateModified": "2026-09-26T21:29:04Z",
   "source": "https://gate.horizonshield.dev/register",
-  "generated_at": "2026-09-25T21:47:10Z",
+  "generated_at": "2026-09-26T21:29:04Z",
   "what_this_is": "A machine generated record of measured MCP server conduct. Not a curated list, not a ranking, not an endorsement.",
   "what_this_is_not": "It is not proof that a listed server returns correct numbers, that the business behind it is competent, or that it is safe to use.",
   "rows_are_selected_by": "nobody, the script copies whatever the API returns",
@@ -61,33 +61,48 @@
       "endpoint": "https://mcp.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 51,
+      "measurements": 52,
       "first_at": "2026-08-14T18:00:38.287Z",
       "latest": {
-        "at": "2026-09-25T18:00:57.731Z",
-        "status": "verified",
-        "record_sha256": "44b1b98247e2c8f9104cec21fe46de548c71c250522fd48ffc5b33af451d16b2",
-        "record_url": "https://gate.horizonshield.dev/record/44b1b98247e2c8f9104cec21fe46de548c71c250522fd48ffc5b33af451d16b2",
+        "at": "2026-09-26T18:00:18.646Z",
+        "status": "pending",
+        "record_sha256": "8c78153b24677fe667158322f1703b2d93c36a353e1d31da619f92585d1ca244",
+        "record_url": "https://gate.horizonshield.dev/record/8c78153b24677fe667158322f1703b2d93c36a353e1d31da619f92585d1ca244",
         "consent_source": "operator_list",
         "surface": {
           "complete": true,
           "pages_followed": 1,
-          "names_hash": "d57b9f11b82694f2",
-          "manifest_hash": "c7c4dfe8b58a5106",
-          "server_info_hash": "4b5766ca60e9f07b",
+          "names_hash": "c985a339437508c4",
+          "manifest_hash": "91594008a6b8698c",
+          "server_info_hash": "e127affd0f084e4c",
           "tool_hashes": {
             "audit_estimate": "770b06e26e76b820",
             "check_red_flags": "3d16722682b78bbc",
+            "compare_jccdb_regions": "0ec589c1169d7452",
             "create_ap2_fairness_attestation": "90af58e00153a0ca",
             "find_verified_contractor": "acf844d1c117c8a8",
             "get_agent_card": "0acb3ef47f5b2be9",
             "get_estimate_reading_guide": "8d5fbfa482552a3a",
             "get_fair_price_sources": "68fd6dcadfa27f0e",
+            "get_jccdb_coverage": "df3278c704b5ad63",
             "get_jccdb_dataset_info": "797146b849b7a8ef",
+            "get_jccdb_index_series": "078c5d078e95f2a2",
+            "get_jccdb_labor_rate": "f0dfd5f695384d47",
+            "get_jccdb_observations": "68ff4665c560530e",
+            "get_jccdb_work_unit_price": "8c0da7dffb45b315",
             "get_price_range": "6a275c227d6fdd62",
+            "get_us_area_factor": "def6b06758bb9f22",
+            "get_us_construction_prices": "bff26a2e3798adea",
+            "get_us_contract_discounts": "be79e0137e6b8611",
+            "get_us_import_landed_cost": "d4ba4fd8dafd903e",
+            "get_us_permits": "0c1e79936905451c",
+            "get_us_prevailing_wage": "eb47efb1b0f48a93",
+            "get_us_price_chain": "3897e7fe93d2cffb",
+            "get_us_trade_margins": "5245b490529f7bd2",
             "list_cost_categories": "3c7b1f8fc27bc24c",
             "preview_reverse_estimate": "2fd121c21003af13",
             "search_cost_category": "f416ec60bd06020c",
+            "search_jccdb_items": "8df774fdd82448e4",
             "suggest_ehn": "984e3f48fb293801",
             "verify_fair_price": "36cba70c911fdd86",
             "verify_integrity_claim": "f6108bb73564cc44"
@@ -96,8 +111,8 @@
           "unsafe_integer_scan": "clean"
         },
         "establishes": [
-          "at 2026-09-25T18:00:57.731Z this gate (commit 9475e33415c3, version 0.4.15) measured https://mcp.horizonshield.dev/mcp and recorded status verified",
-          "conditions passed: agent_card, compensation_disclosure, determinism, mcp_endpoint; conditions failed: none",
+          "at 2026-09-26T18:00:18.646Z this gate (commit 9475e33415c3, version 0.4.15) measured https://mcp.horizonshield.dev/mcp and recorded status pending",
+          "conditions passed: agent_card, compensation_disclosure, mcp_endpoint; conditions failed: determinism",
           "every hash in this record recomputes from the bytes it names, and record_sha256 recomputes from this record with record_sha256 and recompute_note removed",
           "the measurement instant and the tool measured were derived from a committed salt and a Bitcoin block the subject did not choose (coordinate_derivation)",
           "the agent card was signed with the key at https://mcp.horizonshield.dev/.well-known/jwks.json (kid hs-2026-09), which is served on the agent's own host, and the signature verifies over the canonical card, so what the card declares is attributable to the operator and not only to this gate's observation"
@@ -118,15 +133,26 @@
       "requested_by": "operator",
       "tool_call_consent": true,
       "last_surface_change": {
-        "at": "2026-09-13T18:01:07.217Z",
+        "at": "2026-09-26T18:00:18.646Z",
         "added": [
-          "find_verified_contractor"
+          "compare_jccdb_regions",
+          "get_jccdb_coverage",
+          "get_jccdb_index_series",
+          "get_jccdb_labor_rate",
+          "get_jccdb_observations",
+          "get_jccdb_work_unit_price",
+          "get_us_area_factor",
+          "get_us_construction_prices",
+          "get_us_contract_discounts",
+          "get_us_import_landed_cost",
+          "get_us_permits",
+          "get_us_prevailing_wage",
+          "get_us_price_chain",
+          "get_us_trade_margins",
+          "search_jccdb_items"
         ],
         "removed": [],
-        "definition_changed": [
-          "audit_estimate",
-          "get_price_range"
-        ],
+        "definition_changed": [],
         "note": "The tool surface changed between measurements. This is a dated fact, not a defect: the MCP specification treats tool-list changes as normal operation (notifications/tools/list_changed). Recorded for anyone; judged by no one."
       }
     },
@@ -134,13 +160,13 @@
       "endpoint": "https://hearing.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 51,
+      "measurements": 52,
       "first_at": "2026-08-14T18:00:39.400Z",
       "latest": {
-        "at": "2026-09-25T18:01:00.304Z",
+        "at": "2026-09-26T18:00:29.960Z",
         "status": "verified",
-        "record_sha256": "1b321ac3943adf034539f9a54945fc316ef2df7f5c58abaf67c8e69b8b974705",
-        "record_url": "https://gate.horizonshield.dev/record/1b321ac3943adf034539f9a54945fc316ef2df7f5c58abaf67c8e69b8b974705",
+        "record_sha256": "243766812655115a5d57445fc7e8f40bd4c2ffa39e778c86f438ea82229a5d05",
+        "record_url": "https://gate.horizonshield.dev/record/243766812655115a5d57445fc7e8f40bd4c2ffa39e778c86f438ea82229a5d05",
         "consent_source": "operator_list",
         "surface": {
           "complete": true,
@@ -160,7 +186,7 @@
           "unsafe_integer_scan": "clean"
         },
         "establishes": [
-          "at 2026-09-25T18:01:00.304Z this gate (commit 9475e33415c3, version 0.4.15) measured https://hearing.horizonshield.dev/mcp and recorded status verified",
+          "at 2026-09-26T18:00:29.960Z this gate (commit 9475e33415c3, version 0.4.15) measured https://hearing.horizonshield.dev/mcp and recorded status verified",
           "conditions passed: agent_card, compensation_disclosure, determinism, mcp_endpoint; conditions failed: none",
           "every hash in this record recomputes from the bytes it names, and record_sha256 recomputes from this record with record_sha256 and recompute_note removed",
           "the measurement instant and the tool measured were derived from a committed salt and a Bitcoin block the subject did not choose (coordinate_derivation)"
@@ -195,13 +221,13 @@
       "endpoint": "https://web.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 51,
+      "measurements": 52,
       "first_at": "2026-08-14T18:00:40.443Z",
       "latest": {
-        "at": "2026-09-25T18:01:03.566Z",
+        "at": "2026-09-26T18:00:31.788Z",
         "status": "verified",
-        "record_sha256": "a25f4aac59970cd0251caeb7aae82aba6e003ae9456f3866b237cc04b9e17688",
-        "record_url": "https://gate.horizonshield.dev/record/a25f4aac59970cd0251caeb7aae82aba6e003ae9456f3866b237cc04b9e17688",
+        "record_sha256": "49fe6fa1c89850cba277091e1b97721f33f90de63c077217fed5d17f7e82a8d0",
+        "record_url": "https://gate.horizonshield.dev/record/49fe6fa1c89850cba277091e1b97721f33f90de63c077217fed5d17f7e82a8d0",
         "consent_source": "operator_list",
         "surface": {
           "complete": true,
@@ -220,7 +246,7 @@
           "unsafe_integer_scan": "clean"
         },
         "establishes": [
-          "at 2026-09-25T18:01:03.566Z this gate (commit 9475e33415c3, version 0.4.15) measured https://web.horizonshield.dev/mcp and recorded status verified",
+          "at 2026-09-26T18:00:31.788Z this gate (commit 9475e33415c3, version 0.4.15) measured https://web.horizonshield.dev/mcp and recorded status verified",
           "conditions passed: agent_card, compensation_disclosure, determinism, mcp_endpoint; conditions failed: none",
           "every hash in this record recomputes from the bytes it names, and record_sha256 recomputes from this record with record_sha256 and recompute_note removed",
           "the measurement instant and the tool measured were derived from a committed salt and a Bitcoin block the subject did not choose (coordinate_derivation)"
@@ -255,13 +281,13 @@
       "endpoint": "https://jidec.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 49,
+      "measurements": 50,
       "first_at": "2026-08-16T18:00:08.697Z",
       "latest": {
-        "at": "2026-09-25T18:01:05.122Z",
+        "at": "2026-09-26T18:00:32.722Z",
         "status": "verified",
-        "record_sha256": "52bcf3b0483d00661b411abb9955bce8d651945cb352b268fda340604e5cfc58",
-        "record_url": "https://gate.horizonshield.dev/record/52bcf3b0483d00661b411abb9955bce8d651945cb352b268fda340604e5cfc58",
+        "record_sha256": "4b09c114f5827d707ee71f2c8d7e6c3132bc1ff6be35b8c0c6de8e5ee4277957",
+        "record_url": "https://gate.horizonshield.dev/record/4b09c114f5827d707ee71f2c8d7e6c3132bc1ff6be35b8c0c6de8e5ee4277957",
         "consent_source": "operator_list",
         "surface": {
           "complete": true,
@@ -279,7 +305,7 @@
           "unsafe_integer_scan": "clean"
         },
         "establishes": [
-          "at 2026-09-25T18:01:05.122Z this gate (commit 9475e33415c3, version 0.4.15) measured https://jidec.horizonshield.dev/mcp and recorded status verified",
+          "at 2026-09-26T18:00:32.722Z this gate (commit 9475e33415c3, version 0.4.15) measured https://jidec.horizonshield.dev/mcp and recorded status verified",
           "conditions passed: agent_card, compensation_disclosure, determinism, mcp_endpoint; conditions failed: none",
           "every hash in this record recomputes from the bytes it names, and record_sha256 recomputes from this record with record_sha256 and recompute_note removed",
           "the measurement instant and the tool measured were derived from a committed salt and a Bitcoin block the subject did not choose (coordinate_derivation)",
@@ -305,13 +331,13 @@
       "endpoint": "https://p001.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 51,
+      "measurements": 52,
       "first_at": "2026-08-14T18:00:41.607Z",
       "latest": {
-        "at": "2026-09-25T18:01:07.419Z",
+        "at": "2026-09-26T18:00:34.439Z",
         "status": "verified",
-        "record_sha256": "5e98e265ffbed4990bef853356cf26c5f3f0d30d7ccb88f8d4c76755685e59f3",
-        "record_url": "https://gate.horizonshield.dev/record/5e98e265ffbed4990bef853356cf26c5f3f0d30d7ccb88f8d4c76755685e59f3",
+        "record_sha256": "e9bb449a8f03c16b34e7aeba08c9f25a9e117bd025320c59d16a5f4ba829b68e",
+        "record_url": "https://gate.horizonshield.dev/record/e9bb449a8f03c16b34e7aeba08c9f25a9e117bd025320c59d16a5f4ba829b68e",
         "consent_source": "well_known",
         "surface": {
           "complete": true,
@@ -326,7 +352,7 @@
           "unsafe_integer_scan": "clean"
         },
         "establishes": [
-          "at 2026-09-25T18:01:07.419Z this gate (commit 9475e33415c3, version 0.4.15) measured https://p001.horizonshield.dev/mcp and recorded status verified",
+          "at 2026-09-26T18:00:34.439Z this gate (commit 9475e33415c3, version 0.4.15) measured https://p001.horizonshield.dev/mcp and recorded status verified",
           "conditions passed: agent_card, compensation_disclosure, determinism, mcp_endpoint; conditions failed: none",
           "every hash in this record recomputes from the bytes it names, and record_sha256 recomputes from this record with record_sha256 and recompute_note removed",
           "the measurement instant and the tool measured were derived from a committed salt and a Bitcoin block the subject did not choose (coordinate_derivation)"
@@ -352,13 +378,13 @@
       "endpoint": "https://p002.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 51,
+      "measurements": 52,
       "first_at": "2026-08-14T18:00:42.514Z",
       "latest": {
-        "at": "2026-09-25T18:01:08.770Z",
+        "at": "2026-09-26T18:00:35.368Z",
         "status": "verified",
-        "record_sha256": "ef4f0861254b2a929b755f3144dc70f873b3900a953d77f968a650048b1e80a5",
-        "record_url": "https://gate.horizonshield.dev/record/ef4f0861254b2a929b755f3144dc70f873b3900a953d77f968a650048b1e80a5",
+        "record_sha256": "7c4c39d53e851b725672a05fdb014c62674eec9f83500cae89b25253c0572051",
+        "record_url": "https://gate.horizonshield.dev/record/7c4c39d53e851b725672a05fdb014c62674eec9f83500cae89b25253c0572051",
         "consent_source": "operator_list",
         "surface": {
           "complete": true,
@@ -373,7 +399,7 @@
           "unsafe_integer_scan": "clean"
         },
         "establishes": [
-          "at 2026-09-25T18:01:08.770Z this gate (commit 9475e33415c3, version 0.4.15) measured https://p002.horizonshield.dev/mcp and recorded status verified",
+          "at 2026-09-26T18:00:35.368Z this gate (commit 9475e33415c3, version 0.4.15) measured https://p002.horizonshield.dev/mcp and recorded status verified",
           "conditions passed: agent_card, compensation_disclosure, determinism, mcp_endpoint; conditions failed: none",
           "every hash in this record recomputes from the bytes it names, and record_sha256 recomputes from this record with record_sha256 and recompute_note removed",
           "the measurement instant and the tool measured were derived from a committed salt and a Bitcoin block the subject did not choose (coordinate_derivation)"
@@ -398,13 +424,13 @@
       "endpoint": "https://gate.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 51,
+      "measurements": 52,
       "first_at": "2026-08-14T18:00:43.527Z",
       "latest": {
-        "at": "2026-09-25T18:01:10.397Z",
+        "at": "2026-09-26T18:00:36.311Z",
         "status": "verified",
-        "record_sha256": "6e5ed6fb04d3f7ab844b4bbbb0eae1740777225d4086a6185e5e2e6a00d4a331",
-        "record_url": "https://gate.horizonshield.dev/record/6e5ed6fb04d3f7ab844b4bbbb0eae1740777225d4086a6185e5e2e6a00d4a331",
+        "record_sha256": "3d7a48c0c383dbe3855112818b32055993370b762283a4c8256feb5d99ff2f2e",
+        "record_url": "https://gate.horizonshield.dev/record/3d7a48c0c383dbe3855112818b32055993370b762283a4c8256feb5d99ff2f2e",
         "consent_source": "operator_list",
         "surface": {
           "complete": true,
@@ -423,7 +449,7 @@
           "unsafe_integer_scan": "clean"
         },
         "establishes": [
-          "at 2026-09-25T18:01:10.397Z this gate (commit 9475e33415c3, version 0.4.15) measured https://gate.horizonshield.dev/mcp and recorded status verified",
+          "at 2026-09-26T18:00:36.311Z this gate (commit 9475e33415c3, version 0.4.15) measured https://gate.horizonshield.dev/mcp and recorded status verified",
           "conditions passed: agent_card, compensation_disclosure, determinism, mcp_endpoint; conditions failed: none",
           "every hash in this record recomputes from the bytes it names, and record_sha256 recomputes from this record with record_sha256 and recompute_note removed",
           "the measurement instant and the tool measured were derived from a committed salt and a Bitcoin block the subject did not choose (coordinate_derivation)",
@@ -449,13 +475,13 @@
       "endpoint": "https://femtech.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 29,
+      "measurements": 30,
       "first_at": "2026-08-28T01:15:59.063Z",
       "latest": {
-        "at": "2026-09-24T18:00:43.754Z",
+        "at": "2026-09-26T18:00:17.734Z",
         "status": "verified",
-        "record_sha256": "80588968e814f5d75197d39d59d145a47194730394de8ddc0d1f9941a7090e7a",
-        "record_url": "https://gate.horizonshield.dev/record/80588968e814f5d75197d39d59d145a47194730394de8ddc0d1f9941a7090e7a",
+        "record_sha256": "52031b26a369171239f3ed2f15f3b7bd433b74b8e6361d4c050b94ae03eef7f5",
+        "record_url": "https://gate.horizonshield.dev/record/52031b26a369171239f3ed2f15f3b7bd433b74b8e6361d4c050b94ae03eef7f5",
         "consent_source": "operator_list",
         "surface": {
           "complete": true,
@@ -478,7 +504,7 @@
           "unsafe_integer_scan": "clean"
         },
         "establishes": [
-          "at 2026-09-24T18:00:43.754Z this gate (commit unpinned: this deployment did not inject a commit (deploy_gate.sh not used), version 0.4.14) measured https://femtech.horizonshield.dev/mcp and recorded status verified",
+          "at 2026-09-26T18:00:17.734Z this gate (commit 9475e33415c3, version 0.4.15) measured https://femtech.horizonshield.dev/mcp and recorded status verified",
           "conditions passed: agent_card, compensation_disclosure, determinism, mcp_endpoint; conditions failed: none",
           "every hash in this record recomputes from the bytes it names, and record_sha256 recomputes from this record with record_sha256 and recompute_note removed",
           "the measurement instant and the tool measured were derived from a committed salt and a Bitcoin block the subject did not choose (coordinate_derivation)"
@@ -488,7 +514,7 @@
           "truth of the compensation declaration; only its presence and shape are measured",
           "quality, competence or fitness of the operator or the service",
           "behaviour at instants not measured or from vantages this gate did not use",
-          "that the operator published this card: a signature whose key is served on the agent's own host (kid hs-2026-09) does not verify (signature does not verify: the card was changed after signing, or was signed over a different canonical form), so these bytes remain attributable to this gate's observation alone"
+          "that the operator published this card: a signature whose key is served on the agent's own host (kid hs-2026-09) does not verify (signature does not verify over either canonical form (the A2A 1.0 section 8.4 proto projection, or RFC 8785 of the card as served): the card was changed after signing, or was signed over some other form), so these bytes remain attributable to this gate's observation alone"
         ]
       },
       "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Ffemtech.horizonshield.dev%2Fmcp",
