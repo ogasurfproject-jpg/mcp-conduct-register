@@ -4481,6 +4481,157 @@
         "behaviour at instants not measured or from vantages this gate did not use"
       ],
       "record_url": "https://gate.horizonshield.dev/record/56b37d2edfc99aaa54d013fb0b89301fa94df24e146f8b1bdc4a596f68c57c60"
+    },
+    {
+      "at": "2026-10-01T18:00:56.965Z",
+      "status": "verified",
+      "reachable": true,
+      "record_sha256": "0c42bee8cb0f9842e0face67d69e328209ea716fc051284b75c17344ffeaee19",
+      "consent_source": "operator_list",
+      "conditions": {
+        "mcp_endpoint": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "MCP endpoint responds to initialize and tools/list"
+        },
+        "agent_card": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "agent-card published and well-formed; signature verifies"
+        },
+        "compensation_disclosure": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "compensation structure declared"
+        },
+        "determinism": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "identical input returned identical output across 2 runs"
+        }
+      },
+      "surface": {
+        "complete": true,
+        "pages_followed": 1,
+        "names_hash": "c985a339437508c4",
+        "manifest_hash": "ba9524c841daedfa",
+        "server_info_hash": "e127affd0f084e4c",
+        "tool_hashes": {
+          "audit_estimate": "770b06e26e76b820",
+          "check_red_flags": "3d16722682b78bbc",
+          "compare_jccdb_regions": "0ec589c1169d7452",
+          "create_ap2_fairness_attestation": "90af58e00153a0ca",
+          "find_verified_contractor": "acf844d1c117c8a8",
+          "get_agent_card": "0acb3ef47f5b2be9",
+          "get_estimate_reading_guide": "8d5fbfa482552a3a",
+          "get_fair_price_sources": "68fd6dcadfa27f0e",
+          "get_jccdb_coverage": "df3278c704b5ad63",
+          "get_jccdb_dataset_info": "68c660f6c7bfe376",
+          "get_jccdb_index_series": "078c5d078e95f2a2",
+          "get_jccdb_labor_rate": "f0dfd5f695384d47",
+          "get_jccdb_observations": "68ff4665c560530e",
+          "get_jccdb_work_unit_price": "8c0da7dffb45b315",
+          "get_price_range": "6a275c227d6fdd62",
+          "get_us_area_factor": "def6b06758bb9f22",
+          "get_us_construction_prices": "bff26a2e3798adea",
+          "get_us_contract_discounts": "be79e0137e6b8611",
+          "get_us_import_landed_cost": "d4ba4fd8dafd903e",
+          "get_us_permits": "0c1e79936905451c",
+          "get_us_prevailing_wage": "eb47efb1b0f48a93",
+          "get_us_price_chain": "3897e7fe93d2cffb",
+          "get_us_trade_margins": "5245b490529f7bd2",
+          "list_cost_categories": "3c7b1f8fc27bc24c",
+          "preview_reverse_estimate": "2fd121c21003af13",
+          "search_cost_category": "f416ec60bd06020c",
+          "search_jccdb_items": "06cb7e301394e335",
+          "suggest_ehn": "984e3f48fb293801",
+          "verify_fair_price": "36cba70c911fdd86",
+          "verify_integrity_claim": "f6108bb73564cc44"
+        },
+        "extras_covers": [
+          "annotations",
+          "_meta",
+          "outputSchema",
+          "title"
+        ],
+        "extras_manifest_hash": "4e65c6c494ae5dac",
+        "extras_hashes": {
+          "audit_estimate": "e77ed715a466fff9",
+          "check_red_flags": "27ddb9483dafe3d8",
+          "compare_jccdb_regions": "3a9c9d11f65bfe87",
+          "create_ap2_fairness_attestation": "7720a2aca1350bda",
+          "find_verified_contractor": "82b1c629b84182ac",
+          "get_agent_card": "fa3b9a539f16f37e",
+          "get_estimate_reading_guide": "cbb4094bdc10dfc9",
+          "get_fair_price_sources": "f5eaa92ca410f5f4",
+          "get_jccdb_coverage": "aab87acc1657e3f8",
+          "get_jccdb_dataset_info": "ff3f1bda4a09f3ac",
+          "get_jccdb_index_series": "62375964d4ec1b9b",
+          "get_jccdb_labor_rate": "981efabf777afdd7",
+          "get_jccdb_observations": "e32cb5e5798dcfc3",
+          "get_jccdb_work_unit_price": "b38122b206d2e556",
+          "get_price_range": "95836e127d592d58",
+          "get_us_area_factor": "a388c9a61dccba1c",
+          "get_us_construction_prices": "e484789eb53661b0",
+          "get_us_contract_discounts": "bcfbb883bdfff204",
+          "get_us_import_landed_cost": "2a69ed0cd9d3683f",
+          "get_us_permits": "f1dace7a0d1dd6f5",
+          "get_us_prevailing_wage": "04c0090536b79f06",
+          "get_us_price_chain": "968b078c5fb853a0",
+          "get_us_trade_margins": "9bbdf9049199482d",
+          "list_cost_categories": "5a139c9b47df2966",
+          "preview_reverse_estimate": "be6c998c37a2a764",
+          "search_cost_category": "0a69e494522fd209",
+          "search_jccdb_items": "6e4ddf2ffcd10cf8",
+          "suggest_ehn": "5889e221b5e1c757",
+          "verify_fair_price": "cd540834cc5045df",
+          "verify_integrity_claim": "5c7532f082444b5a"
+        },
+        "canonicalization": "rfc8785-jcs",
+        "unsafe_integer_scan": "clean"
+      },
+      "absence_vs_failure": {
+        "measured": true,
+        "tools_measured": 30,
+        "discriminating": 30,
+        "cannot_distinguish_pct": 0
+      },
+      "fingerprint": "verified|agent_card=1,compensation_disclosure=1,determinism=1,mcp_endpoint=1",
+      "coordinate_derivation": {
+        "derived": true,
+        "window_id": "w2961",
+        "salt_commitment": "a610c33a3a00109495458a5ea0314c65f40c3a6175bb1b80c06ce0f8ba295b31",
+        "salt_created_at": "2026-09-24T18:00:33.961Z",
+        "beacon": {
+          "height": 969466,
+          "block_hash": "0000000000000000000190274198b6ff8e4c848049f935d9a5bdf0561a0035ed",
+          "block_time": "2026-10-01T16:43:37.000Z"
+        },
+        "day_in_window": 6,
+        "tool_set_sha256": "23822de5cd9df312ead79b3105b985b680e74618d4daefbca7f49542bdff4b7f",
+        "tool_count": 30,
+        "fallback": null,
+        "reason_code": null,
+        "why": null
+      },
+      "establishes": [
+        "at 2026-10-01T18:00:56.965Z this gate (commit 21ae3d461309, version 0.4.20) measured https://mcp.horizonshield.dev/mcp and recorded status verified",
+        "conditions passed: agent_card, compensation_disclosure, determinism, mcp_endpoint; conditions failed: none",
+        "every hash in this record recomputes from the bytes it names, and record_sha256 recomputes from this record with record_sha256 and recompute_note removed",
+        "the measurement instant and the tool measured were derived from a committed salt and a Bitcoin block the subject did not choose (coordinate_derivation)",
+        "the agent card was signed with the key at https://mcp.horizonshield.dev/.well-known/jwks.json (kid hs-2026-09), which is served on the agent's own host, and the signature verifies over the canonical card, so what the card declares is attributable to the operator and not only to this gate's observation"
+      ],
+      "does_not_establish": [
+        "correctness of any price, figure or answer the server returns",
+        "truth of the compensation declaration; only its presence and shape are measured",
+        "quality, competence or fitness of the operator or the service",
+        "behaviour at instants not measured or from vantages this gate did not use"
+      ],
+      "record_url": "https://gate.horizonshield.dev/record/0c42bee8cb0f9842e0face67d69e328209ea716fc051284b75c17344ffeaee19"
     }
   ],
   "archive": {
@@ -4488,7 +4639,7 @@
     "source": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fmcp.horizonshield.dev%2Fmcp",
     "rule": "append-only union of every export seen, keyed by record_sha256; nothing is removed",
     "gate_retention_at_last_fetch": 400,
-    "last_fetch_at": "2026-09-30T22:33:00Z",
-    "count": 56
+    "last_fetch_at": "2026-10-01T22:52:20Z",
+    "count": 57
   }
 }
