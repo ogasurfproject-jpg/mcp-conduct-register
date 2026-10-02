@@ -1,0 +1,12 @@
+{
+  "endpoint": "https://integrated-system-gzyu.onrender.com/mcp",
+  "entries": [],
+  "archive": {
+    "schema": "mcp-conduct-history-archive-v1",
+    "source": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fintegrated-system-gzyu.onrender.com%2Fmcp",
+    "rule": "append-only union of every export seen, keyed by record_sha256; nothing is removed",
+    "gate_retention_at_last_fetch": 400,
+    "last_fetch_at": "2026-10-02T22:30:36Z",
+    "count": 0
+  }
+}
