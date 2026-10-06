@@ -4001,6 +4001,115 @@
         "behaviour at instants not measured or from vantages this gate did not use"
       ],
       "record_url": "https://gate.horizonshield.dev/record/c0fa17f835f8a787551b04d248a4b698c620c955775d96f4a22fd624d8512c85"
+    },
+    {
+      "at": "2026-10-05T18:00:28.326Z",
+      "status": "verified",
+      "reachable": true,
+      "record_sha256": "657a416c80faba90a74677812c95c7b5c013a3ea451ccb52b75a9e0107b7e1a7",
+      "consent_source": "operator_list",
+      "conditions": {
+        "mcp_endpoint": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "MCP endpoint responds to initialize and tools/list"
+        },
+        "agent_card": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "agent-card published and well-formed; signature verifies"
+        },
+        "compensation_disclosure": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "compensation structure declared"
+        },
+        "determinism": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "identical input returned identical output across 2 runs"
+        }
+      },
+      "surface": {
+        "complete": true,
+        "pages_followed": 1,
+        "names_hash": "650618ca37232f74",
+        "manifest_hash": "f69713ff28a7ac62",
+        "server_info_hash": "75a84c8e94e6cf6c",
+        "tool_hashes": {
+          "jidec_cite": "2b3d6878d4dc3199",
+          "jidec_how_to_verify": "1e46fd10669699bc",
+          "jidec_list_paths": "19490f8ac003a1c2",
+          "jidec_replay": "f92e83492f4936b7",
+          "nenrin_ledger_entry": "b88f99545fa63b0b",
+          "nenrin_ledger_head": "c756cb79d8df603d",
+          "nenrin_resume": "b46fe8223a05ee71",
+          "nenrin_trust_signal": "7748e26c8d2ac47f",
+          "nenrin_witness": "ab6e5a08902ee2fe"
+        },
+        "extras_covers": [
+          "annotations",
+          "_meta",
+          "outputSchema",
+          "title"
+        ],
+        "extras_manifest_hash": "8f3dbe9c57afbd5a",
+        "extras_hashes": {
+          "jidec_cite": "44b29881be443570",
+          "jidec_how_to_verify": "08ef2a835d826b76",
+          "jidec_list_paths": "c3b7526b2b243978",
+          "jidec_replay": "573c7610897837e9",
+          "nenrin_ledger_entry": "07b71e44b4eca55d",
+          "nenrin_ledger_head": "3e6ee02a08529993",
+          "nenrin_resume": "da4cb70da8a7f992",
+          "nenrin_trust_signal": "cd6ca580d6094c8c",
+          "nenrin_witness": "b2eae5ec89a6f9b6"
+        },
+        "canonicalization": "rfc8785-jcs",
+        "unsafe_integer_scan": "clean"
+      },
+      "absence_vs_failure": {
+        "measured": true,
+        "tools_measured": 9,
+        "discriminating": 9,
+        "cannot_distinguish_pct": 0
+      },
+      "fingerprint": "verified|agent_card=1,compensation_disclosure=1,determinism=1,mcp_endpoint=1",
+      "coordinate_derivation": {
+        "derived": true,
+        "window_id": "w2961",
+        "salt_commitment": "a610c33a3a00109495458a5ea0314c65f40c3a6175bb1b80c06ce0f8ba295b31",
+        "salt_created_at": "2026-09-24T18:00:33.961Z",
+        "beacon": {
+          "height": 969466,
+          "block_hash": "0000000000000000000190274198b6ff8e4c848049f935d9a5bdf0561a0035ed",
+          "block_time": "2026-10-01T16:43:37.000Z"
+        },
+        "day_in_window": 4,
+        "tool_set_sha256": "c302d07ca8ca4b9f2ec5d497a4a5325a7072b001c35ced15b0bc9e4f16e41b6d",
+        "tool_count": 9,
+        "fallback": null,
+        "reason_code": null,
+        "why": null
+      },
+      "establishes": [
+        "at 2026-10-05T18:00:28.326Z this gate (commit 0194e7f4976e, version 0.4.20) measured https://jidec.horizonshield.dev/mcp and recorded status verified",
+        "conditions passed: agent_card, compensation_disclosure, determinism, mcp_endpoint; conditions failed: none",
+        "every hash in this record recomputes from the bytes it names, and record_sha256 recomputes from this record with record_sha256 and recompute_note removed",
+        "the measurement instant and the tool measured were derived from a committed salt and a Bitcoin block the subject did not choose (coordinate_derivation)",
+        "the agent card was signed with the key at https://jidec.horizonshield.dev/.well-known/jwks.json (kid hs-2026-09), which is served on the agent's own host, and the signature verifies over the canonical card, so what the card declares is attributable to the operator and not only to this gate's observation"
+      ],
+      "does_not_establish": [
+        "correctness of any price, figure or answer the server returns",
+        "truth of the compensation declaration; only its presence and shape are measured",
+        "quality, competence or fitness of the operator or the service",
+        "behaviour at instants not measured or from vantages this gate did not use"
+      ],
+      "record_url": "https://gate.horizonshield.dev/record/657a416c80faba90a74677812c95c7b5c013a3ea451ccb52b75a9e0107b7e1a7"
     }
   ],
   "archive": {
@@ -4008,7 +4117,7 @@
     "source": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fjidec.horizonshield.dev%2Fmcp",
     "rule": "append-only union of every export seen, keyed by record_sha256; nothing is removed",
     "gate_retention_at_last_fetch": 400,
-    "last_fetch_at": "2026-10-04T21:52:33Z",
-    "count": 57
+    "last_fetch_at": "2026-10-06T00:17:07Z",
+    "count": 58
   }
 }
