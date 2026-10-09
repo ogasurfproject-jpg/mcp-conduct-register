@@ -4325,6 +4325,120 @@
         ],
         "note": "The tool surface changed between measurements. This is a dated fact, not a defect: the MCP specification treats tool-list changes as normal operation (notifications/tools/list_changed). Recorded for anyone; judged by no one. extras_changed lists tools whose annotations, _meta, outputSchema or title moved while name, description and inputSchema may not have. Annotations such as destructiveHint are what a client reads to decide whether to ask a person first; they are self-declared hints and this gate does not judge whether the new value is true."
       }
+    },
+    {
+      "at": "2026-10-09T18:00:45.375Z",
+      "status": "verified",
+      "reachable": true,
+      "record_sha256": "7481947f04474e79f798bb3bcdfca4641cccb5bbd1ee860564ca67519850d708",
+      "consent_source": "operator_list",
+      "conditions": {
+        "mcp_endpoint": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "MCP endpoint responds to initialize and tools/list"
+        },
+        "agent_card": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "agent-card published and well-formed; signature verifies"
+        },
+        "compensation_disclosure": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "compensation structure declared"
+        },
+        "determinism": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "identical input returned identical output across 2 runs"
+        }
+      },
+      "surface": {
+        "complete": true,
+        "pages_followed": 1,
+        "names_hash": "a7ae855561f7e259",
+        "manifest_hash": "93f6a53c8bb31598",
+        "server_info_hash": "e555c0a469814a62",
+        "tool_hashes": {
+          "check_conformance": "c68de4a02ab39814",
+          "get_conditions": "2cfe77b5fd14eb53",
+          "is_verified": "d08b2eaeddb69207",
+          "lookup_server": "2fe0ca861d7903a0",
+          "preflight_agent": "4f4056653181ff2f",
+          "verify_verdict": "c022a23b3d8ce7b3"
+        },
+        "extras_covers": [
+          "annotations",
+          "_meta",
+          "outputSchema",
+          "title"
+        ],
+        "extras_manifest_hash": "87700d333d53fb0f",
+        "extras_hashes": {
+          "check_conformance": "785249d52293602e",
+          "get_conditions": "93c373ef95a2a2bd",
+          "is_verified": "da5899024ccf7651",
+          "lookup_server": "5ff810db83984c5e",
+          "preflight_agent": "54245c666b3d95c3",
+          "verify_verdict": "659f6931e0cc6769"
+        },
+        "canonicalization": "rfc8785-jcs",
+        "unsafe_integer_scan": "clean"
+      },
+      "absence_vs_failure": {
+        "measured": true,
+        "tools_measured": 6,
+        "discriminating": 5,
+        "cannot_distinguish_pct": 16.7
+      },
+      "fingerprint": "verified|agent_card=1,compensation_disclosure=1,determinism=1,mcp_endpoint=1",
+      "coordinate_derivation": {
+        "derived": true,
+        "window_id": "w2962",
+        "salt_commitment": "837d54ffa4050b9cc48d4730a8ebb6111af5bcde48e8002f41c631029ba26334",
+        "salt_created_at": "2026-10-01T18:00:17.119Z",
+        "beacon": {
+          "height": 970510,
+          "block_hash": "00000000000000000001d475a45969bf4991e5351185e475b52a5f523be8aa80",
+          "block_time": "2026-10-08T16:00:22.000Z"
+        },
+        "day_in_window": 4,
+        "tool_set_sha256": "30a477b6a8efa9d2b80876142149a9dacb2328da66de9fc9822020c74d63d2ec",
+        "tool_count": 6,
+        "fallback": null,
+        "reason_code": null,
+        "why": null
+      },
+      "establishes": [
+        "at 2026-10-09T18:00:45.375Z this gate (commit 4f0ebd2dbb52, version 0.4.20) measured https://gate.horizonshield.dev/mcp and recorded status verified",
+        "conditions passed: agent_card, compensation_disclosure, determinism, mcp_endpoint; conditions failed: none",
+        "every hash in this record recomputes from the bytes it names, and record_sha256 recomputes from this record with record_sha256 and recompute_note removed",
+        "the measurement instant and the tool measured were derived from a committed salt and a Bitcoin block the subject did not choose (coordinate_derivation)",
+        "the agent card was signed with the key at https://gate.horizonshield.dev/.well-known/jwks.json (kid hs-2026-09), which is served on the agent's own host, and the signature verifies over the canonical card, so what the card declares is attributable to the operator and not only to this gate's observation"
+      ],
+      "does_not_establish": [
+        "correctness of any price, figure or answer the server returns",
+        "truth of the compensation declaration; only its presence and shape are measured",
+        "quality, competence or fitness of the operator or the service",
+        "behaviour at instants not measured or from vantages this gate did not use"
+      ],
+      "record_url": "https://gate.horizonshield.dev/record/7481947f04474e79f798bb3bcdfca4641cccb5bbd1ee860564ca67519850d708",
+      "surface_change": {
+        "added": [],
+        "removed": [],
+        "definition_changed": [
+          "check_conformance"
+        ],
+        "extras_changed": [
+          "check_conformance"
+        ],
+        "note": "The tool surface changed between measurements. This is a dated fact, not a defect: the MCP specification treats tool-list changes as normal operation (notifications/tools/list_changed). Recorded for anyone; judged by no one. extras_changed lists tools whose annotations, _meta, outputSchema or title moved while name, description and inputSchema may not have. Annotations such as destructiveHint are what a client reads to decide whether to ask a person first; they are self-declared hints and this gate does not judge whether the new value is true."
+      }
     }
   ],
   "archive": {
@@ -4332,7 +4446,7 @@
     "source": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fgate.horizonshield.dev%2Fmcp",
     "rule": "append-only union of every export seen, keyed by record_sha256; nothing is removed",
     "gate_retention_at_last_fetch": 400,
-    "last_fetch_at": "2026-10-07T23:16:34Z",
-    "count": 62
+    "last_fetch_at": "2026-10-09T22:51:18Z",
+    "count": 63
   }
 }
