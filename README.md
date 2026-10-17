@@ -33,21 +33,21 @@ Every verdict carries a `record_sha256` that anyone can recompute from the publi
 The measurement code, the gate that runs it, and this generator are all public.
 
 <!-- REGISTER:START -->
-Generated from <https://gate.horizonshield.dev/register> at 2026-10-16 21:37 UTC.
+Generated from <https://gate.horizonshield.dev/register> at 2026-10-17 20:53 UTC.
 
 **11 rows.** Nobody chose them. This table is written by a script, not a person.
 
 | Server | Endpoint | Latest verdict | Measured | Public measurements | record_sha256 | History |
 |---|---|---|---|---|---|---|
-| KIRA fair price audit (the flagship MCP server)<br><sub>KIRA適正診断</sub> | `https://mcp.horizonshield.dev/mcp` | verified | 2026-10-16 | 69 | `1b020a8ca5db` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fmcp.horizonshield.dev%2Fmcp) |
-| YAKUMO verified contractor directory<br><sub>YAKUMO加盟店ディレクトリ</sub> | `https://hearing.horizonshield.dev/mcp` | verified | 2026-10-16 | 69 | `62013b8d893f` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fhearing.horizonshield.dev%2Fmcp) |
-| KIRA intake desk for renovation questions<br><sub>KIRA相談窓口</sub> | `https://web.horizonshield.dev/mcp` | verified | 2026-10-16 | 69 | `6b6812ffb9ca` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fweb.horizonshield.dev%2Fmcp) |
-| JIDEC, the Bitcoin anchored public ledger<br><sub>JIDEC 公開検証台帳</sub> | `https://jidec.horizonshield.dev/mcp` | verified | 2026-10-16 | 67 | `1d64b8eeda2c` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fjidec.horizonshield.dev%2Fmcp) |
-| Reform Shokunin Co., Ltd. (member No.001, Aichi)<br><sub>リフォーム職人株式会社（加盟No.001）</sub> | `https://p001.horizonshield.dev/mcp` | verified | 2026-10-16 | 69 | `f66fe87b3f6c` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fp001.horizonshield.dev%2Fmcp) |
-| Mineo Toyo Juki Co., Ltd. (member No.002)<br><sub>ミネオトーヨー住器株式会社（加盟No.002）</sub> | `https://p002.horizonshield.dev/mcp` | verified | 2026-10-16 | 69 | `d306e0964f65` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fp002.horizonshield.dev%2Fmcp) |
+| KIRA fair price audit (the flagship MCP server)<br><sub>KIRA適正診断</sub> | `https://mcp.horizonshield.dev/mcp` | verified | 2026-10-17 | 70 | `36bee3506a02` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fmcp.horizonshield.dev%2Fmcp) |
+| YAKUMO verified contractor directory<br><sub>YAKUMO加盟店ディレクトリ</sub> | `https://hearing.horizonshield.dev/mcp` | verified | 2026-10-17 | 70 | `87aacc3c4601` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fhearing.horizonshield.dev%2Fmcp) |
+| KIRA intake desk for renovation questions<br><sub>KIRA相談窓口</sub> | `https://web.horizonshield.dev/mcp` | verified | 2026-10-17 | 70 | `d61a0f519f77` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fweb.horizonshield.dev%2Fmcp) |
+| JIDEC, the Bitcoin anchored public ledger<br><sub>JIDEC 公開検証台帳</sub> | `https://jidec.horizonshield.dev/mcp` | verified | 2026-10-17 | 68 | `33a40358ac48` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fjidec.horizonshield.dev%2Fmcp) |
+| Reform Shokunin Co., Ltd. (member No.001, Aichi)<br><sub>リフォーム職人株式会社（加盟No.001）</sub> | `https://p001.horizonshield.dev/mcp` | verified | 2026-10-17 | 70 | `9dff7bfed581` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fp001.horizonshield.dev%2Fmcp) |
+| Mineo Toyo Juki Co., Ltd. (member No.002)<br><sub>ミネオトーヨー住器株式会社（加盟No.002）</sub> | `https://p002.horizonshield.dev/mcp` | verified | 2026-10-17 | 70 | `63260f1d9c1b` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fp002.horizonshield.dev%2Fmcp) |
 | The verification gate, measuring itself<br><sub>検証ゲート（この検査機自身）</sub> | `https://gate.horizonshield.dev/mcp` | pending | 2026-10-16 | 69 | `261565f239cc` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fgate.horizonshield.dev%2Fmcp) |
-| Femtech source registry (verify sources, never diagnose)<br><sub>フェム情報源レジストリ</sub> | `https://femtech.horizonshield.dev/mcp` | verified | 2026-10-16 | 47 | `d282bc1315ac` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Ffemtech.horizonshield.dev%2Fmcp) |
-| Construction cost data (JCCDB for Japan, USCCDB for the United States)<br><sub>建設費データ(JCCDB・USCCDB)</sub> | `https://ccdb.horizonshield.dev/mcp` | pending | 2026-10-15 | 7 | `5cb77449ec22` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fccdb.horizonshield.dev%2Fmcp) |
+| Femtech source registry (verify sources, never diagnose)<br><sub>フェム情報源レジストリ</sub> | `https://femtech.horizonshield.dev/mcp` | verified | 2026-10-17 | 48 | `395fbefa8ccc` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Ffemtech.horizonshield.dev%2Fmcp) |
+| Construction cost data (JCCDB for Japan, USCCDB for the United States)<br><sub>建設費データ(JCCDB・USCCDB)</sub> | `https://ccdb.horizonshield.dev/mcp` | pending | 2026-10-17 | 8 | `640ca0742b4e` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fccdb.horizonshield.dev%2Fmcp) |
 | https://intel.twzrd.xyz/mcp | `https://intel.twzrd.xyz/mcp` | pending | 2026-10-11 | 6 | `d8e101af577d` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fintel.twzrd.xyz%2Fmcp) |
 | https://integrated-system-gzyu.onrender.com/mcp | `https://integrated-system-gzyu.onrender.com/mcp` | held | 2026-10-12 | 1 | `0c218bc2d767` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fintegrated-system-gzyu.onrender.com%2Fmcp) |
 
