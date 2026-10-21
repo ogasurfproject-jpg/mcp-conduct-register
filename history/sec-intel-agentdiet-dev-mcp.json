@@ -1,0 +1,108 @@
+{
+  "endpoint": "https://sec-intel.agentdiet.dev/mcp",
+  "entries": [
+    {
+      "at": "2026-10-21T18:01:05.966Z",
+      "status": "verified",
+      "reachable": true,
+      "record_sha256": "3390bf2a488189db85e233af58ec07b4b3104c2cf10bf5507271d238ee8dc063",
+      "consent_source": "well_known",
+      "conditions": {
+        "mcp_endpoint": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "MCP endpoint responds to initialize and tools/list"
+        },
+        "agent_card": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "agent-card published and well-formed"
+        },
+        "compensation_disclosure": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "compensation structure declared"
+        },
+        "determinism": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "identical input returned identical output across 2 runs"
+        }
+      },
+      "surface": {
+        "complete": true,
+        "pages_followed": 1,
+        "names_hash": "2c38b1e7c8e63797",
+        "manifest_hash": "7dc450824375666a",
+        "server_info_hash": "ed5ff60016c7f2c2",
+        "tool_hashes": {
+          "get_agent_wallet_status": "7c144751059249fd",
+          "get_public_company_sec_intel": "0fa0a189eefcf397"
+        },
+        "extras_covers": [
+          "annotations",
+          "_meta",
+          "outputSchema",
+          "title"
+        ],
+        "extras_manifest_hash": "7e7faa2b7bf44f0a",
+        "extras_hashes": {
+          "get_agent_wallet_status": "07e6d35b72baf8e1",
+          "get_public_company_sec_intel": "c24584e7af40c1aa"
+        },
+        "canonicalization": "rfc8785-jcs",
+        "unsafe_integer_scan": "clean"
+      },
+      "absence_vs_failure": {
+        "measured": true,
+        "tools_measured": 2,
+        "discriminating": 0,
+        "cannot_distinguish_pct": 100
+      },
+      "fingerprint": "verified|agent_card=1,compensation_disclosure=1,determinism=1,mcp_endpoint=1",
+      "coordinate_derivation": {
+        "derived": true,
+        "window_id": "w2963",
+        "salt_commitment": "0aba314082acc94c8b07cfbd52b3240adc238241da68db426d94cf3205942db8",
+        "salt_created_at": "2026-10-08T18:00:19.214Z",
+        "beacon": {
+          "height": 971599,
+          "block_hash": "000000000000000000005d11ad7146e09cfa888440ef0134cc050118507cf163",
+          "block_time": "2026-10-15T16:54:28.000Z"
+        },
+        "day_in_window": 6,
+        "tool_set_sha256": "157051067941348d9f3e08a8deabebb62aef36c5dfaa7812861525f5d9599933",
+        "tool_count": 2,
+        "fallback": null,
+        "reason_code": null,
+        "why": null
+      },
+      "establishes": [
+        "at 2026-10-21T18:01:05.966Z this gate (commit bfbef4e61fbb, version 0.4.20) measured https://sec-intel.agentdiet.dev/mcp and recorded status verified",
+        "conditions passed: agent_card, compensation_disclosure, determinism, mcp_endpoint; conditions failed: none",
+        "every hash in this record recomputes from the bytes it names, and record_sha256 recomputes from this record with record_sha256 and recompute_note removed",
+        "the measurement instant and the tool measured were derived from a committed salt and a Bitcoin block the subject did not choose (coordinate_derivation)"
+      ],
+      "does_not_establish": [
+        "correctness of any price, figure or answer the server returns",
+        "truth of the compensation declaration; only its presence and shape are measured",
+        "quality, competence or fitness of the operator or the service",
+        "behaviour at instants not measured or from vantages this gate did not use",
+        "that the operator published this card: it carried no signature, so these bytes are attributable to this gate's observation alone and the operator can repudiate them (an unsigned card is permitted and is not a failure)"
+      ],
+      "record_url": "https://gate.horizonshield.dev/record/3390bf2a488189db85e233af58ec07b4b3104c2cf10bf5507271d238ee8dc063"
+    }
+  ],
+  "archive": {
+    "schema": "mcp-conduct-history-archive-v1",
+    "source": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fsec-intel.agentdiet.dev%2Fmcp",
+    "rule": "append-only union of every export seen, keyed by record_sha256; nothing is removed",
+    "gate_retention_at_last_fetch": 400,
+    "last_fetch_at": "2026-10-21T21:57:06Z",
+    "count": 1
+  }
+}

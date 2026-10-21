@@ -42,9 +42,9 @@
       "contentUrl": "https://raw.githubusercontent.com/ogasurfproject-jpg/mcp-conduct-register/main/README.md"
     }
   ],
-  "dateModified": "2026-10-20T21:49:25Z",
+  "dateModified": "2026-10-21T21:57:03Z",
   "source": "https://gate.horizonshield.dev/register",
-  "generated_at": "2026-10-20T21:49:25Z",
+  "generated_at": "2026-10-21T21:57:03Z",
   "what_this_is": "A machine generated record of measured MCP server conduct. Not a curated list, not a ranking, not an endorsement.",
   "what_this_is_not": "It is not proof that a listed server returns correct numbers, that the business behind it is competent, or that it is safe to use.",
   "rows_are_selected_by": "nobody, the script copies whatever the API returns",
@@ -53,21 +53,21 @@
     "intake": "https://ledger.horizonshield.dev/witness",
     "operator_veto": "none, the code has no route to refuse a schema valid submission"
   },
-  "count": 11,
-  "gate_commit": "b7af85f689af",
+  "count": 42,
+  "gate_commit": "bfbef4e61fbb",
   "note": "The public register. Rows are scheduled measurements, not endorsements. An endpoint that is absent has simply never been measured here; absence is NOT a negative verdict. Webhooks are never published. Every stored verdict carries a record_sha256 you can recompute yourself. The operator_label field is a display name assigned by the operator, not a measurement.",
   "rows": [
     {
       "endpoint": "https://mcp.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 72,
+      "measurements": 73,
       "first_at": "2026-08-14T18:00:38.287Z",
       "latest": {
-        "at": "2026-10-19T18:00:20.833Z",
+        "at": "2026-10-21T18:01:21.357Z",
         "status": "verified",
-        "record_sha256": "33cb14e2c888beb1aa4e06986d0cf242c8a86d6387157e3aed0ecc34cda26695",
-        "record_url": "https://gate.horizonshield.dev/record/33cb14e2c888beb1aa4e06986d0cf242c8a86d6387157e3aed0ecc34cda26695",
+        "record_sha256": "58d338a7de1001cdda9852716c4c2f0538229db6ca66c22b8463686818832cb6",
+        "record_url": "https://gate.horizonshield.dev/record/58d338a7de1001cdda9852716c4c2f0538229db6ca66c22b8463686818832cb6",
         "consent_source": "operator_list",
         "surface": {
           "complete": true,
@@ -120,7 +120,7 @@
           "unsafe_integer_scan": "clean"
         },
         "establishes": [
-          "at 2026-10-19T18:00:20.833Z this gate (commit b7af85f689af, version 0.4.20) measured https://mcp.horizonshield.dev/mcp and recorded status verified",
+          "at 2026-10-21T18:01:21.357Z this gate (commit bfbef4e61fbb, version 0.4.20) measured https://mcp.horizonshield.dev/mcp and recorded status verified",
           "conditions passed: agent_card, compensation_disclosure, determinism, mcp_endpoint; conditions failed: none",
           "every hash in this record recomputes from the bytes it names, and record_sha256 recomputes from this record with record_sha256 and recompute_note removed",
           "the measurement instant and the tool measured were derived from a committed salt and a Bitcoin block the subject did not choose (coordinate_derivation)",
@@ -161,13 +161,13 @@
       "endpoint": "https://hearing.horizonshield.dev/mcp",
       "tier": "self",
       "cadence": "daily",
-      "measurements": 72,
+      "measurements": 73,
       "first_at": "2026-08-14T18:00:39.400Z",
       "latest": {
-        "at": "2026-10-19T18:00:22.283Z",
+        "at": "2026-10-21T18:01:22.921Z",
         "status": "verified",
-        "record_sha256": "4b76b9ea3e88b079640f0adc4da585d18162b7a229662f4f79dfcde4a50e95e3",
-        "record_url": "https://gate.horizonshield.dev/record/4b76b9ea3e88b079640f0adc4da585d18162b7a229662f4f79dfcde4a50e95e3",
+        "record_sha256": "86c3776089314defa755159c06646e50a37e081283b9132bc4d4f51cf7042bea",
+        "record_url": "https://gate.horizonshield.dev/record/86c3776089314defa755159c06646e50a37e081283b9132bc4d4f51cf7042bea",
         "consent_source": "operator_list",
         "surface": {
           "complete": true,
@@ -202,7 +202,7 @@
           "unsafe_integer_scan": "clean"
         },
         "establishes": [
-          "at 2026-10-19T18:00:22.283Z this gate (commit b7af85f689af, version 0.4.20) measured https://hearing.horizonshield.dev/mcp and recorded status verified",
+          "at 2026-10-21T18:01:22.921Z this gate (commit bfbef4e61fbb, version 0.4.20) measured https://hearing.horizonshield.dev/mcp and recorded status verified",
           "conditions passed: agent_card, compensation_disclosure, determinism, mcp_endpoint; conditions failed: none",
           "every hash in this record recomputes from the bytes it names, and record_sha256 recomputes from this record with record_sha256 and recompute_note removed",
           "the measurement instant and the tool measured were derived from a committed salt and a Bitcoin block the subject did not choose (coordinate_derivation)"
@@ -768,17 +768,17 @@
       "endpoint": "https://intel.twzrd.xyz/mcp",
       "tier": "free",
       "cadence": "weekly",
-      "measurements": 6,
+      "measurements": 7,
       "first_at": "2026-09-08T23:42:04.225Z",
       "latest": {
-        "at": "2026-10-11T18:00:21.787Z",
+        "at": "2026-10-21T18:01:15.459Z",
         "status": "pending",
-        "record_sha256": "d8e101af577d6ac40e9159c54928651e76cdf5cc5ab4170dc3de21eb63febb81",
-        "record_url": "https://gate.horizonshield.dev/record/d8e101af577d6ac40e9159c54928651e76cdf5cc5ab4170dc3de21eb63febb81",
+        "record_sha256": "393ebab5f4bec0a7527007a8d7b8b6474924e110c80e0d6b09e2134115c64f40",
+        "record_url": "https://gate.horizonshield.dev/record/393ebab5f4bec0a7527007a8d7b8b6474924e110c80e0d6b09e2134115c64f40",
         "consent_source": "none",
         "surface": null,
         "establishes": [
-          "at 2026-10-11T18:00:21.787Z this gate (commit f286bfe1b797, version 0.4.20) measured https://intel.twzrd.xyz/mcp and recorded status pending",
+          "at 2026-10-21T18:01:15.459Z this gate (commit bfbef4e61fbb, version 0.4.20) measured https://intel.twzrd.xyz/mcp and recorded status pending",
           "conditions passed: agent_card, compensation_disclosure; conditions failed: mcp_endpoint",
           "every hash in this record recomputes from the bytes it names, and record_sha256 recomputes from this record with record_sha256 and recompute_note removed",
           "the measurement instant and the tool measured were derived from a committed salt and a Bitcoin block the subject did not choose (coordinate_derivation)"
@@ -801,17 +801,17 @@
       "endpoint": "https://integrated-system-gzyu.onrender.com/mcp",
       "tier": "free",
       "cadence": "weekly",
-      "measurements": 1,
+      "measurements": 2,
       "first_at": "2026-10-12T18:00:22.181Z",
       "latest": {
-        "at": "2026-10-12T18:00:22.181Z",
+        "at": "2026-10-21T18:01:18.938Z",
         "status": "held",
-        "record_sha256": "0c218bc2d767a0855d82eefdeae1798c6fcf8ae9de1c4a545711eb3a8b63c322",
-        "record_url": "https://gate.horizonshield.dev/record/0c218bc2d767a0855d82eefdeae1798c6fcf8ae9de1c4a545711eb3a8b63c322",
+        "record_sha256": "6d0abed6e4e37e439e7474271841bde6597f50f006a7a4d2316c65f410c42b15",
+        "record_url": "https://gate.horizonshield.dev/record/6d0abed6e4e37e439e7474271841bde6597f50f006a7a4d2316c65f410c42b15",
         "consent_source": "none",
         "surface": null,
         "establishes": [
-          "at 2026-10-12T18:00:22.181Z this gate (commit f286bfe1b797, version 0.4.20) measured https://integrated-system-gzyu.onrender.com/mcp and recorded status held",
+          "at 2026-10-21T18:01:18.938Z this gate (commit bfbef4e61fbb, version 0.4.20) measured https://integrated-system-gzyu.onrender.com/mcp and recorded status held",
           "conditions passed: none; conditions failed: compensation_disclosure",
           "every hash in this record recomputes from the bytes it names, and record_sha256 recomputes from this record with record_sha256 and recompute_note removed",
           "the measurement instant and the tool measured were derived from a committed salt and a Bitcoin block the subject did not choose (coordinate_derivation)"
@@ -826,6 +826,550 @@
         ]
       },
       "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fintegrated-system-gzyu.onrender.com%2Fmcp",
+      "requested_by": "anonymous",
+      "tool_call_consent": false,
+      "why_not_verified": "No owner consent for tool calls is on record, so determinism is not measured and this row cannot reach verified. That is not a failure, it is an unmeasured condition. To consent, publish /.well-known/mcp-conduct.json on the origin with {\"allow_tool_call\": true}; the next scheduled measurement reads it and records where it read it (0.2.4)."
+    },
+    {
+      "endpoint": "https://x402broker.com/mcp",
+      "tier": "free",
+      "cadence": "weekly",
+      "measurements": 1,
+      "first_at": "2026-10-21T18:01:02.290Z",
+      "latest": {
+        "at": "2026-10-21T18:01:02.290Z",
+        "status": "verified",
+        "record_sha256": "5b0b2c75c7c3e6b3d284ac9479e6835cce2991fc7f4d14235b6e8e322d06ef66",
+        "record_url": "https://gate.horizonshield.dev/record/5b0b2c75c7c3e6b3d284ac9479e6835cce2991fc7f4d14235b6e8e322d06ef66",
+        "consent_source": "well_known",
+        "surface": {
+          "complete": true,
+          "pages_followed": 1,
+          "names_hash": "5ecdce07ad9a9963",
+          "manifest_hash": "f6a231f712c76c38",
+          "server_info_hash": "f8fbb2035f355b16",
+          "tool_hashes": {
+            "execute_marketplace_tool": "9c5674d943d14b63",
+            "execute_workflow_bundle": "20d69d9c1b4f60fd",
+            "get_agent_wallet_status": "7c144751059249fd",
+            "search_x402_mcp_marketplace": "d10a6f1b896f5f0f"
+          },
+          "extras_covers": [
+            "annotations",
+            "_meta",
+            "outputSchema",
+            "title"
+          ],
+          "extras_manifest_hash": "818302928a8f954e",
+          "extras_hashes": {
+            "execute_marketplace_tool": "834c871bd46e5e52",
+            "execute_workflow_bundle": "43eb5e5c0d13a8e0",
+            "get_agent_wallet_status": "07e6d35b72baf8e1",
+            "search_x402_mcp_marketplace": "22224a2a3e5287fa"
+          },
+          "canonicalization": "rfc8785-jcs",
+          "unsafe_integer_scan": "clean"
+        },
+        "establishes": [
+          "at 2026-10-21T18:01:02.290Z this gate (commit bfbef4e61fbb, version 0.4.20) measured https://x402broker.com/mcp and recorded status verified",
+          "conditions passed: agent_card, compensation_disclosure, determinism, mcp_endpoint; conditions failed: none",
+          "every hash in this record recomputes from the bytes it names, and record_sha256 recomputes from this record with record_sha256 and recompute_note removed",
+          "the measurement instant and the tool measured were derived from a committed salt and a Bitcoin block the subject did not choose (coordinate_derivation)"
+        ],
+        "does_not_establish": [
+          "correctness of any price, figure or answer the server returns",
+          "truth of the compensation declaration; only its presence and shape are measured",
+          "quality, competence or fitness of the operator or the service",
+          "behaviour at instants not measured or from vantages this gate did not use",
+          "that the operator published this card: it carried no signature, so these bytes are attributable to this gate's observation alone and the operator can repudiate them (an unsigned card is permitted and is not a failure)"
+        ]
+      },
+      "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fx402broker.com%2Fmcp",
+      "requested_by": "anonymous",
+      "tool_call_consent": true
+    },
+    {
+      "endpoint": "https://agentdiet.dev/mcp",
+      "tier": "free",
+      "cadence": "weekly",
+      "measurements": 0,
+      "first_at": null,
+      "latest": null,
+      "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fagentdiet.dev%2Fmcp",
+      "requested_by": "anonymous",
+      "tool_call_consent": false,
+      "why_not_verified": "No owner consent for tool calls is on record, so determinism is not measured and this row cannot reach verified. That is not a failure, it is an unmeasured condition. To consent, publish /.well-known/mcp-conduct.json on the origin with {\"allow_tool_call\": true}; the next scheduled measurement reads it and records where it read it (0.2.4)."
+    },
+    {
+      "endpoint": "https://assay.agentdiet.dev/mcp",
+      "tier": "free",
+      "cadence": "weekly",
+      "measurements": 0,
+      "first_at": null,
+      "latest": null,
+      "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fassay.agentdiet.dev%2Fmcp",
+      "requested_by": "anonymous",
+      "tool_call_consent": false,
+      "why_not_verified": "No owner consent for tool calls is on record, so determinism is not measured and this row cannot reach verified. That is not a failure, it is an unmeasured condition. To consent, publish /.well-known/mcp-conduct.json on the origin with {\"allow_tool_call\": true}; the next scheduled measurement reads it and records where it read it (0.2.4)."
+    },
+    {
+      "endpoint": "https://workflows.agentdiet.dev/mcp",
+      "tier": "free",
+      "cadence": "weekly",
+      "measurements": 0,
+      "first_at": null,
+      "latest": null,
+      "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fworkflows.agentdiet.dev%2Fmcp",
+      "requested_by": "anonymous",
+      "tool_call_consent": false,
+      "why_not_verified": "No owner consent for tool calls is on record, so determinism is not measured and this row cannot reach verified. That is not a failure, it is an unmeasured condition. To consent, publish /.well-known/mcp-conduct.json on the origin with {\"allow_tool_call\": true}; the next scheduled measurement reads it and records where it read it (0.2.4)."
+    },
+    {
+      "endpoint": "https://preflight.agentdiet.dev/mcp",
+      "tier": "free",
+      "cadence": "weekly",
+      "measurements": 0,
+      "first_at": null,
+      "latest": null,
+      "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fpreflight.agentdiet.dev%2Fmcp",
+      "requested_by": "anonymous",
+      "tool_call_consent": false,
+      "why_not_verified": "No owner consent for tool calls is on record, so determinism is not measured and this row cannot reach verified. That is not a failure, it is an unmeasured condition. To consent, publish /.well-known/mcp-conduct.json on the origin with {\"allow_tool_call\": true}; the next scheduled measurement reads it and records where it read it (0.2.4)."
+    },
+    {
+      "endpoint": "https://mesh.agentdiet.dev/mcp",
+      "tier": "free",
+      "cadence": "weekly",
+      "measurements": 0,
+      "first_at": null,
+      "latest": null,
+      "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fmesh.agentdiet.dev%2Fmcp",
+      "requested_by": "anonymous",
+      "tool_call_consent": false,
+      "why_not_verified": "No owner consent for tool calls is on record, so determinism is not measured and this row cannot reach verified. That is not a failure, it is an unmeasured condition. To consent, publish /.well-known/mcp-conduct.json on the origin with {\"allow_tool_call\": true}; the next scheduled measurement reads it and records where it read it (0.2.4)."
+    },
+    {
+      "endpoint": "https://mcp-security.agentdiet.dev/mcp",
+      "tier": "free",
+      "cadence": "weekly",
+      "measurements": 0,
+      "first_at": null,
+      "latest": null,
+      "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fmcp-security.agentdiet.dev%2Fmcp",
+      "requested_by": "anonymous",
+      "tool_call_consent": false,
+      "why_not_verified": "No owner consent for tool calls is on record, so determinism is not measured and this row cannot reach verified. That is not a failure, it is an unmeasured condition. To consent, publish /.well-known/mcp-conduct.json on the origin with {\"allow_tool_call\": true}; the next scheduled measurement reads it and records where it read it (0.2.4)."
+    },
+    {
+      "endpoint": "https://mcp-gateway.agentdiet.dev/mcp",
+      "tier": "free",
+      "cadence": "weekly",
+      "measurements": 0,
+      "first_at": null,
+      "latest": null,
+      "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fmcp-gateway.agentdiet.dev%2Fmcp",
+      "requested_by": "anonymous",
+      "tool_call_consent": false,
+      "why_not_verified": "No owner consent for tool calls is on record, so determinism is not measured and this row cannot reach verified. That is not a failure, it is an unmeasured condition. To consent, publish /.well-known/mcp-conduct.json on the origin with {\"allow_tool_call\": true}; the next scheduled measurement reads it and records where it read it (0.2.4)."
+    },
+    {
+      "endpoint": "https://rag-diet.agentdiet.dev/mcp",
+      "tier": "free",
+      "cadence": "weekly",
+      "measurements": 0,
+      "first_at": null,
+      "latest": null,
+      "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Frag-diet.agentdiet.dev%2Fmcp",
+      "requested_by": "anonymous",
+      "tool_call_consent": false,
+      "why_not_verified": "No owner consent for tool calls is on record, so determinism is not measured and this row cannot reach verified. That is not a failure, it is an unmeasured condition. To consent, publish /.well-known/mcp-conduct.json on the origin with {\"allow_tool_call\": true}; the next scheduled measurement reads it and records where it read it (0.2.4)."
+    },
+    {
+      "endpoint": "https://prompt-guard.agentdiet.dev/mcp",
+      "tier": "free",
+      "cadence": "weekly",
+      "measurements": 0,
+      "first_at": null,
+      "latest": null,
+      "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fprompt-guard.agentdiet.dev%2Fmcp",
+      "requested_by": "anonymous",
+      "tool_call_consent": false,
+      "why_not_verified": "No owner consent for tool calls is on record, so determinism is not measured and this row cannot reach verified. That is not a failure, it is an unmeasured condition. To consent, publish /.well-known/mcp-conduct.json on the origin with {\"allow_tool_call\": true}; the next scheduled measurement reads it and records where it read it (0.2.4)."
+    },
+    {
+      "endpoint": "https://json-repair.agentdiet.dev/mcp",
+      "tier": "free",
+      "cadence": "weekly",
+      "measurements": 0,
+      "first_at": null,
+      "latest": null,
+      "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fjson-repair.agentdiet.dev%2Fmcp",
+      "requested_by": "anonymous",
+      "tool_call_consent": false,
+      "why_not_verified": "No owner consent for tool calls is on record, so determinism is not measured and this row cannot reach verified. That is not a failure, it is an unmeasured condition. To consent, publish /.well-known/mcp-conduct.json on the origin with {\"allow_tool_call\": true}; the next scheduled measurement reads it and records where it read it (0.2.4)."
+    },
+    {
+      "endpoint": "https://serp-extract.agentdiet.dev/mcp",
+      "tier": "free",
+      "cadence": "weekly",
+      "measurements": 0,
+      "first_at": null,
+      "latest": null,
+      "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fserp-extract.agentdiet.dev%2Fmcp",
+      "requested_by": "anonymous",
+      "tool_call_consent": false,
+      "why_not_verified": "No owner consent for tool calls is on record, so determinism is not measured and this row cannot reach verified. That is not a failure, it is an unmeasured condition. To consent, publish /.well-known/mcp-conduct.json on the origin with {\"allow_tool_call\": true}; the next scheduled measurement reads it and records where it read it (0.2.4)."
+    },
+    {
+      "endpoint": "https://llms-generator.agentdiet.dev/mcp",
+      "tier": "free",
+      "cadence": "weekly",
+      "measurements": 0,
+      "first_at": null,
+      "latest": null,
+      "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fllms-generator.agentdiet.dev%2Fmcp",
+      "requested_by": "anonymous",
+      "tool_call_consent": false,
+      "why_not_verified": "No owner consent for tool calls is on record, so determinism is not measured and this row cannot reach verified. That is not a failure, it is an unmeasured condition. To consent, publish /.well-known/mcp-conduct.json on the origin with {\"allow_tool_call\": true}; the next scheduled measurement reads it and records where it read it (0.2.4)."
+    },
+    {
+      "endpoint": "https://github-audit.agentdiet.dev/mcp",
+      "tier": "free",
+      "cadence": "weekly",
+      "measurements": 0,
+      "first_at": null,
+      "latest": null,
+      "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fgithub-audit.agentdiet.dev%2Fmcp",
+      "requested_by": "anonymous",
+      "tool_call_consent": false,
+      "why_not_verified": "No owner consent for tool calls is on record, so determinism is not measured and this row cannot reach verified. That is not a failure, it is an unmeasured condition. To consent, publish /.well-known/mcp-conduct.json on the origin with {\"allow_tool_call\": true}; the next scheduled measurement reads it and records where it read it (0.2.4)."
+    },
+    {
+      "endpoint": "https://company-enrich.agentdiet.dev/mcp",
+      "tier": "free",
+      "cadence": "weekly",
+      "measurements": 0,
+      "first_at": null,
+      "latest": null,
+      "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fcompany-enrich.agentdiet.dev%2Fmcp",
+      "requested_by": "anonymous",
+      "tool_call_consent": false,
+      "why_not_verified": "No owner consent for tool calls is on record, so determinism is not measured and this row cannot reach verified. That is not a failure, it is an unmeasured condition. To consent, publish /.well-known/mcp-conduct.json on the origin with {\"allow_tool_call\": true}; the next scheduled measurement reads it and records where it read it (0.2.4)."
+    },
+    {
+      "endpoint": "https://sec-intel.agentdiet.dev/mcp",
+      "tier": "free",
+      "cadence": "weekly",
+      "measurements": 1,
+      "first_at": "2026-10-21T18:01:05.966Z",
+      "latest": {
+        "at": "2026-10-21T18:01:05.966Z",
+        "status": "verified",
+        "record_sha256": "3390bf2a488189db85e233af58ec07b4b3104c2cf10bf5507271d238ee8dc063",
+        "record_url": "https://gate.horizonshield.dev/record/3390bf2a488189db85e233af58ec07b4b3104c2cf10bf5507271d238ee8dc063",
+        "consent_source": "well_known",
+        "surface": {
+          "complete": true,
+          "pages_followed": 1,
+          "names_hash": "2c38b1e7c8e63797",
+          "manifest_hash": "7dc450824375666a",
+          "server_info_hash": "ed5ff60016c7f2c2",
+          "tool_hashes": {
+            "get_agent_wallet_status": "7c144751059249fd",
+            "get_public_company_sec_intel": "0fa0a189eefcf397"
+          },
+          "extras_covers": [
+            "annotations",
+            "_meta",
+            "outputSchema",
+            "title"
+          ],
+          "extras_manifest_hash": "7e7faa2b7bf44f0a",
+          "extras_hashes": {
+            "get_agent_wallet_status": "07e6d35b72baf8e1",
+            "get_public_company_sec_intel": "c24584e7af40c1aa"
+          },
+          "canonicalization": "rfc8785-jcs",
+          "unsafe_integer_scan": "clean"
+        },
+        "establishes": [
+          "at 2026-10-21T18:01:05.966Z this gate (commit bfbef4e61fbb, version 0.4.20) measured https://sec-intel.agentdiet.dev/mcp and recorded status verified",
+          "conditions passed: agent_card, compensation_disclosure, determinism, mcp_endpoint; conditions failed: none",
+          "every hash in this record recomputes from the bytes it names, and record_sha256 recomputes from this record with record_sha256 and recompute_note removed",
+          "the measurement instant and the tool measured were derived from a committed salt and a Bitcoin block the subject did not choose (coordinate_derivation)"
+        ],
+        "does_not_establish": [
+          "correctness of any price, figure or answer the server returns",
+          "truth of the compensation declaration; only its presence and shape are measured",
+          "quality, competence or fitness of the operator or the service",
+          "behaviour at instants not measured or from vantages this gate did not use",
+          "that the operator published this card: it carried no signature, so these bytes are attributable to this gate's observation alone and the operator can repudiate them (an unsigned card is permitted and is not a failure)"
+        ]
+      },
+      "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fsec-intel.agentdiet.dev%2Fmcp",
+      "requested_by": "anonymous",
+      "tool_call_consent": true
+    },
+    {
+      "endpoint": "https://domain-osint.agentdiet.dev/mcp",
+      "tier": "free",
+      "cadence": "weekly",
+      "measurements": 0,
+      "first_at": null,
+      "latest": null,
+      "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fdomain-osint.agentdiet.dev%2Fmcp",
+      "requested_by": "anonymous",
+      "tool_call_consent": false,
+      "why_not_verified": "No owner consent for tool calls is on record, so determinism is not measured and this row cannot reach verified. That is not a failure, it is an unmeasured condition. To consent, publish /.well-known/mcp-conduct.json on the origin with {\"allow_tool_call\": true}; the next scheduled measurement reads it and records where it read it (0.2.4)."
+    },
+    {
+      "endpoint": "https://email-verify.agentdiet.dev/mcp",
+      "tier": "free",
+      "cadence": "weekly",
+      "measurements": 1,
+      "first_at": "2026-10-21T18:01:09.042Z",
+      "latest": {
+        "at": "2026-10-21T18:01:09.042Z",
+        "status": "verified",
+        "record_sha256": "17338a5762b1a602232df75724a775ca79351a17edc6107b1228183e2d91bf0f",
+        "record_url": "https://gate.horizonshield.dev/record/17338a5762b1a602232df75724a775ca79351a17edc6107b1228183e2d91bf0f",
+        "consent_source": "well_known",
+        "surface": {
+          "complete": true,
+          "pages_followed": 1,
+          "names_hash": "27c4c486f533a97f",
+          "manifest_hash": "b3a516db9bb450d5",
+          "server_info_hash": "62fdfdd12db49a89",
+          "tool_hashes": {
+            "get_agent_wallet_status": "7c144751059249fd",
+            "verify_email_deliverability": "4014ca7994fd241b"
+          },
+          "extras_covers": [
+            "annotations",
+            "_meta",
+            "outputSchema",
+            "title"
+          ],
+          "extras_manifest_hash": "acaedec7c9c52ca5",
+          "extras_hashes": {
+            "get_agent_wallet_status": "07e6d35b72baf8e1",
+            "verify_email_deliverability": "55dacee7f947cb36"
+          },
+          "canonicalization": "rfc8785-jcs",
+          "unsafe_integer_scan": "clean"
+        },
+        "establishes": [
+          "at 2026-10-21T18:01:09.042Z this gate (commit bfbef4e61fbb, version 0.4.20) measured https://email-verify.agentdiet.dev/mcp and recorded status verified",
+          "conditions passed: agent_card, compensation_disclosure, determinism, mcp_endpoint; conditions failed: none",
+          "every hash in this record recomputes from the bytes it names, and record_sha256 recomputes from this record with record_sha256 and recompute_note removed",
+          "the measurement instant and the tool measured were derived from a committed salt and a Bitcoin block the subject did not choose (coordinate_derivation)"
+        ],
+        "does_not_establish": [
+          "correctness of any price, figure or answer the server returns",
+          "truth of the compensation declaration; only its presence and shape are measured",
+          "quality, competence or fitness of the operator or the service",
+          "behaviour at instants not measured or from vantages this gate did not use",
+          "that the operator published this card: it carried no signature, so these bytes are attributable to this gate's observation alone and the operator can repudiate them (an unsigned card is permitted and is not a failure)"
+        ]
+      },
+      "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Femail-verify.agentdiet.dev%2Fmcp",
+      "requested_by": "anonymous",
+      "tool_call_consent": true
+    },
+    {
+      "endpoint": "https://arxiv-digest.agentdiet.dev/mcp",
+      "tier": "free",
+      "cadence": "weekly",
+      "measurements": 0,
+      "first_at": null,
+      "latest": null,
+      "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Farxiv-digest.agentdiet.dev%2Fmcp",
+      "requested_by": "anonymous",
+      "tool_call_consent": false,
+      "why_not_verified": "No owner consent for tool calls is on record, so determinism is not measured and this row cannot reach verified. That is not a failure, it is an unmeasured condition. To consent, publish /.well-known/mcp-conduct.json on the origin with {\"allow_tool_call\": true}; the next scheduled measurement reads it and records where it read it (0.2.4)."
+    },
+    {
+      "endpoint": "https://shopify-spy.agentdiet.dev/mcp",
+      "tier": "free",
+      "cadence": "weekly",
+      "measurements": 0,
+      "first_at": null,
+      "latest": null,
+      "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fshopify-spy.agentdiet.dev%2Fmcp",
+      "requested_by": "anonymous",
+      "tool_call_consent": false,
+      "why_not_verified": "No owner consent for tool calls is on record, so determinism is not measured and this row cannot reach verified. That is not a failure, it is an unmeasured condition. To consent, publish /.well-known/mcp-conduct.json on the origin with {\"allow_tool_call\": true}; the next scheduled measurement reads it and records where it read it (0.2.4)."
+    },
+    {
+      "endpoint": "https://x402-audit.agentdiet.dev/mcp",
+      "tier": "free",
+      "cadence": "weekly",
+      "measurements": 0,
+      "first_at": null,
+      "latest": null,
+      "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fx402-audit.agentdiet.dev%2Fmcp",
+      "requested_by": "anonymous",
+      "tool_call_consent": false,
+      "why_not_verified": "No owner consent for tool calls is on record, so determinism is not measured and this row cannot reach verified. That is not a failure, it is an unmeasured condition. To consent, publish /.well-known/mcp-conduct.json on the origin with {\"allow_tool_call\": true}; the next scheduled measurement reads it and records where it read it (0.2.4)."
+    },
+    {
+      "endpoint": "https://onchain-risk.agentdiet.dev/mcp",
+      "tier": "free",
+      "cadence": "weekly",
+      "measurements": 0,
+      "first_at": null,
+      "latest": null,
+      "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fonchain-risk.agentdiet.dev%2Fmcp",
+      "requested_by": "anonymous",
+      "tool_call_consent": false,
+      "why_not_verified": "No owner consent for tool calls is on record, so determinism is not measured and this row cannot reach verified. That is not a failure, it is an unmeasured condition. To consent, publish /.well-known/mcp-conduct.json on the origin with {\"allow_tool_call\": true}; the next scheduled measurement reads it and records where it read it (0.2.4)."
+    },
+    {
+      "endpoint": "https://token-intel.agentdiet.dev/mcp",
+      "tier": "free",
+      "cadence": "weekly",
+      "measurements": 0,
+      "first_at": null,
+      "latest": null,
+      "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Ftoken-intel.agentdiet.dev%2Fmcp",
+      "requested_by": "anonymous",
+      "tool_call_consent": false,
+      "why_not_verified": "No owner consent for tool calls is on record, so determinism is not measured and this row cannot reach verified. That is not a failure, it is an unmeasured condition. To consent, publish /.well-known/mcp-conduct.json on the origin with {\"allow_tool_call\": true}; the next scheduled measurement reads it and records where it read it (0.2.4)."
+    },
+    {
+      "endpoint": "https://polymarket-odds.agentdiet.dev/mcp",
+      "tier": "free",
+      "cadence": "weekly",
+      "measurements": 0,
+      "first_at": null,
+      "latest": null,
+      "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fpolymarket-odds.agentdiet.dev%2Fmcp",
+      "requested_by": "anonymous",
+      "tool_call_consent": false,
+      "why_not_verified": "No owner consent for tool calls is on record, so determinism is not measured and this row cannot reach verified. That is not a failure, it is an unmeasured condition. To consent, publish /.well-known/mcp-conduct.json on the origin with {\"allow_tool_call\": true}; the next scheduled measurement reads it and records where it read it (0.2.4)."
+    },
+    {
+      "endpoint": "https://defi-yield.agentdiet.dev/mcp",
+      "tier": "free",
+      "cadence": "weekly",
+      "measurements": 0,
+      "first_at": null,
+      "latest": null,
+      "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fdefi-yield.agentdiet.dev%2Fmcp",
+      "requested_by": "anonymous",
+      "tool_call_consent": false,
+      "why_not_verified": "No owner consent for tool calls is on record, so determinism is not measured and this row cannot reach verified. That is not a failure, it is an unmeasured condition. To consent, publish /.well-known/mcp-conduct.json on the origin with {\"allow_tool_call\": true}; the next scheduled measurement reads it and records where it read it (0.2.4)."
+    },
+    {
+      "endpoint": "https://hn-pulse.agentdiet.dev/mcp",
+      "tier": "free",
+      "cadence": "weekly",
+      "measurements": 1,
+      "first_at": "2026-10-21T18:01:12.271Z",
+      "latest": {
+        "at": "2026-10-21T18:01:12.271Z",
+        "status": "verified",
+        "record_sha256": "ab44a49a249fb5a20420584e0173b31e66dac14bb87b27f7accb7b8ae2e265d6",
+        "record_url": "https://gate.horizonshield.dev/record/ab44a49a249fb5a20420584e0173b31e66dac14bb87b27f7accb7b8ae2e265d6",
+        "consent_source": "well_known",
+        "surface": {
+          "complete": true,
+          "pages_followed": 1,
+          "names_hash": "283bf7fd72a55e11",
+          "manifest_hash": "96ea0dce317b7f39",
+          "server_info_hash": "83cd6b910d07735a",
+          "tool_hashes": {
+            "get_agent_wallet_status": "7c144751059249fd",
+            "get_hackernews_tech_pulse": "92f01113cb5b9fa2"
+          },
+          "extras_covers": [
+            "annotations",
+            "_meta",
+            "outputSchema",
+            "title"
+          ],
+          "extras_manifest_hash": "1541c8deb964019e",
+          "extras_hashes": {
+            "get_agent_wallet_status": "07e6d35b72baf8e1",
+            "get_hackernews_tech_pulse": "c59152d5b85f7a6a"
+          },
+          "canonicalization": "rfc8785-jcs",
+          "unsafe_integer_scan": "clean"
+        },
+        "establishes": [
+          "at 2026-10-21T18:01:12.271Z this gate (commit bfbef4e61fbb, version 0.4.20) measured https://hn-pulse.agentdiet.dev/mcp and recorded status verified",
+          "conditions passed: agent_card, compensation_disclosure, determinism, mcp_endpoint; conditions failed: none",
+          "every hash in this record recomputes from the bytes it names, and record_sha256 recomputes from this record with record_sha256 and recompute_note removed",
+          "the measurement instant and the tool measured were derived from a committed salt and a Bitcoin block the subject did not choose (coordinate_derivation)"
+        ],
+        "does_not_establish": [
+          "correctness of any price, figure or answer the server returns",
+          "truth of the compensation declaration; only its presence and shape are measured",
+          "quality, competence or fitness of the operator or the service",
+          "behaviour at instants not measured or from vantages this gate did not use",
+          "that the operator published this card: it carried no signature, so these bytes are attributable to this gate's observation alone and the operator can repudiate them (an unsigned card is permitted and is not a failure)"
+        ]
+      },
+      "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fhn-pulse.agentdiet.dev%2Fmcp",
+      "requested_by": "anonymous",
+      "tool_call_consent": true
+    },
+    {
+      "endpoint": "https://shopify-intel.agentdiet.dev/mcp",
+      "tier": "free",
+      "cadence": "weekly",
+      "measurements": 0,
+      "first_at": null,
+      "latest": null,
+      "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fshopify-intel.agentdiet.dev%2Fmcp",
+      "requested_by": "anonymous",
+      "tool_call_consent": false,
+      "why_not_verified": "No owner consent for tool calls is on record, so determinism is not measured and this row cannot reach verified. That is not a failure, it is an unmeasured condition. To consent, publish /.well-known/mcp-conduct.json on the origin with {\"allow_tool_call\": true}; the next scheduled measurement reads it and records where it read it (0.2.4)."
+    },
+    {
+      "endpoint": "https://whale-momentum.agentdiet.dev/mcp",
+      "tier": "free",
+      "cadence": "weekly",
+      "measurements": 0,
+      "first_at": null,
+      "latest": null,
+      "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fwhale-momentum.agentdiet.dev%2Fmcp",
+      "requested_by": "anonymous",
+      "tool_call_consent": false,
+      "why_not_verified": "No owner consent for tool calls is on record, so determinism is not measured and this row cannot reach verified. That is not a failure, it is an unmeasured condition. To consent, publish /.well-known/mcp-conduct.json on the origin with {\"allow_tool_call\": true}; the next scheduled measurement reads it and records where it read it (0.2.4)."
+    },
+    {
+      "endpoint": "https://alpha-stream.agentdiet.dev/mcp",
+      "tier": "free",
+      "cadence": "weekly",
+      "measurements": 0,
+      "first_at": null,
+      "latest": null,
+      "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Falpha-stream.agentdiet.dev%2Fmcp",
+      "requested_by": "anonymous",
+      "tool_call_consent": false,
+      "why_not_verified": "No owner consent for tool calls is on record, so determinism is not measured and this row cannot reach verified. That is not a failure, it is an unmeasured condition. To consent, publish /.well-known/mcp-conduct.json on the origin with {\"allow_tool_call\": true}; the next scheduled measurement reads it and records where it read it (0.2.4)."
+    },
+    {
+      "endpoint": "https://mcp-compiler.agentdiet.dev/mcp",
+      "tier": "free",
+      "cadence": "weekly",
+      "measurements": 0,
+      "first_at": null,
+      "latest": null,
+      "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fmcp-compiler.agentdiet.dev%2Fmcp",
+      "requested_by": "anonymous",
+      "tool_call_consent": false,
+      "why_not_verified": "No owner consent for tool calls is on record, so determinism is not measured and this row cannot reach verified. That is not a failure, it is an unmeasured condition. To consent, publish /.well-known/mcp-conduct.json on the origin with {\"allow_tool_call\": true}; the next scheduled measurement reads it and records where it read it (0.2.4)."
+    },
+    {
+      "endpoint": "https://cve-intel.agentdiet.dev/mcp",
+      "tier": "free",
+      "cadence": "weekly",
+      "measurements": 0,
+      "first_at": null,
+      "latest": null,
+      "history_url": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fcve-intel.agentdiet.dev%2Fmcp",
       "requested_by": "anonymous",
       "tool_call_consent": false,
       "why_not_verified": "No owner consent for tool calls is on record, so determinism is not measured and this row cannot reach verified. That is not a failure, it is an unmeasured condition. To consent, publish /.well-known/mcp-conduct.json on the origin with {\"allow_tool_call\": true}; the next scheduled measurement reads it and records where it read it (0.2.4)."
