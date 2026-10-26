@@ -5325,6 +5325,78 @@
         "that the operator published this card: it carried no signature, so these bytes are attributable to this gate's observation alone and the operator can repudiate them (an unsigned card is permitted and is not a failure)"
       ],
       "record_url": "https://gate.horizonshield.dev/record/14ba1f4624c4bf8199d0b98ad3a77cf2249f8145b7a8388ddec75a426b62914a"
+    },
+    {
+      "at": "2026-10-26T19:18:05.173Z",
+      "status": "held",
+      "reachable": null,
+      "record_sha256": "2883f84f9cf6e06197c61658a5854a10996ce720e65428ddfba6e430d31627b0",
+      "consent_source": "operator_list",
+      "conditions": {
+        "mcp_endpoint": {
+          "pass": false,
+          "measured": false,
+          "transport": false,
+          "reason": "not measured: relay unavailable (http 503): gate-side failure, not a statement about the target"
+        },
+        "agent_card": {
+          "pass": false,
+          "measured": false,
+          "transport": false,
+          "reason": "not measured: relay unavailable (http 503): gate-side failure, not a statement about the target"
+        },
+        "compensation_disclosure": {
+          "pass": false,
+          "measured": false,
+          "transport": false,
+          "reason": "not measured: the agent card could not be fetched because the gate's relay path was unavailable, so whether compensation is disclosed is unknown"
+        },
+        "determinism": {
+          "pass": false,
+          "measured": false,
+          "transport": false,
+          "reason": "not measured: the tool list could not be read because the gate's relay path was unavailable, so there was nothing to test determinism against"
+        }
+      },
+      "surface": null,
+      "absence_vs_failure": {
+        "measured": false,
+        "tools_measured": null,
+        "discriminating": null,
+        "cannot_distinguish_pct": null
+      },
+      "fingerprint": "held|agent_card=0,compensation_disclosure=0,determinism=0,mcp_endpoint=0",
+      "coordinate_derivation": {
+        "derived": true,
+        "window_id": "w2964",
+        "salt_commitment": "c1c55c6a6423158f0d9f3b49626a2e7cb41d069685b6738c4ce7b56834f3628a",
+        "salt_created_at": "2026-10-15T18:00:13.284Z",
+        "beacon": {
+          "height": 972634,
+          "block_hash": "0000000000000000000072e6c55d7357fe8a21ea25ce377a8c9f464dd7c73824",
+          "block_time": "2026-10-22T16:46:03.000Z"
+        },
+        "day_in_window": 0,
+        "tool_set_sha256": null,
+        "tool_count": 0,
+        "fallback": null,
+        "reason_code": null,
+        "why": null
+      },
+      "establishes": [
+        "at 2026-10-26T19:18:05.173Z this gate (commit bfbef4e61fbb, version 0.4.20) measured https://p002.horizonshield.dev/mcp and recorded status held",
+        "conditions passed: none; conditions failed: none",
+        "every hash in this record recomputes from the bytes it names, and record_sha256 recomputes from this record with record_sha256 and recompute_note removed",
+        "the measurement instant and the tool measured were derived from a committed salt and a Bitcoin block the subject did not choose (coordinate_derivation)"
+      ],
+      "does_not_establish": [
+        "correctness of any price, figure or answer the server returns",
+        "truth of the compensation declaration; only its presence and shape are measured",
+        "quality, competence or fitness of the operator or the service",
+        "behaviour at instants not measured or from vantages this gate did not use",
+        "conditions not measured on this instant: agent_card, compensation_disclosure, determinism, mcp_endpoint (unmeasured is not failed)"
+      ],
+      "record_url": "https://gate.horizonshield.dev/record/2883f84f9cf6e06197c61658a5854a10996ce720e65428ddfba6e430d31627b0"
     }
   ],
   "archive": {
@@ -5332,7 +5404,7 @@
     "source": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fp002.horizonshield.dev%2Fmcp",
     "rule": "append-only union of every export seen, keyed by record_sha256; nothing is removed",
     "gate_retention_at_last_fetch": 400,
-    "last_fetch_at": "2026-10-25T21:10:58Z",
-    "count": 75
+    "last_fetch_at": "2026-10-26T22:50:51Z",
+    "count": 76
   }
 }
