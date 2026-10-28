@@ -1,12 +1,108 @@
 {
   "endpoint": "https://x402-audit.agentdiet.dev/mcp",
-  "entries": [],
+  "entries": [
+    {
+      "at": "2026-10-28T18:00:59.265Z",
+      "status": "verified",
+      "reachable": true,
+      "record_sha256": "997a5032e76870cd6717ff01af2db2da6925e8fb85c75dc33efe8d0bc56fbc50",
+      "consent_source": "well_known",
+      "conditions": {
+        "mcp_endpoint": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "MCP endpoint responds to initialize and tools/list"
+        },
+        "agent_card": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "agent-card published and well-formed"
+        },
+        "compensation_disclosure": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "compensation structure declared"
+        },
+        "determinism": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "identical input returned identical output across 2 runs"
+        }
+      },
+      "surface": {
+        "complete": true,
+        "pages_followed": 1,
+        "names_hash": "40c684387ebb7d9c",
+        "manifest_hash": "fe20af4a9e99bf5f",
+        "server_info_hash": "c5b51de56270601f",
+        "tool_hashes": {
+          "audit_x402_and_a2a_endpoint": "8e3a7c4a32493dc5",
+          "get_agent_wallet_status": "7c144751059249fd"
+        },
+        "extras_covers": [
+          "annotations",
+          "_meta",
+          "outputSchema",
+          "title"
+        ],
+        "extras_manifest_hash": "b432650ad5e13b86",
+        "extras_hashes": {
+          "audit_x402_and_a2a_endpoint": "63400fa56adc8655",
+          "get_agent_wallet_status": "07e6d35b72baf8e1"
+        },
+        "canonicalization": "rfc8785-jcs",
+        "unsafe_integer_scan": "clean"
+      },
+      "absence_vs_failure": {
+        "measured": true,
+        "tools_measured": 2,
+        "discriminating": 0,
+        "cannot_distinguish_pct": 100
+      },
+      "fingerprint": "verified|agent_card=1,compensation_disclosure=1,determinism=1,mcp_endpoint=1",
+      "coordinate_derivation": {
+        "derived": true,
+        "window_id": "w2964",
+        "salt_commitment": "c1c55c6a6423158f0d9f3b49626a2e7cb41d069685b6738c4ce7b56834f3628a",
+        "salt_created_at": "2026-10-15T18:00:13.284Z",
+        "beacon": {
+          "height": 972634,
+          "block_hash": "0000000000000000000072e6c55d7357fe8a21ea25ce377a8c9f464dd7c73824",
+          "block_time": "2026-10-22T16:46:03.000Z"
+        },
+        "day_in_window": 6,
+        "tool_set_sha256": "ea35706f864c67517584db07b71b9f3349b06ecb4e08a46c94c14e9ba00730af",
+        "tool_count": 2,
+        "fallback": null,
+        "reason_code": null,
+        "why": null
+      },
+      "establishes": [
+        "at 2026-10-28T18:00:59.265Z this gate (commit 9371a5d6bbeb, version 0.4.20) measured https://x402-audit.agentdiet.dev/mcp and recorded status verified",
+        "conditions passed: agent_card, compensation_disclosure, determinism, mcp_endpoint; conditions failed: none",
+        "every hash in this record recomputes from the bytes it names, and record_sha256 recomputes from this record with record_sha256 and recompute_note removed",
+        "the measurement instant and the tool measured were derived from a committed salt and a Bitcoin block the subject did not choose (coordinate_derivation)"
+      ],
+      "does_not_establish": [
+        "correctness of any price, figure or answer the server returns",
+        "truth of the compensation declaration; only its presence and shape are measured",
+        "quality, competence or fitness of the operator or the service",
+        "behaviour at instants not measured or from vantages this gate did not use",
+        "that the operator published this card: it carried no signature, so these bytes are attributable to this gate's observation alone and the operator can repudiate them (an unsigned card is permitted and is not a failure)"
+      ],
+      "record_url": "https://gate.horizonshield.dev/record/997a5032e76870cd6717ff01af2db2da6925e8fb85c75dc33efe8d0bc56fbc50"
+    }
+  ],
   "archive": {
     "schema": "mcp-conduct-history-archive-v1",
     "source": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fx402-audit.agentdiet.dev%2Fmcp",
     "rule": "append-only union of every export seen, keyed by record_sha256; nothing is removed",
     "gate_retention_at_last_fetch": 400,
-    "last_fetch_at": "2026-10-21T21:57:07Z",
-    "count": 0
+    "last_fetch_at": "2026-10-28T22:48:18Z",
+    "count": 1
   }
 }

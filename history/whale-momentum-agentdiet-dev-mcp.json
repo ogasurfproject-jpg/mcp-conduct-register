@@ -1,12 +1,108 @@
 {
   "endpoint": "https://whale-momentum.agentdiet.dev/mcp",
-  "entries": [],
+  "entries": [
+    {
+      "at": "2026-10-28T18:01:00.509Z",
+      "status": "verified",
+      "reachable": true,
+      "record_sha256": "b88af140876d693bad1995a32027fd416499c4a7d38aa61989f9351b2377968a",
+      "consent_source": "well_known",
+      "conditions": {
+        "mcp_endpoint": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "MCP endpoint responds to initialize and tools/list"
+        },
+        "agent_card": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "agent-card published and well-formed"
+        },
+        "compensation_disclosure": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "compensation structure declared"
+        },
+        "determinism": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "identical input returned identical output across 2 runs"
+        }
+      },
+      "surface": {
+        "complete": true,
+        "pages_followed": 1,
+        "names_hash": "405033927d9432bc",
+        "manifest_hash": "59a38e229fd3ceb8",
+        "server_info_hash": "8daaeb1f627ae7d9",
+        "tool_hashes": {
+          "get_agent_wallet_status": "7c144751059249fd",
+          "track_dex_whale_momentum": "13a38561a56e00b1"
+        },
+        "extras_covers": [
+          "annotations",
+          "_meta",
+          "outputSchema",
+          "title"
+        ],
+        "extras_manifest_hash": "750255605fc063e0",
+        "extras_hashes": {
+          "get_agent_wallet_status": "07e6d35b72baf8e1",
+          "track_dex_whale_momentum": "2ba658d497a9eb13"
+        },
+        "canonicalization": "rfc8785-jcs",
+        "unsafe_integer_scan": "clean"
+      },
+      "absence_vs_failure": {
+        "measured": true,
+        "tools_measured": 2,
+        "discriminating": 0,
+        "cannot_distinguish_pct": 100
+      },
+      "fingerprint": "verified|agent_card=1,compensation_disclosure=1,determinism=1,mcp_endpoint=1",
+      "coordinate_derivation": {
+        "derived": true,
+        "window_id": "w2964",
+        "salt_commitment": "c1c55c6a6423158f0d9f3b49626a2e7cb41d069685b6738c4ce7b56834f3628a",
+        "salt_created_at": "2026-10-15T18:00:13.284Z",
+        "beacon": {
+          "height": 972634,
+          "block_hash": "0000000000000000000072e6c55d7357fe8a21ea25ce377a8c9f464dd7c73824",
+          "block_time": "2026-10-22T16:46:03.000Z"
+        },
+        "day_in_window": 6,
+        "tool_set_sha256": "8b826c6bfe8c2b10e6e0027c1216e42d2e2523f157470ea6e98a69056e091673",
+        "tool_count": 2,
+        "fallback": null,
+        "reason_code": null,
+        "why": null
+      },
+      "establishes": [
+        "at 2026-10-28T18:01:00.509Z this gate (commit 9371a5d6bbeb, version 0.4.20) measured https://whale-momentum.agentdiet.dev/mcp and recorded status verified",
+        "conditions passed: agent_card, compensation_disclosure, determinism, mcp_endpoint; conditions failed: none",
+        "every hash in this record recomputes from the bytes it names, and record_sha256 recomputes from this record with record_sha256 and recompute_note removed",
+        "the measurement instant and the tool measured were derived from a committed salt and a Bitcoin block the subject did not choose (coordinate_derivation)"
+      ],
+      "does_not_establish": [
+        "correctness of any price, figure or answer the server returns",
+        "truth of the compensation declaration; only its presence and shape are measured",
+        "quality, competence or fitness of the operator or the service",
+        "behaviour at instants not measured or from vantages this gate did not use",
+        "that the operator published this card: it carried no signature, so these bytes are attributable to this gate's observation alone and the operator can repudiate them (an unsigned card is permitted and is not a failure)"
+      ],
+      "record_url": "https://gate.horizonshield.dev/record/b88af140876d693bad1995a32027fd416499c4a7d38aa61989f9351b2377968a"
+    }
+  ],
   "archive": {
     "schema": "mcp-conduct-history-archive-v1",
     "source": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fwhale-momentum.agentdiet.dev%2Fmcp",
     "rule": "append-only union of every export seen, keyed by record_sha256; nothing is removed",
     "gate_retention_at_last_fetch": 400,
-    "last_fetch_at": "2026-10-21T21:57:07Z",
-    "count": 0
+    "last_fetch_at": "2026-10-28T22:48:19Z",
+    "count": 1
   }
 }
