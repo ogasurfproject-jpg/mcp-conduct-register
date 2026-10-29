@@ -198,6 +198,204 @@
         "that the operator published this card: it carried no signature, so these bytes are attributable to this gate's observation alone and the operator can repudiate them (an unsigned card is permitted and is not a failure)"
       ],
       "record_url": "https://gate.horizonshield.dev/record/b2637129f341c09672a4a76497df9dc3a37592049800bb7e9944a0b58efec32a"
+    },
+    {
+      "at": "2026-10-29T18:01:07.229Z",
+      "status": "verified",
+      "reachable": true,
+      "record_sha256": "3eda7de3403067b1053e7db7d261fa061c72104c8ff93973a5d4bfced6ed246c",
+      "consent_source": "well_known",
+      "conditions": {
+        "mcp_endpoint": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "MCP endpoint responds to initialize and tools/list"
+        },
+        "agent_card": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "agent-card published and well-formed"
+        },
+        "compensation_disclosure": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "compensation structure declared"
+        },
+        "determinism": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "identical input returned identical output across 2 runs"
+        }
+      },
+      "surface": {
+        "complete": true,
+        "pages_followed": 1,
+        "names_hash": "9b66073aa69f8446",
+        "manifest_hash": "b31dcc48c3ca1cf2",
+        "server_info_hash": "ab5629e736827dd6",
+        "tool_hashes": {
+          "distill_webpage": "5e5263ebb916a098",
+          "extract_structured_data": "383a996b301f12af",
+          "get_agent_wallet_status": "7c144751059249fd",
+          "recon_webpage_skeleton": "e3de4266f7b6a75c"
+        },
+        "extras_covers": [
+          "annotations",
+          "_meta",
+          "outputSchema",
+          "title"
+        ],
+        "extras_manifest_hash": "7ce201453fbec1f0",
+        "extras_hashes": {
+          "distill_webpage": "b56f0eb219280cf3",
+          "extract_structured_data": "24c8f538d77d43b1",
+          "get_agent_wallet_status": "07e6d35b72baf8e1",
+          "recon_webpage_skeleton": "c521b52d7c4562ca"
+        },
+        "canonicalization": "rfc8785-jcs",
+        "unsafe_integer_scan": "clean"
+      },
+      "absence_vs_failure": {
+        "measured": true,
+        "tools_measured": 4,
+        "discriminating": 0,
+        "cannot_distinguish_pct": 100
+      },
+      "fingerprint": "verified|agent_card=1,compensation_disclosure=1,determinism=1,mcp_endpoint=1",
+      "coordinate_derivation": {
+        "derived": true,
+        "window_id": "w2965",
+        "salt_commitment": "1069ed1b512cf61012b637e9e2377da820e3ef65e65441a9e4b66f8d2e78ea58",
+        "salt_created_at": "2026-10-22T18:00:52.468Z",
+        "beacon": {
+          "height": 973718,
+          "block_hash": "00000000000000000001a7c5dc18ac78aee6a9731ff09de01b8828e60e24ea7d",
+          "block_time": "2026-10-29T17:05:25.000Z"
+        },
+        "day_in_window": 0,
+        "tool_set_sha256": "d0044f2b8e0dff8c6e9c48fc721af467b2a7c7b74356a2c6ac6a04806e90f9f9",
+        "tool_count": 4,
+        "fallback": null,
+        "reason_code": null,
+        "why": null
+      },
+      "establishes": [
+        "at 2026-10-29T18:01:07.229Z this gate (commit 9371a5d6bbeb, version 0.4.20) measured https://rag-diet.agentdiet.dev/mcp and recorded status verified",
+        "conditions passed: agent_card, compensation_disclosure, determinism, mcp_endpoint; conditions failed: none",
+        "every hash in this record recomputes from the bytes it names, and record_sha256 recomputes from this record with record_sha256 and recompute_note removed",
+        "the measurement instant and the tool measured were derived from a committed salt and a Bitcoin block the subject did not choose (coordinate_derivation)"
+      ],
+      "does_not_establish": [
+        "correctness of any price, figure or answer the server returns",
+        "truth of the compensation declaration; only its presence and shape are measured",
+        "quality, competence or fitness of the operator or the service",
+        "behaviour at instants not measured or from vantages this gate did not use",
+        "that the operator published this card: it carried no signature, so these bytes are attributable to this gate's observation alone and the operator can repudiate them (an unsigned card is permitted and is not a failure)"
+      ],
+      "record_url": "https://gate.horizonshield.dev/record/3eda7de3403067b1053e7db7d261fa061c72104c8ff93973a5d4bfced6ed246c"
+    },
+    {
+      "at": "2026-10-29T19:42:09.166Z",
+      "status": "verified",
+      "reachable": true,
+      "record_sha256": "b1085e035e7ea88255516b116995320086b48ef770ce15fe84a7de74b83a92ea",
+      "consent_source": "well_known",
+      "conditions": {
+        "mcp_endpoint": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "MCP endpoint responds to initialize and tools/list"
+        },
+        "agent_card": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "agent-card published and well-formed"
+        },
+        "compensation_disclosure": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "compensation structure declared"
+        },
+        "determinism": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "identical input returned identical output across 2 runs"
+        }
+      },
+      "surface": {
+        "complete": true,
+        "pages_followed": 1,
+        "names_hash": "9b66073aa69f8446",
+        "manifest_hash": "b31dcc48c3ca1cf2",
+        "server_info_hash": "ab5629e736827dd6",
+        "tool_hashes": {
+          "distill_webpage": "5e5263ebb916a098",
+          "extract_structured_data": "383a996b301f12af",
+          "get_agent_wallet_status": "7c144751059249fd",
+          "recon_webpage_skeleton": "e3de4266f7b6a75c"
+        },
+        "extras_covers": [
+          "annotations",
+          "_meta",
+          "outputSchema",
+          "title"
+        ],
+        "extras_manifest_hash": "7ce201453fbec1f0",
+        "extras_hashes": {
+          "distill_webpage": "b56f0eb219280cf3",
+          "extract_structured_data": "24c8f538d77d43b1",
+          "get_agent_wallet_status": "07e6d35b72baf8e1",
+          "recon_webpage_skeleton": "c521b52d7c4562ca"
+        },
+        "canonicalization": "rfc8785-jcs",
+        "unsafe_integer_scan": "clean"
+      },
+      "absence_vs_failure": {
+        "measured": true,
+        "tools_measured": 4,
+        "discriminating": 0,
+        "cannot_distinguish_pct": 100
+      },
+      "fingerprint": "verified|agent_card=1,compensation_disclosure=1,determinism=1,mcp_endpoint=1",
+      "coordinate_derivation": {
+        "derived": true,
+        "window_id": "w2965",
+        "salt_commitment": "1069ed1b512cf61012b637e9e2377da820e3ef65e65441a9e4b66f8d2e78ea58",
+        "salt_created_at": "2026-10-22T18:00:52.468Z",
+        "beacon": {
+          "height": 973718,
+          "block_hash": "00000000000000000001a7c5dc18ac78aee6a9731ff09de01b8828e60e24ea7d",
+          "block_time": "2026-10-29T17:05:25.000Z"
+        },
+        "day_in_window": 0,
+        "tool_set_sha256": "d0044f2b8e0dff8c6e9c48fc721af467b2a7c7b74356a2c6ac6a04806e90f9f9",
+        "tool_count": 4,
+        "fallback": null,
+        "reason_code": null,
+        "why": null
+      },
+      "establishes": [
+        "at 2026-10-29T19:42:09.166Z this gate (commit 9371a5d6bbeb, version 0.4.20) measured https://rag-diet.agentdiet.dev/mcp and recorded status verified",
+        "conditions passed: agent_card, compensation_disclosure, determinism, mcp_endpoint; conditions failed: none",
+        "every hash in this record recomputes from the bytes it names, and record_sha256 recomputes from this record with record_sha256 and recompute_note removed",
+        "the measurement instant and the tool measured were derived from a committed salt and a Bitcoin block the subject did not choose (coordinate_derivation)"
+      ],
+      "does_not_establish": [
+        "correctness of any price, figure or answer the server returns",
+        "truth of the compensation declaration; only its presence and shape are measured",
+        "quality, competence or fitness of the operator or the service",
+        "behaviour at instants not measured or from vantages this gate did not use",
+        "that the operator published this card: it carried no signature, so these bytes are attributable to this gate's observation alone and the operator can repudiate them (an unsigned card is permitted and is not a failure)"
+      ],
+      "record_url": "https://gate.horizonshield.dev/record/b1085e035e7ea88255516b116995320086b48ef770ce15fe84a7de74b83a92ea"
     }
   ],
   "archive": {
@@ -205,7 +403,7 @@
     "source": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Frag-diet.agentdiet.dev%2Fmcp",
     "rule": "append-only union of every export seen, keyed by record_sha256; nothing is removed",
     "gate_retention_at_last_fetch": 400,
-    "last_fetch_at": "2026-10-27T22:34:01Z",
-    "count": 2
+    "last_fetch_at": "2026-10-29T22:56:10Z",
+    "count": 4
   }
 }

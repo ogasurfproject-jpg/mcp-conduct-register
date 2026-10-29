@@ -99,6 +99,204 @@
         "that the operator published this card: it carried no signature, so these bytes are attributable to this gate's observation alone and the operator can repudiate them (an unsigned card is permitted and is not a failure)"
       ],
       "record_url": "https://gate.horizonshield.dev/record/f4b30d5780726a7119c463dfb49a03795916acf6ab522bc69119b9eccdbc1853"
+    },
+    {
+      "at": "2026-10-29T18:01:01.986Z",
+      "status": "verified",
+      "reachable": true,
+      "record_sha256": "bbd2e10d92f87b21a1194964abeeff1ef3a10e9bc6636629dae1edf58925c25b",
+      "consent_source": "well_known",
+      "conditions": {
+        "mcp_endpoint": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "MCP endpoint responds to initialize and tools/list"
+        },
+        "agent_card": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "agent-card published and well-formed"
+        },
+        "compensation_disclosure": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "compensation structure declared"
+        },
+        "determinism": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "identical input returned identical output across 2 runs"
+        }
+      },
+      "surface": {
+        "complete": true,
+        "pages_followed": 1,
+        "names_hash": "9eb26fa867813e9d",
+        "manifest_hash": "810be393bc134c82",
+        "server_info_hash": "4f177cfa7dfed6ed",
+        "tool_hashes": {
+          "assay_get_ledger_policy": "416d44253474d63f",
+          "assay_preflight": "e2c3e32516fbc4bd",
+          "assay_probe": "e3aa662d91a7bc73",
+          "assay_verify_delivery": "7779e615c4de125e"
+        },
+        "extras_covers": [
+          "annotations",
+          "_meta",
+          "outputSchema",
+          "title"
+        ],
+        "extras_manifest_hash": "71ea01bb99cde04b",
+        "extras_hashes": {
+          "assay_get_ledger_policy": "b0133d381d7f5777",
+          "assay_preflight": "30b75e405027d7f7",
+          "assay_probe": "66701596f43ee655",
+          "assay_verify_delivery": "e8f1dcd414c4e0d8"
+        },
+        "canonicalization": "rfc8785-jcs",
+        "unsafe_integer_scan": "clean"
+      },
+      "absence_vs_failure": {
+        "measured": true,
+        "tools_measured": 4,
+        "discriminating": 0,
+        "cannot_distinguish_pct": 100
+      },
+      "fingerprint": "verified|agent_card=1,compensation_disclosure=1,determinism=1,mcp_endpoint=1",
+      "coordinate_derivation": {
+        "derived": true,
+        "window_id": "w2965",
+        "salt_commitment": "1069ed1b512cf61012b637e9e2377da820e3ef65e65441a9e4b66f8d2e78ea58",
+        "salt_created_at": "2026-10-22T18:00:52.468Z",
+        "beacon": {
+          "height": 973718,
+          "block_hash": "00000000000000000001a7c5dc18ac78aee6a9731ff09de01b8828e60e24ea7d",
+          "block_time": "2026-10-29T17:05:25.000Z"
+        },
+        "day_in_window": 0,
+        "tool_set_sha256": "2468f9aeefe2308032302efa9f81c610752dd33b03c9e6bd03d2e2a762ef4439",
+        "tool_count": 4,
+        "fallback": null,
+        "reason_code": null,
+        "why": null
+      },
+      "establishes": [
+        "at 2026-10-29T18:01:01.986Z this gate (commit 9371a5d6bbeb, version 0.4.20) measured https://assay.agentdiet.dev/mcp and recorded status verified",
+        "conditions passed: agent_card, compensation_disclosure, determinism, mcp_endpoint; conditions failed: none",
+        "every hash in this record recomputes from the bytes it names, and record_sha256 recomputes from this record with record_sha256 and recompute_note removed",
+        "the measurement instant and the tool measured were derived from a committed salt and a Bitcoin block the subject did not choose (coordinate_derivation)"
+      ],
+      "does_not_establish": [
+        "correctness of any price, figure or answer the server returns",
+        "truth of the compensation declaration; only its presence and shape are measured",
+        "quality, competence or fitness of the operator or the service",
+        "behaviour at instants not measured or from vantages this gate did not use",
+        "that the operator published this card: it carried no signature, so these bytes are attributable to this gate's observation alone and the operator can repudiate them (an unsigned card is permitted and is not a failure)"
+      ],
+      "record_url": "https://gate.horizonshield.dev/record/bbd2e10d92f87b21a1194964abeeff1ef3a10e9bc6636629dae1edf58925c25b"
+    },
+    {
+      "at": "2026-10-29T19:42:04.774Z",
+      "status": "verified",
+      "reachable": true,
+      "record_sha256": "044775a31ad23b0d7fc6a62946d880fdda1cc50ead31aa6d861c86a4828d8364",
+      "consent_source": "well_known",
+      "conditions": {
+        "mcp_endpoint": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "MCP endpoint responds to initialize and tools/list"
+        },
+        "agent_card": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "agent-card published and well-formed"
+        },
+        "compensation_disclosure": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "compensation structure declared"
+        },
+        "determinism": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "identical input returned identical output across 2 runs"
+        }
+      },
+      "surface": {
+        "complete": true,
+        "pages_followed": 1,
+        "names_hash": "9eb26fa867813e9d",
+        "manifest_hash": "810be393bc134c82",
+        "server_info_hash": "4f177cfa7dfed6ed",
+        "tool_hashes": {
+          "assay_get_ledger_policy": "416d44253474d63f",
+          "assay_preflight": "e2c3e32516fbc4bd",
+          "assay_probe": "e3aa662d91a7bc73",
+          "assay_verify_delivery": "7779e615c4de125e"
+        },
+        "extras_covers": [
+          "annotations",
+          "_meta",
+          "outputSchema",
+          "title"
+        ],
+        "extras_manifest_hash": "71ea01bb99cde04b",
+        "extras_hashes": {
+          "assay_get_ledger_policy": "b0133d381d7f5777",
+          "assay_preflight": "30b75e405027d7f7",
+          "assay_probe": "66701596f43ee655",
+          "assay_verify_delivery": "e8f1dcd414c4e0d8"
+        },
+        "canonicalization": "rfc8785-jcs",
+        "unsafe_integer_scan": "clean"
+      },
+      "absence_vs_failure": {
+        "measured": true,
+        "tools_measured": 4,
+        "discriminating": 0,
+        "cannot_distinguish_pct": 100
+      },
+      "fingerprint": "verified|agent_card=1,compensation_disclosure=1,determinism=1,mcp_endpoint=1",
+      "coordinate_derivation": {
+        "derived": true,
+        "window_id": "w2965",
+        "salt_commitment": "1069ed1b512cf61012b637e9e2377da820e3ef65e65441a9e4b66f8d2e78ea58",
+        "salt_created_at": "2026-10-22T18:00:52.468Z",
+        "beacon": {
+          "height": 973718,
+          "block_hash": "00000000000000000001a7c5dc18ac78aee6a9731ff09de01b8828e60e24ea7d",
+          "block_time": "2026-10-29T17:05:25.000Z"
+        },
+        "day_in_window": 0,
+        "tool_set_sha256": "2468f9aeefe2308032302efa9f81c610752dd33b03c9e6bd03d2e2a762ef4439",
+        "tool_count": 4,
+        "fallback": null,
+        "reason_code": null,
+        "why": null
+      },
+      "establishes": [
+        "at 2026-10-29T19:42:04.774Z this gate (commit 9371a5d6bbeb, version 0.4.20) measured https://assay.agentdiet.dev/mcp and recorded status verified",
+        "conditions passed: agent_card, compensation_disclosure, determinism, mcp_endpoint; conditions failed: none",
+        "every hash in this record recomputes from the bytes it names, and record_sha256 recomputes from this record with record_sha256 and recompute_note removed",
+        "the measurement instant and the tool measured were derived from a committed salt and a Bitcoin block the subject did not choose (coordinate_derivation)"
+      ],
+      "does_not_establish": [
+        "correctness of any price, figure or answer the server returns",
+        "truth of the compensation declaration; only its presence and shape are measured",
+        "quality, competence or fitness of the operator or the service",
+        "behaviour at instants not measured or from vantages this gate did not use",
+        "that the operator published this card: it carried no signature, so these bytes are attributable to this gate's observation alone and the operator can repudiate them (an unsigned card is permitted and is not a failure)"
+      ],
+      "record_url": "https://gate.horizonshield.dev/record/044775a31ad23b0d7fc6a62946d880fdda1cc50ead31aa6d861c86a4828d8364"
     }
   ],
   "archive": {
@@ -106,7 +304,7 @@
     "source": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fassay.agentdiet.dev%2Fmcp",
     "rule": "append-only union of every export seen, keyed by record_sha256; nothing is removed",
     "gate_retention_at_last_fetch": 400,
-    "last_fetch_at": "2026-10-24T21:08:16Z",
-    "count": 1
+    "last_fetch_at": "2026-10-29T22:56:09Z",
+    "count": 3
   }
 }
