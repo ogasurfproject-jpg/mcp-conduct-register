@@ -33,24 +33,24 @@ Every verdict carries a `record_sha256` that anyone can recompute from the publi
 The measurement code, the gate that runs it, and this generator are all public.
 
 <!-- REGISTER:START -->
-Generated from <https://gate.horizonshield.dev/register> at 2026-10-30 22:36 UTC.
+Generated from <https://gate.horizonshield.dev/register> at 2026-10-31 21:49 UTC.
 
 **42 rows.** Nobody chose them. This table is written by a script, not a person.
 
 | Server | Endpoint | Latest verdict | Measured | Public measurements | record_sha256 | History |
 |---|---|---|---|---|---|---|
-| KIRA fair price audit (the flagship MCP server)<br><sub>KIRA適正診断</sub> | `https://mcp.horizonshield.dev/mcp` | held | 2026-10-30 | 81 | `ee111af53591` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fmcp.horizonshield.dev%2Fmcp) |
-| YAKUMO verified contractor directory<br><sub>YAKUMO加盟店ディレクトリ</sub> | `https://hearing.horizonshield.dev/mcp` | held | 2026-10-30 | 81 | `39046373a755` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fhearing.horizonshield.dev%2Fmcp) |
-| KIRA intake desk for renovation questions<br><sub>KIRA相談窓口</sub> | `https://web.horizonshield.dev/mcp` | verified | 2026-10-30 | 80 | `59f0ecbf3749` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fweb.horizonshield.dev%2Fmcp) |
-| JIDEC, the Bitcoin anchored public ledger<br><sub>JIDEC 公開検証台帳</sub> | `https://jidec.horizonshield.dev/mcp` | pending | 2026-10-30 | 78 | `acdad4517f24` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fjidec.horizonshield.dev%2Fmcp) |
-| Reform Shokunin Co., Ltd. (member No.001, Aichi)<br><sub>リフォーム職人株式会社（加盟No.001）</sub> | `https://p001.horizonshield.dev/mcp` | verified | 2026-10-30 | 80 | `617d95f51b35` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fp001.horizonshield.dev%2Fmcp) |
-| Mineo Toyo Juki Co., Ltd. (member No.002)<br><sub>ミネオトーヨー住器株式会社（加盟No.002）</sub> | `https://p002.horizonshield.dev/mcp` | verified | 2026-10-30 | 80 | `cb62ed33f747` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fp002.horizonshield.dev%2Fmcp) |
-| The verification gate, measuring itself<br><sub>検証ゲート（この検査機自身）</sub> | `https://gate.horizonshield.dev/mcp` | held | 2026-10-30 | 80 | `9eb6fd6da6a0` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fgate.horizonshield.dev%2Fmcp) |
-| Femtech source registry (verify sources, never diagnose)<br><sub>フェム情報源レジストリ</sub> | `https://femtech.horizonshield.dev/mcp` | held | 2026-10-30 | 59 | `bca4aa796b3f` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Ffemtech.horizonshield.dev%2Fmcp) |
-| Construction cost data (JCCDB for Japan, USCCDB for the United States)<br><sub>建設費データ(JCCDB・USCCDB)</sub> | `https://ccdb.horizonshield.dev/mcp` | held | 2026-10-30 | 19 | `6e26c56771eb` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fccdb.horizonshield.dev%2Fmcp) |
+| KIRA fair price audit (the flagship MCP server)<br><sub>KIRA適正診断</sub> | `https://mcp.horizonshield.dev/mcp` | held | 2026-10-31 | 82 | `59581ba1cb1b` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fmcp.horizonshield.dev%2Fmcp) |
+| YAKUMO verified contractor directory<br><sub>YAKUMO加盟店ディレクトリ</sub> | `https://hearing.horizonshield.dev/mcp` | held | 2026-10-31 | 82 | `50bc33004ecd` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fhearing.horizonshield.dev%2Fmcp) |
+| KIRA intake desk for renovation questions<br><sub>KIRA相談窓口</sub> | `https://web.horizonshield.dev/mcp` | verified | 2026-10-31 | 81 | `c75980dd5dc9` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fweb.horizonshield.dev%2Fmcp) |
+| JIDEC, the Bitcoin anchored public ledger<br><sub>JIDEC 公開検証台帳</sub> | `https://jidec.horizonshield.dev/mcp` | pending | 2026-10-31 | 79 | `a4574ccbf425` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fjidec.horizonshield.dev%2Fmcp) |
+| Reform Shokunin Co., Ltd. (member No.001, Aichi)<br><sub>リフォーム職人株式会社（加盟No.001）</sub> | `https://p001.horizonshield.dev/mcp` | held | 2026-10-31 | 81 | `f150dcfeaa86` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fp001.horizonshield.dev%2Fmcp) |
+| Mineo Toyo Juki Co., Ltd. (member No.002)<br><sub>ミネオトーヨー住器株式会社（加盟No.002）</sub> | `https://p002.horizonshield.dev/mcp` | held | 2026-10-31 | 81 | `92357ac918f4` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fp002.horizonshield.dev%2Fmcp) |
+| The verification gate, measuring itself<br><sub>検証ゲート（この検査機自身）</sub> | `https://gate.horizonshield.dev/mcp` | held | 2026-10-31 | 81 | `1c8bc186955c` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fgate.horizonshield.dev%2Fmcp) |
+| Femtech source registry (verify sources, never diagnose)<br><sub>フェム情報源レジストリ</sub> | `https://femtech.horizonshield.dev/mcp` | held | 2026-10-31 | 60 | `78c3e120a8cc` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Ffemtech.horizonshield.dev%2Fmcp) |
+| Construction cost data (JCCDB for Japan, USCCDB for the United States)<br><sub>建設費データ(JCCDB・USCCDB)</sub> | `https://ccdb.horizonshield.dev/mcp` | held | 2026-10-31 | 20 | `ac9c62e25226` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fccdb.horizonshield.dev%2Fmcp) |
 | https://intel.twzrd.xyz/mcp | `https://intel.twzrd.xyz/mcp` | pending | 2026-10-28 | 8 | `69778be7815b` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fintel.twzrd.xyz%2Fmcp) |
 | https://integrated-system-gzyu.onrender.com/mcp | `https://integrated-system-gzyu.onrender.com/mcp` | held | 2026-10-29 | 5 | `c11d9997ba71` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fintegrated-system-gzyu.onrender.com%2Fmcp) |
-| https://x402broker.com/mcp | `https://x402broker.com/mcp` | verified | 2026-10-24 | 2 | `1797257ed675` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fx402broker.com%2Fmcp) |
+| https://x402broker.com/mcp | `https://x402broker.com/mcp` | verified | 2026-10-31 | 3 | `fc84a477ddc5` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fx402broker.com%2Fmcp) |
 | https://agentdiet.dev/mcp | `https://agentdiet.dev/mcp` | verified | 2026-10-26 | 2 | `1006ab12da4d` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fagentdiet.dev%2Fmcp) |
 | https://assay.agentdiet.dev/mcp | `https://assay.agentdiet.dev/mcp` | verified | 2026-10-29 | 3 | `044775a31ad2` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fassay.agentdiet.dev%2Fmcp) |
 | https://workflows.agentdiet.dev/mcp | `https://workflows.agentdiet.dev/mcp` | verified | 2026-10-29 | 3 | `ab336adc3c31` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fworkflows.agentdiet.dev%2Fmcp) |
@@ -63,14 +63,14 @@ Generated from <https://gate.horizonshield.dev/register> at 2026-10-30 22:36 UTC
 | https://json-repair.agentdiet.dev/mcp | `https://json-repair.agentdiet.dev/mcp` | verified | 2026-10-27 | 2 | `81f15adb82b4` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fjson-repair.agentdiet.dev%2Fmcp) |
 | https://serp-extract.agentdiet.dev/mcp | `https://serp-extract.agentdiet.dev/mcp` | verified | 2026-10-30 | 3 | `87f1192b738e` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fserp-extract.agentdiet.dev%2Fmcp) |
 | https://llms-generator.agentdiet.dev/mcp | `https://llms-generator.agentdiet.dev/mcp` | verified | 2026-10-30 | 3 | `915b3612d433` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fllms-generator.agentdiet.dev%2Fmcp) |
-| https://github-audit.agentdiet.dev/mcp | `https://github-audit.agentdiet.dev/mcp` | verified | 2026-10-22 | 1 | `5ad57237c73b` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fgithub-audit.agentdiet.dev%2Fmcp) |
-| https://company-enrich.agentdiet.dev/mcp | `https://company-enrich.agentdiet.dev/mcp` | verified | 2026-10-28 | 1 | `eadc61ad3cfb` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fcompany-enrich.agentdiet.dev%2Fmcp) |
+| https://github-audit.agentdiet.dev/mcp | `https://github-audit.agentdiet.dev/mcp` | verified | 2026-10-31 | 2 | `74ac9d6afce2` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fgithub-audit.agentdiet.dev%2Fmcp) |
+| https://company-enrich.agentdiet.dev/mcp | `https://company-enrich.agentdiet.dev/mcp` | verified | 2026-10-31 | 2 | `e60d3ec88612` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fcompany-enrich.agentdiet.dev%2Fmcp) |
 | https://sec-intel.agentdiet.dev/mcp | `https://sec-intel.agentdiet.dev/mcp` | verified | 2026-10-24 | 2 | `50afe5162f36` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fsec-intel.agentdiet.dev%2Fmcp) |
 | https://domain-osint.agentdiet.dev/mcp | `https://domain-osint.agentdiet.dev/mcp` | verified | 2026-10-23 | 1 | `e9644898b30a` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fdomain-osint.agentdiet.dev%2Fmcp) |
 | https://email-verify.agentdiet.dev/mcp | `https://email-verify.agentdiet.dev/mcp` | verified | 2026-10-25 | 3 | `7e7188469b5a` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Femail-verify.agentdiet.dev%2Fmcp) |
 | https://arxiv-digest.agentdiet.dev/mcp | `https://arxiv-digest.agentdiet.dev/mcp` | verified | 2026-10-23 | 1 | `fc388116c408` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Farxiv-digest.agentdiet.dev%2Fmcp) |
-| https://shopify-spy.agentdiet.dev/mcp | `https://shopify-spy.agentdiet.dev/mcp` | verified | 2026-10-22 | 1 | `3a4b8821a898` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fshopify-spy.agentdiet.dev%2Fmcp) |
-| https://x402-audit.agentdiet.dev/mcp | `https://x402-audit.agentdiet.dev/mcp` | verified | 2026-10-28 | 1 | `997a5032e768` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fx402-audit.agentdiet.dev%2Fmcp) |
+| https://shopify-spy.agentdiet.dev/mcp | `https://shopify-spy.agentdiet.dev/mcp` | verified | 2026-10-31 | 2 | `8f7ace288bed` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fshopify-spy.agentdiet.dev%2Fmcp) |
+| https://x402-audit.agentdiet.dev/mcp | `https://x402-audit.agentdiet.dev/mcp` | verified | 2026-10-31 | 2 | `52001aa88595` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fx402-audit.agentdiet.dev%2Fmcp) |
 | https://onchain-risk.agentdiet.dev/mcp | `https://onchain-risk.agentdiet.dev/mcp` | verified | 2026-10-25 | 2 | `37ef3278e60e` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fonchain-risk.agentdiet.dev%2Fmcp) |
 | https://token-intel.agentdiet.dev/mcp | `https://token-intel.agentdiet.dev/mcp` | verified | 2026-10-29 | 3 | `440d899ade07` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Ftoken-intel.agentdiet.dev%2Fmcp) |
 | https://polymarket-odds.agentdiet.dev/mcp | `https://polymarket-odds.agentdiet.dev/mcp` | verified | 2026-10-24 | 1 | `c8bc8cb39953` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fpolymarket-odds.agentdiet.dev%2Fmcp) |
@@ -80,7 +80,7 @@ Generated from <https://gate.horizonshield.dev/register> at 2026-10-30 22:36 UTC
 | https://whale-momentum.agentdiet.dev/mcp | `https://whale-momentum.agentdiet.dev/mcp` | verified | 2026-10-28 | 1 | `b88af140876d` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fwhale-momentum.agentdiet.dev%2Fmcp) |
 | https://alpha-stream.agentdiet.dev/mcp | `https://alpha-stream.agentdiet.dev/mcp` | verified | 2026-10-29 | 4 | `94f7679f1c0e` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Falpha-stream.agentdiet.dev%2Fmcp) |
 | https://mcp-compiler.agentdiet.dev/mcp | `https://mcp-compiler.agentdiet.dev/mcp` | verified | 2026-10-30 | 3 | `ec378d2f9eac` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fmcp-compiler.agentdiet.dev%2Fmcp) |
-| https://cve-intel.agentdiet.dev/mcp | `https://cve-intel.agentdiet.dev/mcp` | not measured yet |  | 0 |  | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fcve-intel.agentdiet.dev%2Fmcp) |
+| https://cve-intel.agentdiet.dev/mcp | `https://cve-intel.agentdiet.dev/mcp` | verified | 2026-10-31 | 2 | `6247e2b39c3b` | [history](https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fcve-intel.agentdiet.dev%2Fmcp) |
 
 Measured by gate commit `9371a5d6bbeb`. The commit that produced each verdict is inside the hashed record.
 
