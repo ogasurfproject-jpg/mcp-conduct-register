@@ -6657,6 +6657,138 @@
         "conditions not measured on this instant: determinism (unmeasured is not failed)"
       ],
       "record_url": "https://gate.horizonshield.dev/record/477d45b5f106f1db5fb9b234402a1c64b86a677a4b6ec382d1b2efc2ed8e99fd"
+    },
+    {
+      "at": "2026-11-03T19:18:01.306Z",
+      "status": "pending",
+      "reachable": true,
+      "record_sha256": "55b747efa9a4e158eb6b1a4aa0e3e9cce8e34e21befda8b0fd20f17a905f2b0d",
+      "consent_source": "operator_list",
+      "conditions": {
+        "mcp_endpoint": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "MCP endpoint responds to initialize and tools/list"
+        },
+        "agent_card": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "agent-card published and well-formed; signature verifies"
+        },
+        "compensation_disclosure": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "compensation structure declared"
+        },
+        "determinism": {
+          "pass": false,
+          "measured": false,
+          "transport": false,
+          "reason": "not measured: every tool tried (3 of 13) answered empty arguments with an error, so there was no output to compare. An error echo is not a measurement of determinism."
+        }
+      },
+      "surface": {
+        "complete": true,
+        "pages_followed": 1,
+        "names_hash": "d48a28ca0a154a1c",
+        "manifest_hash": "75647e1fb269ba68",
+        "server_info_hash": "810f541b1f062d10",
+        "tool_hashes": {
+          "jidec_cite": "2b3d6878d4dc3199",
+          "jidec_how_to_verify": "1e46fd10669699bc",
+          "jidec_list_paths": "19490f8ac003a1c2",
+          "jidec_replay": "f92e83492f4936b7",
+          "nenrin_admission": "a9302fc1bfd2b14c",
+          "nenrin_agreement": "92347f3d78816f72",
+          "nenrin_furui_day": "bbd885c320a08d37",
+          "nenrin_furui_leaf": "2025b31d0f1e69a0",
+          "nenrin_ledger_entry": "b88f99545fa63b0b",
+          "nenrin_ledger_head": "c756cb79d8df603d",
+          "nenrin_resume": "ea204001d0800024",
+          "nenrin_trust_signal": "7748e26c8d2ac47f",
+          "nenrin_witness": "ab6e5a08902ee2fe"
+        },
+        "extras_covers": [
+          "annotations",
+          "_meta",
+          "outputSchema",
+          "title"
+        ],
+        "extras_manifest_hash": "6d5f1bd110578665",
+        "extras_hashes": {
+          "jidec_cite": "44b29881be443570",
+          "jidec_how_to_verify": "08ef2a835d826b76",
+          "jidec_list_paths": "c3b7526b2b243978",
+          "jidec_replay": "573c7610897837e9",
+          "nenrin_admission": "243640a82bedceab",
+          "nenrin_agreement": "7f88cb551efa899b",
+          "nenrin_furui_day": "59d487e3f35b1ad9",
+          "nenrin_furui_leaf": "82f4d3591edcb512",
+          "nenrin_ledger_entry": "07b71e44b4eca55d",
+          "nenrin_ledger_head": "3e6ee02a08529993",
+          "nenrin_resume": "da4cb70da8a7f992",
+          "nenrin_trust_signal": "cd6ca580d6094c8c",
+          "nenrin_witness": "b2eae5ec89a6f9b6"
+        },
+        "canonicalization": "rfc8785-jcs",
+        "unsafe_integer_scan": "clean"
+      },
+      "absence_vs_failure": {
+        "measured": true,
+        "tools_measured": 13,
+        "discriminating": 13,
+        "cannot_distinguish_pct": 0
+      },
+      "fingerprint": "pending|agent_card=1,compensation_disclosure=1,determinism=0,mcp_endpoint=1",
+      "coordinate_derivation": {
+        "derived": true,
+        "window_id": "w2965",
+        "salt_commitment": "1069ed1b512cf61012b637e9e2377da820e3ef65e65441a9e4b66f8d2e78ea58",
+        "salt_created_at": "2026-10-22T18:00:52.468Z",
+        "beacon": {
+          "height": 973718,
+          "block_hash": "00000000000000000001a7c5dc18ac78aee6a9731ff09de01b8828e60e24ea7d",
+          "block_time": "2026-10-29T17:05:25.000Z"
+        },
+        "day_in_window": 5,
+        "tool_set_sha256": "13b70c4c9b5a1c418ab1fae9beecb267317bf47ea523fc5b9e02d90a2c009a27",
+        "tool_count": 13,
+        "fallback": null,
+        "reason_code": null,
+        "why": null
+      },
+      "establishes": [
+        "at 2026-11-03T19:18:01.306Z this gate (commit 9371a5d6bbeb, version 0.4.20) measured https://jidec.horizonshield.dev/mcp and recorded status pending",
+        "conditions passed: agent_card, compensation_disclosure, mcp_endpoint; conditions failed: none",
+        "every hash in this record recomputes from the bytes it names, and record_sha256 recomputes from this record with record_sha256 and recompute_note removed",
+        "the measurement instant and the tool measured were derived from a committed salt and a Bitcoin block the subject did not choose (coordinate_derivation)",
+        "the agent card was signed with the key at https://jidec.horizonshield.dev/.well-known/jwks.json (kid hs-2026-09), which is served on the agent's own host, and the signature verifies over the canonical card, so what the card declares is attributable to the operator and not only to this gate's observation"
+      ],
+      "does_not_establish": [
+        "correctness of any price, figure or answer the server returns",
+        "truth of the compensation declaration; only its presence and shape are measured",
+        "quality, competence or fitness of the operator or the service",
+        "behaviour at instants not measured or from vantages this gate did not use",
+        "conditions not measured on this instant: determinism (unmeasured is not failed)"
+      ],
+      "record_url": "https://gate.horizonshield.dev/record/55b747efa9a4e158eb6b1a4aa0e3e9cce8e34e21befda8b0fd20f17a905f2b0d",
+      "surface_change": {
+        "added": [
+          "nenrin_admission",
+          "nenrin_agreement",
+          "nenrin_furui_day",
+          "nenrin_furui_leaf"
+        ],
+        "removed": [],
+        "definition_changed": [
+          "nenrin_resume"
+        ],
+        "extras_changed": [],
+        "note": "The tool surface changed between measurements. This is a dated fact, not a defect: the MCP specification treats tool-list changes as normal operation (notifications/tools/list_changed). Recorded for anyone; judged by no one."
+      }
     }
   ],
   "archive": {
@@ -6664,7 +6796,7 @@
     "source": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fjidec.horizonshield.dev%2Fmcp",
     "rule": "append-only union of every export seen, keyed by record_sha256; nothing is removed",
     "gate_retention_at_last_fetch": 400,
-    "last_fetch_at": "2026-11-03T01:10:57Z",
-    "count": 82
+    "last_fetch_at": "2026-11-03T23:37:38Z",
+    "count": 83
   }
 }
