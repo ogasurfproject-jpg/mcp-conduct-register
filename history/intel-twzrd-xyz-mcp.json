@@ -656,6 +656,154 @@
         "that the operator published this card: it carried no signature, so these bytes are attributable to this gate's observation alone and the operator can repudiate them (an unsigned card is permitted and is not a failure)"
       ],
       "record_url": "https://gate.horizonshield.dev/record/38ca0f6818e4ba0eb12c51438bdc0ea791294f7bbf39c8e9d5afe2eb9d3509f6"
+    },
+    {
+      "at": "2026-11-09T18:01:02.336Z",
+      "status": "pending",
+      "reachable": true,
+      "record_sha256": "c60b43c8eddec4a805eae3bc00b6404a6d2367c6756e31711e537e0781cbff31",
+      "consent_source": "none",
+      "conditions": {
+        "mcp_endpoint": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "MCP endpoint responds to initialize and tools/list"
+        },
+        "agent_card": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "agent-card published and well-formed"
+        },
+        "compensation_disclosure": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "compensation structure declared"
+        },
+        "determinism": {
+          "pass": false,
+          "measured": false,
+          "transport": false,
+          "reason": "not measured: measuring determinism requires calling one of your tools, and this gate does not call tools on a server without the owner's consent. The first tool listed may be destructive. To have this condition measured, publish /.well-known/mcp-conduct.json on the origin with {\"allow_tool_call\": true}; a request field alone is not proof of ownership."
+        }
+      },
+      "surface": {
+        "complete": true,
+        "pages_followed": 1,
+        "names_hash": "502fbf46fcfd816e",
+        "manifest_hash": "1f048d87c8f7275d",
+        "server_info_hash": "5c97b4124929572e",
+        "tool_hashes": {
+          "check_listing": "733a27f313b7ebe3",
+          "compare_wallets": "ac1bd1f4b31fa54f",
+          "evaluate_x402_resource": "35b7450c1ebf5ed6",
+          "get_claim": "11fff3365db93371",
+          "get_counterparties": "654a6fb0b0bd14c3",
+          "get_evidence": "6bd0a0bd01e240f8",
+          "get_facilitator_footprint": "03a9c68117f5acc6",
+          "get_merchant_card": "dd58af53ac2346db",
+          "get_poec_score": "8f22a9edc88fb7e9",
+          "get_provider_reputation": "f448f86fa9963319",
+          "get_publication": "16c663a55632b89c",
+          "get_readiness_card_tool": "e211efb1edc3f707",
+          "get_shopping_check": "254c6fa25d93f303",
+          "get_solana_market_status": "d92041e861d3e52d",
+          "get_top_intel_agents": "bdc3b6172f4c4992",
+          "get_x402_directory": "24fa0d9d493646dc",
+          "is_wash_fleet": "1c719c5ab1bc64d9",
+          "low_level_preflight": "e619e06f642fcc8b",
+          "score_wallet_for_intel": "8273772fc3cf1d7f",
+          "score_wallets_batch": "cc35c2e4fa2296ba",
+          "submit_contribution_claims": "3865f93eb3b6464b",
+          "twzrd_demo_gate": "586512b3d8a74853",
+          "twzrd_watch_add": "479a55c3e2bdd070",
+          "twzrd_watch_list": "292815c850939517",
+          "twzrd_watch_remove": "2d3042d9a181e222",
+          "verify_receipt": "c3c96fdff3c253ed",
+          "verify_root_inputs": "ebe476f229354447",
+          "verify_x402_settled_claim": "371e024c39ed62c6"
+        },
+        "extras_covers": [
+          "annotations",
+          "_meta",
+          "outputSchema",
+          "title"
+        ],
+        "extras_manifest_hash": "268f3fe0d1f5419f",
+        "extras_hashes": {
+          "check_listing": "c34ed29971b3f17f",
+          "compare_wallets": "f7ad0165b2ad1d34",
+          "evaluate_x402_resource": "19fe6a742420da83",
+          "get_claim": "ceb05fe70c2c63dd",
+          "get_counterparties": "7ccb96f666861f92",
+          "get_evidence": "ceb05fe70c2c63dd",
+          "get_facilitator_footprint": "0b3d19ecb84556d6",
+          "get_merchant_card": "9b70c313417ea097",
+          "get_poec_score": "70c0b081762ec896",
+          "get_provider_reputation": "cdc7f752c69db0dc",
+          "get_publication": "dcc7a4e0275b8293",
+          "get_readiness_card_tool": "39102a85a56653f9",
+          "get_shopping_check": "8a348733334248a6",
+          "get_solana_market_status": "efbab899c832b2c6",
+          "get_top_intel_agents": "463aabf9427e705e",
+          "get_x402_directory": "9b70c313417ea097",
+          "is_wash_fleet": "fef703fda16bb96d",
+          "low_level_preflight": "9e33bd393d168c8c",
+          "score_wallet_for_intel": "e44771276e9c241e",
+          "score_wallets_batch": "750ad1a1482c06f4",
+          "submit_contribution_claims": "b4c142569cafbfee",
+          "twzrd_demo_gate": "9b70c313417ea097",
+          "twzrd_watch_add": "3678ba3ad6370877",
+          "twzrd_watch_list": "9b70c313417ea097",
+          "twzrd_watch_remove": "3678ba3ad6370877",
+          "verify_receipt": "a5172b0e41103230",
+          "verify_root_inputs": "7e30fdb3bf7081ce",
+          "verify_x402_settled_claim": "1d4168401c15498b"
+        },
+        "canonicalization": "rfc8785-jcs",
+        "unsafe_integer_scan": "clean"
+      },
+      "absence_vs_failure": {
+        "measured": true,
+        "tools_measured": 28,
+        "discriminating": 2,
+        "cannot_distinguish_pct": 92.9
+      },
+      "fingerprint": "pending|agent_card=1,compensation_disclosure=1,determinism=0,mcp_endpoint=1",
+      "coordinate_derivation": {
+        "derived": true,
+        "window_id": "w2966",
+        "salt_commitment": "945ea39ef42c08fc5cde17295a0dcb5bd4d10acb80e7236a8a1806ec1d3fd91f",
+        "salt_created_at": "2026-10-29T18:00:50.185Z",
+        "beacon": {
+          "height": 974682,
+          "block_hash": "00000000000000000000ea98d2835e98563e778df290679a602daf72788ea292",
+          "block_time": "2026-11-05T15:59:09.000Z"
+        },
+        "day_in_window": 4,
+        "tool_set_sha256": "af70789aab6d4ba275b4d6eaf3892186e2a57f2294468c5f4b1f65e32ab3f621",
+        "tool_count": 28,
+        "fallback": null,
+        "reason_code": null,
+        "why": null
+      },
+      "establishes": [
+        "at 2026-11-09T18:01:02.336Z this gate (commit 3166a95da9b0, version 0.4.24) measured https://intel.twzrd.xyz/mcp and recorded status pending",
+        "conditions passed: agent_card, compensation_disclosure, mcp_endpoint; conditions failed: none",
+        "every hash in this record recomputes from the bytes it names, and record_sha256 recomputes from this record with record_sha256 and recompute_note removed",
+        "the measurement instant and the tool measured were derived from a committed salt and a Bitcoin block the subject did not choose (coordinate_derivation)"
+      ],
+      "does_not_establish": [
+        "correctness of any price, figure or answer the server returns",
+        "truth of the compensation declaration; only its presence and shape are measured",
+        "quality, competence or fitness of the operator or the service",
+        "behaviour at instants not measured or from vantages this gate did not use",
+        "conditions not measured on this instant: determinism (unmeasured is not failed)",
+        "that the operator published this card: it carried no signature, so these bytes are attributable to this gate's observation alone and the operator can repudiate them (an unsigned card is permitted and is not a failure)"
+      ],
+      "record_url": "https://gate.horizonshield.dev/record/c60b43c8eddec4a805eae3bc00b6404a6d2367c6756e31711e537e0781cbff31"
     }
   ],
   "archive": {
@@ -663,7 +811,7 @@
     "source": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fintel.twzrd.xyz%2Fmcp",
     "rule": "append-only union of every export seen, keyed by record_sha256; nothing is removed",
     "gate_retention_at_last_fetch": 400,
-    "last_fetch_at": "2026-11-04T23:53:39Z",
-    "count": 9
+    "last_fetch_at": "2026-11-10T01:44:28Z",
+    "count": 10
   }
 }
