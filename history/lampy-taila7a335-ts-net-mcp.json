@@ -1,0 +1,12 @@
+{
+  "endpoint": "https://lampy.taila7a335.ts.net/mcp",
+  "entries": [],
+  "archive": {
+    "schema": "mcp-conduct-history-archive-v1",
+    "source": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Flampy.taila7a335.ts.net%2Fmcp",
+    "rule": "append-only union of every export seen, keyed by record_sha256; nothing is removed",
+    "gate_retention_at_last_fetch": 400,
+    "last_fetch_at": "2026-11-12T23:50:23Z",
+    "count": 0
+  }
+}
