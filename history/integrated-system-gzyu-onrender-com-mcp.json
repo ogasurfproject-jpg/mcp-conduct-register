@@ -438,6 +438,79 @@
         "anything about the target for conditions the gate's own transport failed on: agent_card, mcp_endpoint"
       ],
       "record_url": "https://gate.horizonshield.dev/record/5f20208cba430aa9d6891f4628d8b5f163858e2f4d5b3f4ea77081f735be503b"
+    },
+    {
+      "at": "2026-11-14T18:00:46.655Z",
+      "status": "held",
+      "reachable": false,
+      "record_sha256": "82e7788ae8b45d4b13f00664021970b238e6c43d9247ea73a1abb4c840ae9a67",
+      "consent_source": "none",
+      "conditions": {
+        "mcp_endpoint": {
+          "pass": false,
+          "measured": true,
+          "transport": true,
+          "reason": "initialize failed: http 503"
+        },
+        "agent_card": {
+          "pass": false,
+          "measured": true,
+          "transport": true,
+          "reason": "agent-card not reachable (http 503)"
+        },
+        "compensation_disclosure": {
+          "pass": false,
+          "measured": true,
+          "transport": false,
+          "reason": "no agent-card, cannot read compensation"
+        },
+        "determinism": {
+          "pass": false,
+          "measured": false,
+          "transport": false,
+          "reason": "not measured: measuring determinism requires calling one of your tools, and this gate does not call tools on a server without the owner's consent. The first tool listed may be destructive. To have this condition measured, publish /.well-known/mcp-conduct.json on the origin with {\"allow_tool_call\": true}; a request field alone is not proof of ownership."
+        }
+      },
+      "surface": null,
+      "absence_vs_failure": {
+        "measured": false,
+        "tools_measured": null,
+        "discriminating": null,
+        "cannot_distinguish_pct": null
+      },
+      "fingerprint": "held|agent_card=0,compensation_disclosure=0,determinism=0,mcp_endpoint=0",
+      "coordinate_derivation": {
+        "derived": true,
+        "window_id": "w2967",
+        "salt_commitment": "f98d901f9eddad7263a901af93458d499e04a846d56821deca1b91e6dc2f6aa5",
+        "salt_created_at": "2026-11-05T18:00:08.845Z",
+        "beacon": {
+          "height": 975571,
+          "block_hash": "000000000000000000013ab3fd4a920c2996daabf09ec5592feb8cbca27affdf",
+          "block_time": "2026-11-12T15:46:11.000Z"
+        },
+        "day_in_window": 2,
+        "tool_set_sha256": null,
+        "tool_count": 0,
+        "fallback": null,
+        "reason_code": null,
+        "why": null
+      },
+      "establishes": [
+        "at 2026-11-14T18:00:46.655Z this gate (commit 3166a95da9b0, version 0.4.24) measured https://integrated-system-gzyu.onrender.com/mcp and recorded status held",
+        "conditions passed: none; conditions failed: compensation_disclosure",
+        "every hash in this record recomputes from the bytes it names, and record_sha256 recomputes from this record with record_sha256 and recompute_note removed",
+        "the measurement instant and the tool measured were derived from a committed salt and a Bitcoin block the subject did not choose (coordinate_derivation)"
+      ],
+      "does_not_establish": [
+        "correctness of any price, figure or answer the server returns",
+        "truth of the compensation declaration; only its presence and shape are measured",
+        "quality, competence or fitness of the operator or the service",
+        "behaviour at instants not measured or from vantages this gate did not use",
+        "conditions not measured on this instant: determinism (unmeasured is not failed)",
+        "anything about the target for conditions the gate's own transport failed on: agent_card, mcp_endpoint"
+      ],
+      "record_url": "https://gate.horizonshield.dev/record/82e7788ae8b45d4b13f00664021970b238e6c43d9247ea73a1abb4c840ae9a67"
     }
   ],
   "archive": {
@@ -445,7 +518,7 @@
     "source": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fintegrated-system-gzyu.onrender.com%2Fmcp",
     "rule": "append-only union of every export seen, keyed by record_sha256; nothing is removed",
     "gate_retention_at_last_fetch": 400,
-    "last_fetch_at": "2026-11-07T22:14:30Z",
-    "count": 6
+    "last_fetch_at": "2026-11-14T22:42:33Z",
+    "count": 7
   }
 }
