@@ -5,71 +5,71 @@
 <link href="https://github.com/ogasurfproject-jpg/mcp-conduct-register" rel="alternate"/>
 <link href="https://raw.githubusercontent.com/ogasurfproject-jpg/mcp-conduct-register/main/feed.xml" rel="self"/>
 <id>https://github.com/ogasurfproject-jpg/mcp-conduct-register#feed</id>
-<updated>2026-11-21T00:09:01Z</updated>
+<updated>2026-11-21T23:33:14Z</updated>
 <author><name>The HORIZONs Co., Ltd.</name><uri>https://shield.the-horizons-innovation.com/</uri></author>
 <generator>hs-verify-gate 3166a95da9b0</generator>
 <entry>
 <title>KIRA fair price audit (the flagship MCP server): verified</title>
 <link href="https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fmcp.horizonshield.dev%2Fmcp" rel="alternate"/>
 <id>https://mcp.horizonshield.dev/mcp</id>
-<updated>2026-11-20T18:01:41.960Z</updated>
-<summary>Verdict: verified. Public measurements: 102. record_sha256 4f2756b8d1d356b750a672cecc31b2e4f73488d3c8ccce151d63b26628c0effa, recomputable from the published bytes. Listing is not endorsement. A passing verdict means the measured conditions passed on that date, from the vantage that measured them.</summary>
+<updated>2026-11-21T18:00:28.359Z</updated>
+<summary>Verdict: verified. Public measurements: 103. record_sha256 bbb4fdbe549e01820ced2776a51dbdc4696356090fe8a16bfd81e57be306b59f, recomputable from the published bytes. Listing is not endorsement. A passing verdict means the measured conditions passed on that date, from the vantage that measured them.</summary>
 </entry>
 <entry>
-<title>YAKUMO verified contractor directory: pending</title>
+<title>YAKUMO verified contractor directory: verified</title>
 <link href="https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fhearing.horizonshield.dev%2Fmcp" rel="alternate"/>
 <id>https://hearing.horizonshield.dev/mcp</id>
-<updated>2026-11-20T18:01:45.563Z</updated>
-<summary>Verdict: pending. Public measurements: 102. record_sha256 0c30ca152da08b3238f2c174474fe1021d22b8d68af1b0effa71d42c12b9aa82, recomputable from the published bytes. Listing is not endorsement. A passing verdict means the measured conditions passed on that date, from the vantage that measured them.</summary>
+<updated>2026-11-21T18:00:29.320Z</updated>
+<summary>Verdict: verified. Public measurements: 103. record_sha256 e07e9a3d175f0462ee198899f64ec202db82a2a9d5d15c1f9f452a6226a3b47b, recomputable from the published bytes. Listing is not endorsement. A passing verdict means the measured conditions passed on that date, from the vantage that measured them.</summary>
 </entry>
 <entry>
 <title>KIRA intake desk for renovation questions: verified</title>
 <link href="https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fweb.horizonshield.dev%2Fmcp" rel="alternate"/>
 <id>https://web.horizonshield.dev/mcp</id>
-<updated>2026-11-20T18:01:58.042Z</updated>
-<summary>Verdict: verified. Public measurements: 102. record_sha256 3ecb7dcf0f83bc0d3e12d6942e5af0e4afb7443974f0b5cc3690f504a5ddffe8, recomputable from the published bytes. Listing is not endorsement. A passing verdict means the measured conditions passed on that date, from the vantage that measured them.</summary>
+<updated>2026-11-21T18:00:31.388Z</updated>
+<summary>Verdict: verified. Public measurements: 103. record_sha256 4a9d0a892890612401013b7a4546e9f83994ebf34ec69ddbbbc8b36e13bb7120, recomputable from the published bytes. Listing is not endorsement. A passing verdict means the measured conditions passed on that date, from the vantage that measured them.</summary>
 </entry>
 <entry>
-<title>JIDEC, the Bitcoin anchored public ledger: pending</title>
+<title>JIDEC, the Bitcoin anchored public ledger: verified</title>
 <link href="https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fjidec.horizonshield.dev%2Fmcp" rel="alternate"/>
 <id>https://jidec.horizonshield.dev/mcp</id>
-<updated>2026-11-20T18:02:00.661Z</updated>
-<summary>Verdict: pending. Public measurements: 100. record_sha256 e6208842659aff56930c4244c4b8c32d201ea3e881d3aaa86a4ef0cdd5a9a135, recomputable from the published bytes. Listing is not endorsement. A passing verdict means the measured conditions passed on that date, from the vantage that measured them.</summary>
+<updated>2026-11-21T18:00:32.598Z</updated>
+<summary>Verdict: verified. Public measurements: 101. record_sha256 3ad2d34e117e1ed824e25dd6042da12745d7be9b9d7e4bb28135c4938cfbed67, recomputable from the published bytes. Listing is not endorsement. A passing verdict means the measured conditions passed on that date, from the vantage that measured them.</summary>
 </entry>
 <entry>
 <title>Reform Shokunin Co., Ltd. (member No.001, Aichi): verified</title>
 <link href="https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fp001.horizonshield.dev%2Fmcp" rel="alternate"/>
 <id>https://p001.horizonshield.dev/mcp</id>
-<updated>2026-11-20T18:02:12.955Z</updated>
-<summary>Verdict: verified. Public measurements: 102. record_sha256 3a524e0cf66b55fbecdee1d45219597663d97a8258776d32765c098a2ab90b81, recomputable from the published bytes. Listing is not endorsement. A passing verdict means the measured conditions passed on that date, from the vantage that measured them.</summary>
+<updated>2026-11-21T18:00:35.465Z</updated>
+<summary>Verdict: verified. Public measurements: 103. record_sha256 1f0212f46d05fd4f476ca5ba4920e9d4db1d66041ee7cf39846aa3f1fb059765, recomputable from the published bytes. Listing is not endorsement. A passing verdict means the measured conditions passed on that date, from the vantage that measured them.</summary>
 </entry>
 <entry>
 <title>Mineo Toyo Juki Co., Ltd. (member No.002): verified</title>
 <link href="https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fp002.horizonshield.dev%2Fmcp" rel="alternate"/>
 <id>https://p002.horizonshield.dev/mcp</id>
-<updated>2026-11-20T18:02:15.104Z</updated>
-<summary>Verdict: verified. Public measurements: 102. record_sha256 f90d4225cc4918a50ca3df8c22df71f2c5e8accb535276ea45c285ec1477a39e, recomputable from the published bytes. Listing is not endorsement. A passing verdict means the measured conditions passed on that date, from the vantage that measured them.</summary>
+<updated>2026-11-21T18:00:36.524Z</updated>
+<summary>Verdict: verified. Public measurements: 103. record_sha256 2905a534a5c8f9bf08ecd10e89db1f303c8ba8af1b32afc333cc04603ff84bf9, recomputable from the published bytes. Listing is not endorsement. A passing verdict means the measured conditions passed on that date, from the vantage that measured them.</summary>
 </entry>
 <entry>
 <title>The verification gate, measuring itself: verified</title>
 <link href="https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fgate.horizonshield.dev%2Fmcp" rel="alternate"/>
 <id>https://gate.horizonshield.dev/mcp</id>
-<updated>2026-11-20T18:02:17.968Z</updated>
-<summary>Verdict: verified. Public measurements: 102. record_sha256 b3af9154fd2a344b6e1329d7ef41fcc5c1df38924f5a8e63e30762dab9a626fb, recomputable from the published bytes. Listing is not endorsement. A passing verdict means the measured conditions passed on that date, from the vantage that measured them.</summary>
+<updated>2026-11-21T18:00:37.522Z</updated>
+<summary>Verdict: verified. Public measurements: 103. record_sha256 6eb1216c069ace8f04934dec3a574962aa55d82f15377c9b42f975480ba8797b, recomputable from the published bytes. Listing is not endorsement. A passing verdict means the measured conditions passed on that date, from the vantage that measured them.</summary>
 </entry>
 <entry>
 <title>Femtech source registry (verify sources, never diagnose): verified</title>
 <link href="https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Ffemtech.horizonshield.dev%2Fmcp" rel="alternate"/>
 <id>https://femtech.horizonshield.dev/mcp</id>
-<updated>2026-11-20T18:01:39.941Z</updated>
-<summary>Verdict: verified. Public measurements: 80. record_sha256 3ade632c1ac6c14868487029b1d0bfef42becd1d3efd51c002f682579bf7f0b4, recomputable from the published bytes. Listing is not endorsement. A passing verdict means the measured conditions passed on that date, from the vantage that measured them.</summary>
+<updated>2026-11-21T18:00:27.330Z</updated>
+<summary>Verdict: verified. Public measurements: 81. record_sha256 ca993ae6fdabb3431d10260e486285f36ea7c848d592cddaaf46fa74696eeeb3, recomputable from the published bytes. Listing is not endorsement. A passing verdict means the measured conditions passed on that date, from the vantage that measured them.</summary>
 </entry>
 <entry>
 <title>Construction cost data (JCCDB for Japan, USCCDB for the United States): pending</title>
 <link href="https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fccdb.horizonshield.dev%2Fmcp" rel="alternate"/>
 <id>https://ccdb.horizonshield.dev/mcp</id>
-<updated>2026-11-20T18:01:26.234Z</updated>
-<summary>Verdict: pending. Public measurements: 40. record_sha256 3514e4591c2988998969ddb4e706409d0f4dffda49dd1bb989c27dabcec1dcb2, recomputable from the published bytes. Listing is not endorsement. A passing verdict means the measured conditions passed on that date, from the vantage that measured them.</summary>
+<updated>2026-11-21T18:00:15.978Z</updated>
+<summary>Verdict: pending. Public measurements: 41. record_sha256 c9595872d472be5edec9fa506a55d69e39dbabacaaa4387be37e1e14db16c51b, recomputable from the published bytes. Listing is not endorsement. A passing verdict means the measured conditions passed on that date, from the vantage that measured them.</summary>
 </entry>
 <entry>
 <title>https://intel.twzrd.xyz/mcp: pending</title>
@@ -166,8 +166,8 @@
 <title>https://serp-extract.agentdiet.dev/mcp: verified</title>
 <link href="https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fserp-extract.agentdiet.dev%2Fmcp" rel="alternate"/>
 <id>https://serp-extract.agentdiet.dev/mcp</id>
-<updated>2026-11-18T18:01:06.987Z</updated>
-<summary>Verdict: verified. Public measurements: 5. record_sha256 fb0aa7c55bf03227560b47a785fcc9828120897727622928823b27786303e086, recomputable from the published bytes. Listing is not endorsement. A passing verdict means the measured conditions passed on that date, from the vantage that measured them.</summary>
+<updated>2026-11-21T18:00:45.562Z</updated>
+<summary>Verdict: verified. Public measurements: 6. record_sha256 82ae305381cfbb44704d0e8369102401f5b9e3c55bf6a61ce5f53a0d17bbdb61, recomputable from the published bytes. Listing is not endorsement. A passing verdict means the measured conditions passed on that date, from the vantage that measured them.</summary>
 </entry>
 <entry>
 <title>https://llms-generator.agentdiet.dev/mcp: verified</title>
@@ -215,8 +215,8 @@
 <title>https://arxiv-digest.agentdiet.dev/mcp: verified</title>
 <link href="https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Farxiv-digest.agentdiet.dev%2Fmcp" rel="alternate"/>
 <id>https://arxiv-digest.agentdiet.dev/mcp</id>
-<updated>2026-11-18T18:01:02.015Z</updated>
-<summary>Verdict: verified. Public measurements: 5. record_sha256 f1fc106ef1f73b5a575824a8c904ce5897bd6582fbc82a3fc2df5ad502b7d4a2, recomputable from the published bytes. Listing is not endorsement. A passing verdict means the measured conditions passed on that date, from the vantage that measured them.</summary>
+<updated>2026-11-21T18:00:44.297Z</updated>
+<summary>Verdict: verified. Public measurements: 6. record_sha256 af3c608c75d997f30797ca1076640149dadc87c2db27e6108a4e3a5977aed0c0, recomputable from the published bytes. Listing is not endorsement. A passing verdict means the measured conditions passed on that date, from the vantage that measured them.</summary>
 </entry>
 <entry>
 <title>https://shopify-spy.agentdiet.dev/mcp: verified</title>
@@ -250,8 +250,8 @@
 <title>https://polymarket-odds.agentdiet.dev/mcp: verified</title>
 <link href="https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fpolymarket-odds.agentdiet.dev%2Fmcp" rel="alternate"/>
 <id>https://polymarket-odds.agentdiet.dev/mcp</id>
-<updated>2026-11-16T18:01:03.716Z</updated>
-<summary>Verdict: verified. Public measurements: 5. record_sha256 827aaeab96cba5e924663d39b4ea385296ffe66881588179ddb6ce60ee592f0e, recomputable from the published bytes. Listing is not endorsement. A passing verdict means the measured conditions passed on that date, from the vantage that measured them.</summary>
+<updated>2026-11-21T18:00:43.044Z</updated>
+<summary>Verdict: verified. Public measurements: 6. record_sha256 4b2eb9ce5619741324285bc62fe1ff1fcb7cd831decf71b43af3f2be13fc0019, recomputable from the published bytes. Listing is not endorsement. A passing verdict means the measured conditions passed on that date, from the vantage that measured them.</summary>
 </entry>
 <entry>
 <title>https://defi-yield.agentdiet.dev/mcp: verified</title>
@@ -306,7 +306,7 @@
 <title>https://lampy.taila7a335.ts.net/mcp: pending</title>
 <link href="https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Flampy.taila7a335.ts.net%2Fmcp" rel="alternate"/>
 <id>https://lampy.taila7a335.ts.net/mcp</id>
-<updated>2026-11-15T18:00:53.445Z</updated>
-<summary>Verdict: pending. Public measurements: 1. record_sha256 116945cbb19eed61f7b6b5802a26913714c4496b347e4ccbaec108223ea143e4, recomputable from the published bytes. Listing is not endorsement. A passing verdict means the measured conditions passed on that date, from the vantage that measured them.</summary>
+<updated>2026-11-21T18:00:41.479Z</updated>
+<summary>Verdict: pending. Public measurements: 2. record_sha256 833aa9887ce54515cfbe795be5b170293af64e5b83e3bc8a5ea1bdbebb8d8d78, recomputable from the published bytes. Listing is not endorsement. A passing verdict means the measured conditions passed on that date, from the vantage that measured them.</summary>
 </entry>
 </feed>
