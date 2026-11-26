@@ -959,6 +959,163 @@
         "extras_changed": [],
         "note": "The tool surface changed between measurements. This is a dated fact, not a defect: the MCP specification treats tool-list changes as normal operation (notifications/tools/list_changed). Recorded for anyone; judged by no one."
       }
+    },
+    {
+      "at": "2026-11-25T18:00:50.576Z",
+      "status": "pending",
+      "reachable": true,
+      "record_sha256": "e8b9ef59df16a826b1cfc0dc2170597d2f5dedfc2892a8a2a8af569568345d60",
+      "consent_source": "none",
+      "conditions": {
+        "mcp_endpoint": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "MCP endpoint responds to initialize and tools/list"
+        },
+        "agent_card": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "agent-card published and well-formed"
+        },
+        "compensation_disclosure": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "compensation structure declared"
+        },
+        "determinism": {
+          "pass": false,
+          "measured": false,
+          "transport": false,
+          "reason": "not measured: measuring determinism requires calling one of your tools, and this gate does not call tools on a server without the owner's consent. The first tool listed may be destructive. To have this condition measured, publish /.well-known/mcp-conduct.json on the origin with {\"allow_tool_call\": true}; a request field alone is not proof of ownership."
+        }
+      },
+      "surface": {
+        "complete": true,
+        "pages_followed": 1,
+        "names_hash": "3c7dfbc3e37850d9",
+        "manifest_hash": "17dcfbda362bbc8f",
+        "server_info_hash": "80d9f6463f4a7c18",
+        "tool_hashes": {
+          "compare_wallets": "ac1bd1f4b31fa54f",
+          "evaluate_x402_resource": "b1150150ef2d641c",
+          "get_counterparties": "654a6fb0b0bd14c3",
+          "get_facilitator_footprint": "03a9c68117f5acc6",
+          "get_merchant_card": "d118a8bf54b70953",
+          "get_poec_score": "8f22a9edc88fb7e9",
+          "get_provider_reputation": "f448f86fa9963319",
+          "get_readiness_card_tool": "af2bd8b836703081",
+          "get_top_intel_agents": "bdc3b6172f4c4992",
+          "get_x402_directory": "24fa0d9d493646dc",
+          "is_wash_fleet": "1c719c5ab1bc64d9",
+          "low_level_preflight": "e619e06f642fcc8b",
+          "score_wallet_for_intel": "8273772fc3cf1d7f",
+          "score_wallets_batch": "cc35c2e4fa2296ba",
+          "submit_contribution_claims": "3865f93eb3b6464b",
+          "twzrd_demo_gate": "586512b3d8a74853",
+          "twzrd_watch_add": "479a55c3e2bdd070",
+          "twzrd_watch_list": "292815c850939517",
+          "twzrd_watch_remove": "2d3042d9a181e222",
+          "verify_receipt": "c3c96fdff3c253ed",
+          "verify_root_inputs": "ebe476f229354447",
+          "verify_x402_settled_claim": "371e024c39ed62c6"
+        },
+        "extras_covers": [
+          "annotations",
+          "_meta",
+          "outputSchema",
+          "title"
+        ],
+        "extras_manifest_hash": "4e6820374afe1585",
+        "extras_hashes": {
+          "compare_wallets": "f7ad0165b2ad1d34",
+          "evaluate_x402_resource": "aecd523958ec957c",
+          "get_counterparties": "7ccb96f666861f92",
+          "get_facilitator_footprint": "0b3d19ecb84556d6",
+          "get_merchant_card": "9b70c313417ea097",
+          "get_poec_score": "70c0b081762ec896",
+          "get_provider_reputation": "cdc7f752c69db0dc",
+          "get_readiness_card_tool": "572e7cb9d8a94b54",
+          "get_top_intel_agents": "463aabf9427e705e",
+          "get_x402_directory": "9b70c313417ea097",
+          "is_wash_fleet": "fef703fda16bb96d",
+          "low_level_preflight": "e5970e6892cbcfad",
+          "score_wallet_for_intel": "e44771276e9c241e",
+          "score_wallets_batch": "750ad1a1482c06f4",
+          "submit_contribution_claims": "b4c142569cafbfee",
+          "twzrd_demo_gate": "9b70c313417ea097",
+          "twzrd_watch_add": "3678ba3ad6370877",
+          "twzrd_watch_list": "9b70c313417ea097",
+          "twzrd_watch_remove": "3678ba3ad6370877",
+          "verify_receipt": "a5172b0e41103230",
+          "verify_root_inputs": "7e30fdb3bf7081ce",
+          "verify_x402_settled_claim": "1d4168401c15498b"
+        },
+        "canonicalization": "rfc8785-jcs",
+        "unsafe_integer_scan": "clean"
+      },
+      "absence_vs_failure": {
+        "measured": true,
+        "tools_measured": 22,
+        "discriminating": 1,
+        "cannot_distinguish_pct": 95.5
+      },
+      "fingerprint": "pending|agent_card=1,compensation_disclosure=1,determinism=0,mcp_endpoint=1",
+      "coordinate_derivation": {
+        "derived": true,
+        "window_id": "w2968",
+        "salt_commitment": "d92054ac96bcc0b5b96dcc8e2a897f972cbc249e466de84d7357c636c30f460c",
+        "salt_created_at": "2026-11-12T18:00:07.758Z",
+        "beacon": {
+          "height": 976612,
+          "block_hash": "00000000000000000001dbbf12ae1f60cee52ae8735784deb716cf4be213b781",
+          "block_time": "2026-11-19T16:58:44.000Z"
+        },
+        "day_in_window": 6,
+        "tool_set_sha256": "d2fede23af4c4607a09340dd92e582ac6cc903504db98a99b120aa3de687b7ab",
+        "tool_count": 22,
+        "fallback": null,
+        "reason_code": null,
+        "why": null
+      },
+      "establishes": [
+        "at 2026-11-25T18:00:50.576Z this gate (commit 8e5c4c82d8eb, version 0.4.24) measured https://intel.twzrd.xyz/mcp and recorded status pending",
+        "conditions passed: agent_card, compensation_disclosure, mcp_endpoint; conditions failed: none",
+        "every hash in this record recomputes from the bytes it names, and record_sha256 recomputes from this record with record_sha256 and recompute_note removed",
+        "the measurement instant and the tool measured were derived from a committed salt and a Bitcoin block the subject did not choose (coordinate_derivation)"
+      ],
+      "does_not_establish": [
+        "correctness of any price, figure or answer the server returns",
+        "truth of the compensation declaration; only its presence and shape are measured",
+        "quality, competence or fitness of the operator or the service",
+        "behaviour at instants not measured or from vantages this gate did not use",
+        "conditions not measured on this instant: determinism (unmeasured is not failed)",
+        "that the operator published this card: it carried no signature, so these bytes are attributable to this gate's observation alone and the operator can repudiate them (an unsigned card is permitted and is not a failure)"
+      ],
+      "record_url": "https://gate.horizonshield.dev/record/e8b9ef59df16a826b1cfc0dc2170597d2f5dedfc2892a8a2a8af569568345d60",
+      "surface_change": {
+        "added": [],
+        "removed": [
+          "check_listing",
+          "get_claim",
+          "get_evidence",
+          "get_publication",
+          "get_shopping_check"
+        ],
+        "definition_changed": [
+          "evaluate_x402_resource",
+          "get_merchant_card",
+          "get_readiness_card_tool"
+        ],
+        "extras_changed": [
+          "evaluate_x402_resource",
+          "get_readiness_card_tool",
+          "low_level_preflight"
+        ],
+        "note": "The tool surface changed between measurements. This is a dated fact, not a defect: the MCP specification treats tool-list changes as normal operation (notifications/tools/list_changed). Recorded for anyone; judged by no one. extras_changed lists tools whose annotations, _meta, outputSchema or title moved while name, description and inputSchema may not have. Annotations such as destructiveHint are what a client reads to decide whether to ask a person first; they are self-declared hints and this gate does not judge whether the new value is true."
+      }
     }
   ],
   "archive": {
@@ -966,7 +1123,7 @@
     "source": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fintel.twzrd.xyz%2Fmcp",
     "rule": "append-only union of every export seen, keyed by record_sha256; nothing is removed",
     "gate_retention_at_last_fetch": 400,
-    "last_fetch_at": "2026-11-13T23:49:12Z",
-    "count": 11
+    "last_fetch_at": "2026-11-26T01:55:41Z",
+    "count": 12
   }
 }
