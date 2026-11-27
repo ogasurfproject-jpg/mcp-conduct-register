@@ -570,6 +570,101 @@
         "that the operator published this card: it carried no signature, so these bytes are attributable to this gate's observation alone and the operator can repudiate them (an unsigned card is permitted and is not a failure)"
       ],
       "record_url": "https://gate.horizonshield.dev/record/f8735edea30c895e160d2a41e88b640fc98c51b9604eedce58d40168345c0ed1"
+    },
+    {
+      "at": "2026-11-26T18:01:00.617Z",
+      "status": "verified",
+      "reachable": true,
+      "record_sha256": "e09aed6d3f1a8421ad33454480bf61a11cee205c33a24d73270985f53745990a",
+      "consent_source": "well_known",
+      "conditions": {
+        "mcp_endpoint": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "MCP endpoint responds to initialize and tools/list"
+        },
+        "agent_card": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "agent-card published and well-formed"
+        },
+        "compensation_disclosure": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "compensation structure declared"
+        },
+        "determinism": {
+          "pass": true,
+          "measured": true,
+          "transport": false,
+          "reason": "identical input returned identical output across 2 runs"
+        }
+      },
+      "surface": {
+        "complete": true,
+        "pages_followed": 1,
+        "names_hash": "88099a4f4888521c",
+        "manifest_hash": "b5a406a0f2aa4f36",
+        "server_info_hash": "c79a27df10afbe6b",
+        "tool_hashes": {
+          "compile_mcp_glama_tdqs": "e35150bea7fd609c",
+          "get_agent_wallet_status": "7c144751059249fd"
+        },
+        "extras_covers": [
+          "annotations",
+          "_meta",
+          "outputSchema",
+          "title"
+        ],
+        "extras_manifest_hash": "17bda44cb5eb97d5",
+        "extras_hashes": {
+          "compile_mcp_glama_tdqs": "663794b502b4ef9c",
+          "get_agent_wallet_status": "07e6d35b72baf8e1"
+        },
+        "canonicalization": "rfc8785-jcs",
+        "unsafe_integer_scan": "clean"
+      },
+      "absence_vs_failure": {
+        "measured": true,
+        "tools_measured": 2,
+        "discriminating": 0,
+        "cannot_distinguish_pct": 100
+      },
+      "fingerprint": "verified|agent_card=1,compensation_disclosure=1,determinism=1,mcp_endpoint=1",
+      "coordinate_derivation": {
+        "derived": true,
+        "window_id": "w2969",
+        "salt_commitment": "b534ab7260333cc33fb70ebe91ccad47c4f31f6c2e60ffc7bb4c3b4918edaebf",
+        "salt_created_at": "2026-11-19T18:00:07.677Z",
+        "beacon": {
+          "height": 977691,
+          "block_hash": "00000000000000000000488ea8906b683e3f46e149488c422c9ec691b369b7d3",
+          "block_time": "2026-11-26T14:55:25.000Z"
+        },
+        "day_in_window": 0,
+        "tool_set_sha256": "041380a9497ea4061864cb294a0b950f2e081c94b6b183a62effc077ca10d9e0",
+        "tool_count": 2,
+        "fallback": null,
+        "reason_code": null,
+        "why": null
+      },
+      "establishes": [
+        "at 2026-11-26T18:01:00.617Z this gate (commit 8e5c4c82d8eb, version 0.4.24) measured https://mcp-compiler.agentdiet.dev/mcp and recorded status verified",
+        "conditions passed: agent_card, compensation_disclosure, determinism, mcp_endpoint; conditions failed: none",
+        "every hash in this record recomputes from the bytes it names, and record_sha256 recomputes from this record with record_sha256 and recompute_note removed",
+        "the measurement instant and the tool measured were derived from a committed salt and a Bitcoin block the subject did not choose (coordinate_derivation)"
+      ],
+      "does_not_establish": [
+        "correctness of any price, figure or answer the server returns",
+        "truth of the compensation declaration; only its presence and shape are measured",
+        "quality, competence or fitness of the operator or the service",
+        "behaviour at instants not measured or from vantages this gate did not use",
+        "that the operator published this card: it carried no signature, so these bytes are attributable to this gate's observation alone and the operator can repudiate them (an unsigned card is permitted and is not a failure)"
+      ],
+      "record_url": "https://gate.horizonshield.dev/record/e09aed6d3f1a8421ad33454480bf61a11cee205c33a24d73270985f53745990a"
     }
   ],
   "archive": {
@@ -577,7 +672,7 @@
     "source": "https://gate.horizonshield.dev/history?endpoint=https%3A%2F%2Fmcp-compiler.agentdiet.dev%2Fmcp",
     "rule": "append-only union of every export seen, keyed by record_sha256; nothing is removed",
     "gate_retention_at_last_fetch": 400,
-    "last_fetch_at": "2026-11-25T02:44:48Z",
-    "count": 6
+    "last_fetch_at": "2026-11-27T01:53:52Z",
+    "count": 7
   }
 }
